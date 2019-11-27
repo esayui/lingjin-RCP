@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_o7eVQGflEemucZBew8ZkKg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_o7eVQWflEemucZBew8ZkKg" name="返航--活动图" group="_o-J10GflEemucZBew8ZkKg" node="_p6wA8GflEemucZBew8ZkKg _qnAC8GflEemucZBew8ZkKg _ubgPUGflEemucZBew8ZkKg _wXSmkGflEemucZBew8ZkKg _yzxQEGflEemucZBew8ZkKg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zRzP4GflEemucZBew8ZkKg" name="" source="_p6wA8GflEemucZBew8ZkKg" target="_qnAC8GflEemucZBew8ZkKg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zRzP4WflEemucZBew8ZkKg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zRzP4mflEemucZBew8ZkKg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_znGxgGflEemucZBew8ZkKg" name="" source="_qnAC8GflEemucZBew8ZkKg" target="_ubgPUGflEemucZBew8ZkKg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_znGxgWflEemucZBew8ZkKg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_znGxgmflEemucZBew8ZkKg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z9wW8GflEemucZBew8ZkKg" name="" source="_ubgPUGflEemucZBew8ZkKg" target="_wXSmkGflEemucZBew8ZkKg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_z9wW8WflEemucZBew8ZkKg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_z9wW8mflEemucZBew8ZkKg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0WPIYGflEemucZBew8ZkKg" name="" source="_wXSmkGflEemucZBew8ZkKg" target="_yzxQEGflEemucZBew8ZkKg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0WPIYWflEemucZBew8ZkKg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0WPIYmflEemucZBew8ZkKg"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_o-J10GflEemucZBew8ZkKg" name="反潜&amp;我方潜艇" node="_p6wA8GflEemucZBew8ZkKg _qnAC8GflEemucZBew8ZkKg _ubgPUGflEemucZBew8ZkKg _wXSmkGflEemucZBew8ZkKg _yzxQEGflEemucZBew8ZkKg">
+      <eAnnotations xmi:id="_o-J10WflEemucZBew8ZkKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_o-Tm0GflEemucZBew8ZkKg" key="47edeb0e-33d1-46df-a266-afda1415b53a12a6bbcc-f00b-4856-94bd-7532e03b4b57-AVView.av1#5e1a8f5b-26c5-4ff6-bfbf-b1eda454c3e6"/>
+      </eAnnotations>
+    </group>
+    <node xmi:type="uml:InitialNode" xmi:id="_p6wA8GflEemucZBew8ZkKg" name="InitialNode1" inPartition="_o-J10GflEemucZBew8ZkKg" outgoing="_zRzP4GflEemucZBew8ZkKg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qnAC8GflEemucZBew8ZkKg" name="开启声纳探测" inPartition="_o-J10GflEemucZBew8ZkKg" outgoing="_znGxgGflEemucZBew8ZkKg" incoming="_zRzP4GflEemucZBew8ZkKg">
+      <ownedComment xmi:id="_NFh8kGf6Eemm3bmPqKxqoA">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>a9a36e1e-bcfe-464f-9de4-3f7fbf1bde46&lt;/ID>&#xD;
+&lt;Name>感知能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>587f7227-afdc-4979-a1e1-81f0edf2c315&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;ChildCapacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>b1a508e3-c0a6-448d-a4e5-a62b884cc21c&lt;/ID>&#xD;
+&lt;Name>感知范围&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>75726ef0-1987-4e5e-bf29-71ab679c0a2b&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>51c3ea91-60d3-401e-acf6-d3c444e8e23e&lt;/ID>&#xD;
+&lt;Name>目标分类识别&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>bb725d67-1db0-4a8a-b560-6defa940b82d&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>53fd3f5f-b56d-41fc-976b-310bd7389abd&lt;/ID>&#xD;
+&lt;Name>目标解算处理&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>e80a9bcc-1788-4ff8-a6b7-794b2fe35968&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>32d75fa8-e781-46cf-acf1-89d96ea52674&lt;/ID>&#xD;
+&lt;Name>态势融合处理能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>a734089c-6373-42bd-9da4-3a934241b91b&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/ChildCapacity>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ubgPUGflEemucZBew8ZkKg" name="潜艇机动" inPartition="_o-J10GflEemucZBew8ZkKg" outgoing="_z9wW8GflEemucZBew8ZkKg" incoming="_znGxgGflEemucZBew8ZkKg">
+      <ownedComment xmi:id="_Nu5psGf6Eemm3bmPqKxqoA">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>3b58b9c6-507b-413a-8c93-fff166884f9f&lt;/ID>&#xD;
+&lt;Name>系统整体能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>e4fa31a8-6c65-4619-9c1b-0ab7594cad67&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;ChildCapacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>bcb20948-2ec3-43da-9942-49e311dad7cd&lt;/ID>&#xD;
+&lt;Name>对海方面作战能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>6acaca8d-3230-4f60-b3bb-7b7d53711315&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>66278e90-d49b-42a1-9400-563df67c3d18&lt;/ID>&#xD;
+&lt;Name>对水下方面作战能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>3a503b9a-d365-4393-838b-82fe4ef75ce0&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>375c7fd8-4dfe-467a-bd5e-9a466a3cab92&lt;/ID>&#xD;
+&lt;Name>对空警戒能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>f583323e-0671-4fdb-826e-94fd8e4ffcd2&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/ChildCapacity>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wXSmkGflEemucZBew8ZkKg" name="上浮" inPartition="_o-J10GflEemucZBew8ZkKg" outgoing="_0WPIYGflEemucZBew8ZkKg" incoming="_z9wW8GflEemucZBew8ZkKg">
+      <ownedComment xmi:id="_OVzRoGf6Eemm3bmPqKxqoA">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>3b58b9c6-507b-413a-8c93-fff166884f9f&lt;/ID>&#xD;
+&lt;Name>系统整体能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>e4fa31a8-6c65-4619-9c1b-0ab7594cad67&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;ChildCapacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>bcb20948-2ec3-43da-9942-49e311dad7cd&lt;/ID>&#xD;
+&lt;Name>对海方面作战能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>6acaca8d-3230-4f60-b3bb-7b7d53711315&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>66278e90-d49b-42a1-9400-563df67c3d18&lt;/ID>&#xD;
+&lt;Name>对水下方面作战能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>3a503b9a-d365-4393-838b-82fe4ef75ce0&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>375c7fd8-4dfe-467a-bd5e-9a466a3cab92&lt;/ID>&#xD;
+&lt;Name>对空警戒能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>f583323e-0671-4fdb-826e-94fd8e4ffcd2&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/ChildCapacity>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_yzxQEGflEemucZBew8ZkKg" name="ActivityFinalNode1" inPartition="_o-J10GflEemucZBew8ZkKg" incoming="_0WPIYGflEemucZBew8ZkKg"/>
+  </packagedElement>
+</uml:Model>

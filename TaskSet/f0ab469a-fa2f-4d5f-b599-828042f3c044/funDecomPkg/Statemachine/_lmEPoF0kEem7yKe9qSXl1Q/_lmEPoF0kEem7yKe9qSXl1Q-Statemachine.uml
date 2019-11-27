@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_hms7AF28Eem9TInVy14vbA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_hms7AV28Eem9TInVy14vbA" name="StateMachine0">
+    <region xmi:id="_hms7Al28Eem9TInVy14vbA" name="Region0">
+      <transition xmi:id="_5ymzcF2-Eem9TInVy14vbA" name="" source="_mUHsYF28Eem9TInVy14vbA" target="_pTJCQF28Eem9TInVy14vbA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mUHsYF28Eem9TInVy14vbA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_pTJCQF28Eem9TInVy14vbA" name="工作中">
+        <region xmi:id="_rs-AYF28Eem9TInVy14vbA" name="Region0">
+          <transition xmi:id="_Shoj4F29Eem9TInVy14vbA" name="" source="_rs-AbV28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_Tw7okF29Eem9TInVy14vbA" name="接收到信号信息" source="_-_MfAF28Eem9TInVy14vbA" target="_yQNq8F28Eem9TInVy14vbA"/>
+          <transition xmi:id="_VGCaUF29Eem9TInVy14vbA" name="" source="_yQNq8F28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_WXaioF29Eem9TInVy14vbA" name="接收到鱼雷防御攻击信息/分析鱼雷防御攻击信息" source="_-_MfAF28Eem9TInVy14vbA" target="_0c9PUF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_ZL4OUF29Eem9TInVy14vbA" name="" source="_0c9PUF28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_ad_9gF29Eem9TInVy14vbA" name="接收到规避导航信息/分析规避导航信息" source="_-_MfAF28Eem9TInVy14vbA" target="_4xYR4F28Eem9TInVy14vbA"/>
+          <transition xmi:id="_bdrR0F29Eem9TInVy14vbA" name="" source="_4xYR4F28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_dK3zcF29Eem9TInVy14vbA" name="接收到水声对抗规避信息/分析水声对抗规避信息" source="_-_MfAF28Eem9TInVy14vbA" target="_6zsu8F28Eem9TInVy14vbA"/>
+          <transition xmi:id="_d9dG8F29Eem9TInVy14vbA" name="" source="_6zsu8F28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_gwbk4F29Eem9TInVy14vbA" name="接收到鱼雷攻击信息/分析鱼雷攻击信息" source="_85TJgF28Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_inAE8F29Eem9TInVy14vbA" name="" source="_-_MfAF28Eem9TInVy14vbA" target="_85TJgF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_kGzq0F29Eem9TInVy14vbA" name="接收到已到达待机海区信息" source="_-_MfAF28Eem9TInVy14vbA" target="_BroQEF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_lmn3wF29Eem9TInVy14vbA" name="" source="_BroQEF29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_mvOekF29Eem9TInVy14vbA" name="接收到岸基指挥中心信息" source="_-_MfAF28Eem9TInVy14vbA" target="_DYFK0F29Eem9TInVy14vbA"/>
+          <transition xmi:id="_nzzhAF29Eem9TInVy14vbA" name="" source="_DYFK0F29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_oze1UF29Eem9TInVy14vbA" name="接收到编队指挥中心信息" source="_-_MfAF28Eem9TInVy14vbA" target="_GoqKwF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_s0HZMF29Eem9TInVy14vbA" name="" source="_GoqKwF29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_x9pe0F29Eem9TInVy14vbA" name="接收到已到达攻击海区信息" source="_-_MfAF28Eem9TInVy14vbA" target="_MPzZcF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_0C8-cF29Eem9TInVy14vbA" name="" source="_MPzZcF29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_2CJ2EF29Eem9TInVy14vbA" name="接收到岸基指挥中心发送来的任务信息" source="_-_MfAF28Eem9TInVy14vbA" target="_OifNwF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_5dvzMF29Eem9TInVy14vbA" name="接收到编队指挥中心发送来的任务信息" source="_-_MfAF28Eem9TInVy14vbA" target="_OifNwF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_7A0vgF29Eem9TInVy14vbA" name="" source="_OifNwF29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_Laa0IF2-Eem9TInVy14vbA" name="接收到警戒探测信息" source="_-_MfAF28Eem9TInVy14vbA" target="_K0Aw4F29Eem9TInVy14vbA"/>
+          <transition xmi:id="_NLo6IF2-Eem9TInVy14vbA" name="" source="_K0Aw4F29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_RPslcF2-Eem9TInVy14vbA" name="接收到临战侦察信息/分析临战侦察信息" source="_-_MfAF28Eem9TInVy14vbA" target="_QdYNIF29Eem9TInVy14vbA"/>
+          <transition xmi:id="_SI-W0F2-Eem9TInVy14vbA" name="" source="_QdYNIF29Eem9TInVy14vbA" target="_-_MfAF28Eem9TInVy14vbA"/>
+          <transition xmi:id="_hyN8kF2-Eem9TInVy14vbA" name="" source="_Uy3xQF2-Eem9TInVy14vbA" target="_VzvYYF2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_jJss4F2-Eem9TInVy14vbA" name="" source="_VzvYYF2-Eem9TInVy14vbA" target="_aP5aoF2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_kUiIUF2-Eem9TInVy14vbA" name="分析完成指挥中心信息需要生成态势" source="_aP5aoF2-Eem9TInVy14vbA" target="_blvMMF2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_nnML4F2-Eem9TInVy14vbA" name="/setGet_info_from_land(false);setGet_info_from_formation(false);setGet_detection_info(false);" source="_cvOj0F2-Eem9TInVy14vbA" target="_VzvYYF2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_va7N8F2-Eem9TInVy14vbA" name="" source="_blvMMF2-Eem9TInVy14vbA" target="_cvOj0F2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_wvIAwF2-Eem9TInVy14vbA" name="" source="_VzvYYF2-Eem9TInVy14vbA" target="_eRavUF2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_yAzrEF2-Eem9TInVy14vbA" name="分析完毕" source="_eRavUF2-Eem9TInVy14vbA" target="_fzdw4F2-Eem9TInVy14vbA"/>
+          <transition xmi:id="_0LdkwF2-Eem9TInVy14vbA" name="" source="_fzdw4F2-Eem9TInVy14vbA" target="_VzvYYF2-Eem9TInVy14vbA"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_rs-AbV28Eem9TInVy14vbA" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_yQNq8F28Eem9TInVy14vbA" name="发送信号分析结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_0c9PUF28Eem9TInVy14vbA" name="发送鱼雷防御攻击结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4xYR4F28Eem9TInVy14vbA" name="发送规避导航结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_6zsu8F28Eem9TInVy14vbA" name="发送水声对抗规避结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_85TJgF28Eem9TInVy14vbA" name="发送鱼雷攻击结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_-_MfAF28Eem9TInVy14vbA" name="等待处理信息中"/>
+          <subvertex xmi:type="uml:State" xmi:id="_BroQEF29Eem9TInVy14vbA" name="发送到达待机海区结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_DYFK0F29Eem9TInVy14vbA" name="开始分析接收到的岸基指挥中心信息"/>
+          <subvertex xmi:type="uml:State" xmi:id="_GoqKwF29Eem9TInVy14vbA" name="开始分析接收到的编队指挥中心信息"/>
+          <subvertex xmi:type="uml:State" xmi:id="_K0Aw4F29Eem9TInVy14vbA" name="开始分析接收到的警戒探测信息"/>
+          <subvertex xmi:type="uml:State" xmi:id="_MPzZcF29Eem9TInVy14vbA" name="发送已到达攻击海区结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_OifNwF29Eem9TInVy14vbA" name="发送任务结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_QdYNIF29Eem9TInVy14vbA" name="发送临战侦察结果"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_Uy3xQF2-Eem9TInVy14vbA" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_VzvYYF2-Eem9TInVy14vbA" name="分析接收到的信息中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_aP5aoF2-Eem9TInVy14vbA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_blvMMF2-Eem9TInVy14vbA" name="生成态势中"/>
+          <subvertex xmi:type="uml:State" xmi:id="_cvOj0F2-Eem9TInVy14vbA" name="发送态势结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_eRavUF2-Eem9TInVy14vbA" name="开始分析接收到的警戒探测信息"/>
+          <subvertex xmi:type="uml:State" xmi:id="_fzdw4F2-Eem9TInVy14vbA" name="发送警戒探测结果"/>
+        </region>
+      </subvertex>
+    </region>
+  </packagedElement>
+</uml:Model>

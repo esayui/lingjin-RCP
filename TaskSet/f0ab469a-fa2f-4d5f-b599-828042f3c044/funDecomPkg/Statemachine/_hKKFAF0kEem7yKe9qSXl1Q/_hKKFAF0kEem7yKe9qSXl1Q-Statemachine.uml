@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_6z9cYF22Eem9TInVy14vbA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_6z9cYV22Eem9TInVy14vbA" name="StateMachine0">
+    <region xmi:id="_60aIUF22Eem9TInVy14vbA" name="Region0">
+      <transition xmi:id="_MjSIYF24Eem9TInVy14vbA" name="" source="_H5aPsF23Eem9TInVy14vbA" target="_JDDYUF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_OpLd4F24Eem9TInVy14vbA" name="tm(4000)/Arrive_wait_region();" source="_JDDYUF23Eem9TInVy14vbA" target="_nL5bMF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_Q4J24F24Eem9TInVy14vbA" name="接收到隐蔽突破岛链指令" source="_JDDYUF23Eem9TInVy14vbA" target="_MIeRIF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_Wd9BwF24Eem9TInVy14vbA" name="接收到机动到预备待机区指令" source="_JDDYUF23Eem9TInVy14vbA" target="_OO0SnV23Eem9TInVy14vbA"/>
+      <transition xmi:id="_boraMF24Eem9TInVy14vbA" name="接收到规避导航指令" source="_JDDYUF23Eem9TInVy14vbA" target="_updY8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_lq7iQF24Eem9TInVy14vbA" name="/setNeed_break(false);" source="_MIeRIF23Eem9TInVy14vbA" target="_nL5bMF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_osCi0F24Eem9TInVy14vbA" name="" source="_nL5bMF23Eem9TInVy14vbA" target="_sCPfEF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_qpwMsF24Eem9TInVy14vbA" name="收到返航指令" source="_sCPfEF23Eem9TInVy14vbA" target="_qRw_8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_tU158F24Eem9TInVy14vbA" name="接收到隐蔽突破岛链指令" source="_sCPfEF23Eem9TInVy14vbA" target="_MIeRIF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_18V7QF24Eem9TInVy14vbA" name="接收到机动到预备待机区指令" source="_sCPfEF23Eem9TInVy14vbA" target="_OO0SnV23Eem9TInVy14vbA"/>
+      <transition xmi:id="_94Zy4F24Eem9TInVy14vbA" name="接收到规避导航指令" source="_sCPfEF23Eem9TInVy14vbA" target="_updY8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_B1xAUF25Eem9TInVy14vbA" name="接收到前往攻击海区指令" source="_sCPfEF23Eem9TInVy14vbA" target="_xi1Z0F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_DLmx4F25Eem9TInVy14vbA" name="" source="_xi1Z0F23Eem9TInVy14vbA" target="_zJCioF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_D8s3oF25Eem9TInVy14vbA" name="" source="_zJCioF23Eem9TInVy14vbA" target="_3fsZ0F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_GTkBUF25Eem9TInVy14vbA" name="接收到撤离战斗海区指令" source="_3fsZ0F23Eem9TInVy14vbA" target="_7dgTMF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_JpWRYF25Eem9TInVy14vbA" name="收到本艇机动指令" source="_3fsZ0F23Eem9TInVy14vbA" target="_DZkK0F24Eem9TInVy14vbA"/>
+      <transition xmi:id="_Mk9G4F25Eem9TInVy14vbA" name="接收到撤离战斗海区指令" source="_DZkK0F24Eem9TInVy14vbA" target="_7dgTMF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_O82LUF25Eem9TInVy14vbA" name="tm(4000)" source="_DZkK0F24Eem9TInVy14vbA" target="_FSEkkF24Eem9TInVy14vbA"/>
+      <transition xmi:id="_UVHQgF25Eem9TInVy14vbA" name="tm(300)" source="_updY8F23Eem9TInVy14vbA" target="__bwRcF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_V5PVsF25Eem9TInVy14vbA" name="" source="__bwRcF23Eem9TInVy14vbA" target="_9fYrYF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_gCCKoF25Eem9TInVy14vbA" name="[Stay_in_secret_sail]/setStay_in_secret_sail(false);" source="_9fYrYF23Eem9TInVy14vbA" target="_JDDYUF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_pm1hsF25Eem9TInVy14vbA" name="tm(2000)" source="_qRw_8F23Eem9TInVy14vbA" target="_JDDYUF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_suCjMF25Eem9TInVy14vbA" name="" source="_7dgTMF23Eem9TInVy14vbA" target="_qRw_8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_0XEKEF25Eem9TInVy14vbA" name="[Stay_in_wait_region]/setStay_in_wait_region(false);" source="_9fYrYF23Eem9TInVy14vbA" target="_sCPfEF23Eem9TInVy14vbA"/>
+      <transition xmi:id="_93jB0F25Eem9TInVy14vbA" name="接收到规避导航指令" source="_3fsZ0F23Eem9TInVy14vbA" target="_updY8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_F4EisF26Eem9TInVy14vbA" name="[Stay_in_attack_region]/setStay_in_attack_region(false);" source="_9fYrYF23Eem9TInVy14vbA" target="_3fsZ0F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_JOmZoF26Eem9TInVy14vbA" name="" source="_FSEkkF24Eem9TInVy14vbA" target="_3fsZ0F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_NhYdcF26Eem9TInVy14vbA" name="接收到规避导航指令" source="_DZkK0F24Eem9TInVy14vbA" target="_updY8F23Eem9TInVy14vbA"/>
+      <transition xmi:id="_Sy9EwF26Eem9TInVy14vbA" name="[Stay_in_manevue]/setStay_in_manevue(false);" source="_9fYrYF23Eem9TInVy14vbA" target="_DZkK0F24Eem9TInVy14vbA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_H5aPsF23Eem9TInVy14vbA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_JDDYUF23Eem9TInVy14vbA" name="按规划航路隐蔽航行中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_MIeRIF23Eem9TInVy14vbA" name="处置导航中">
+        <region xmi:id="_OO0SkF23Eem9TInVy14vbA" name="Region0">
+          <ownedComment xmi:id="_OdjSIF23Eem9TInVy14vbA">
+            <body>机动航行中</body>
+          </ownedComment>
+          <transition xmi:id="_h5w9wF24Eem9TInVy14vbA" name="" source="_hq3bkF23Eem9TInVy14vbA" target="_g-aIwF24Eem9TInVy14vbA"/>
+          <transition xmi:id="_jfrysF24Eem9TInVy14vbA" name="需要突破岛链" source="_g-aIwF24Eem9TInVy14vbA" target="_kNnsMF23Eem9TInVy14vbA"/>
+          <subvertex xmi:type="uml:State" xmi:id="_OO0SnV23Eem9TInVy14vbA" name="机动航行中">
+            <ownedComment xmi:id="_O1DMIF23Eem9TInVy14vbA">
+              <body>机动航行中</body>
+            </ownedComment>
+          </subvertex>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_hq3bkF23Eem9TInVy14vbA" name="Initial0"/>
+          <subvertex xmi:type="uml:State" xmi:id="_kNnsMF23Eem9TInVy14vbA" name="突破岛链中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_g-aIwF24Eem9TInVy14vbA" name="" kind="choice"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_nL5bMF23Eem9TInVy14vbA" name="发送已到达待机海区信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_qRw_8F23Eem9TInVy14vbA" name="返航中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_sCPfEF23Eem9TInVy14vbA" name="在待机海区待机中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_updY8F23Eem9TInVy14vbA" name="规避导航中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xi1Z0F23Eem9TInVy14vbA" name="前往攻击海区中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_zJCioF23Eem9TInVy14vbA" name="发送已到达攻击海区信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_3fsZ0F23Eem9TInVy14vbA" name="在攻击海区待机中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_7dgTMF23Eem9TInVy14vbA" name="撤离中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_9fYrYF23Eem9TInVy14vbA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="__bwRcF23Eem9TInVy14vbA" name="发送规避导航信息">
+        <ownedComment xmi:id="__iTlYF23Eem9TInVy14vbA">
+          <body>发送规避导航信息</body>
+        </ownedComment>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_DZkK0F24Eem9TInVy14vbA" name="本艇机动中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_FSEkkF24Eem9TInVy14vbA" name="发送本艇机动信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>

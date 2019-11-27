@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TLrDclzNEemXstz2ddlLtA" type="PapyrusUMLActivityDiagram" name="效果评估--活动图1-反军队" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_TLrDc1zNEemXstz2ddlLtA" type="2001" fontName="微软雅黑" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TLrDdFzNEemXstz2ddlLtA" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TLrDdVzNEemXstz2ddlLtA" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TLrDdlzNEemXstz2ddlLtA" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TLrDd1zNEemXstz2ddlLtA" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TLrDeFzNEemXstz2ddlLtA" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TLrDeVzNEemXstz2ddlLtA" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TLrDelzNEemXstz2ddlLtA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TLrDfFzNEemXstz2ddlLtA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TLrDfVzNEemXstz2ddlLtA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TLrDflzNEemXstz2ddlLtA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TLrDf1zNEemXstz2ddlLtA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TLrDgFzNEemXstz2ddlLtA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TLrDgVzNEemXstz2ddlLtA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TLrDglzNEemXstz2ddlLtA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TLrDg1zNEemXstz2ddlLtA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TLrDhFzNEemXstz2ddlLtA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_TLrDhVzNEemXstz2ddlLtA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_TLrDhlzNEemXstz2ddlLtA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TLrDh1zNEemXstz2ddlLtA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TLrDiFzNEemXstz2ddlLtA" type="7004">
+      <children xmi:type="notation:Shape" xmi:id="_Vb1IMVzNEemXstz2ddlLtA" type="3004" fontName="微软雅黑" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vb1INFzNEemXstz2ddlLtA" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vb1INVzNEemXstz2ddlLtA" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vb1INlzNEemXstz2ddlLtA" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vb1IN1zNEemXstz2ddlLtA" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vb1IOFzNEemXstz2ddlLtA" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vb1IOVzNEemXstz2ddlLtA" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Vb1IOlzNEemXstz2ddlLtA" type="5080">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Vb1IO1zNEemXstz2ddlLtA" y="5"/>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Vb1IMlzNEemXstz2ddlLtA"/>
+        <element xmi:type="uml:InitialNode" href="_9BbREFwXEemawpDNrkj6eg61afc001-3d7a-4fae-bf75-ea55e6c79d81-Activity.uml#_Vb1IMFzNEemXstz2ddlLtA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vb1IM1zNEemXstz2ddlLtA" x="389" y="76"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_V39DgVzNEemXstz2ddlLtA" type="3006" fontName="微软雅黑" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V39DhFzNEemXstz2ddlLtA" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V39DhVzNEemXstz2ddlLtA" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V39DhlzNEemXstz2ddlLtA" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V39Dh1zNEemXstz2ddlLtA" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V39DiFzNEemXstz2ddlLtA" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V39DiVzNEemXstz2ddlLtA" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_V39DilzNEemXstz2ddlLtA" type="5082">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_V39Di1zNEemXstz2ddlLtA" y="5"/>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_V39DglzNEemXstz2ddlLtA"/>
+        <element xmi:type="uml:FlowFinalNode" href="_9BbREFwXEemawpDNrkj6eg61afc001-3d7a-4fae-bf75-ea55e6c79d81-Activity.uml#_V39DgFzNEemXstz2ddlLtA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V39Dg1zNEemXstz2ddlLtA" x="382" y="261"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TLrDiVzNEemXstz2ddlLtA"/>
+    </children>
+    <element xmi:type="uml:Activity" href="_9BbREFwXEemawpDNrkj6eg61afc001-3d7a-4fae-bf75-ea55e6c79d81-Activity.uml#_TLrDcVzNEemXstz2ddlLtA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TLrDilzNEemXstz2ddlLtA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_TLrDi1zNEemXstz2ddlLtA"/>
+  <element xmi:type="uml:Activity" href="_9BbREFwXEemawpDNrkj6eg61afc001-3d7a-4fae-bf75-ea55e6c79d81-Activity.uml#_TLrDcVzNEemXstz2ddlLtA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_WVQqk1zNEemXstz2ddlLtA" type="4004" source="_Vb1IMVzNEemXstz2ddlLtA" target="_V39DgVzNEemXstz2ddlLtA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WVQqllzNEemXstz2ddlLtA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WVQql1zNEemXstz2ddlLtA" x="-10" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WVQqmFzNEemXstz2ddlLtA" visible="false" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WVQqmVzNEemXstz2ddlLtA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WVQqmlzNEemXstz2ddlLtA" visible="false" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WVQqm1zNEemXstz2ddlLtA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WVQqnFzNEemXstz2ddlLtA" visible="false" type="6011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WVQqnVzNEemXstz2ddlLtA" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WVQqlFzNEemXstz2ddlLtA" fontName="微软雅黑"/>
+    <element xmi:type="uml:ControlFlow" href="_9BbREFwXEemawpDNrkj6eg61afc001-3d7a-4fae-bf75-ea55e6c79d81-Activity.uml#_WVQqkFzNEemXstz2ddlLtA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WVQqlVzNEemXstz2ddlLtA" points="[-1, 9, 6, -176]$[-10, 194, -3, 9]"/>
+  </edges>
+</notation:Diagram>

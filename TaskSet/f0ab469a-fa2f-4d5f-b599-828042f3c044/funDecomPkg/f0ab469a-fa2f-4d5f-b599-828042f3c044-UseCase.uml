@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JHmJEF0SEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_JJY40F0SEemPzIHwcwrhwQ" name="远程反舰">
+    <ownedComment xmi:id="_JJY40V0SEemPzIHwcwrhwQ">
+      <body></body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_9IQkEV0jEem7yKe9qSXl1Q" name="远程反舰"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__f_QcF0jEem7yKe9qSXl1Q" name="接收任务及前期准备"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BkpP0F0kEem7yKe9qSXl1Q" name="导弹准备及发射"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ClBHsF0kEem7yKe9qSXl1Q" name="规避">
+      <ownedComment xmi:id="_DmiPEF0kEem7yKe9qSXl1Q">
+        <body>规避</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FCeBkF0kEem7yKe9qSXl1Q" name="任务结束"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GYxtMF0kEem7yKe9qSXl1Q" name="A_远程反舰_导弹准备及发射" memberEnd="_GYxtMV0kEem7yKe9qSXl1Q _GYxtNF0kEem7yKe9qSXl1Q">
+      <ownedEnd xmi:id="_GYxtMV0kEem7yKe9qSXl1Q" name="远程反舰" type="_9IQkEV0jEem7yKe9qSXl1Q" association="_GYxtMF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GYxtMl0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GYxtM10kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_GYxtNF0kEem7yKe9qSXl1Q" name="导弹准备及发射" type="_BkpP0F0kEem7yKe9qSXl1Q" association="_GYxtMF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GYxtNV0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GYxtNl0kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HVPVcF0kEem7yKe9qSXl1Q" name="A_远程反舰_规避" memberEnd="_HVPVcV0kEem7yKe9qSXl1Q _HVPVdF0kEem7yKe9qSXl1Q">
+      <ownedEnd xmi:id="_HVPVcV0kEem7yKe9qSXl1Q" name="远程反舰" type="_9IQkEV0jEem7yKe9qSXl1Q" association="_HVPVcF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HVPVcl0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HVPVc10kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_HVPVdF0kEem7yKe9qSXl1Q" name="规避" type="_ClBHsF0kEem7yKe9qSXl1Q" association="_HVPVcF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HVPVdV0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HVPVdl0kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IGo9MF0kEem7yKe9qSXl1Q" name="A_远程反舰_任务结束" memberEnd="_IGo9MV0kEem7yKe9qSXl1Q _IGo9NF0kEem7yKe9qSXl1Q">
+      <ownedEnd xmi:id="_IGo9MV0kEem7yKe9qSXl1Q" name="远程反舰" type="_9IQkEV0jEem7yKe9qSXl1Q" association="_IGo9MF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IGo9Ml0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IGo9M10kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_IGo9NF0kEem7yKe9qSXl1Q" name="任务结束" type="_FCeBkF0kEem7yKe9qSXl1Q" association="_IGo9MF0kEem7yKe9qSXl1Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IGo9NV0kEem7yKe9qSXl1Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IGo9Nl0kEem7yKe9qSXl1Q" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XEv50F2pEemzt5YgROmCEw" name="A_远程反舰_接收任务及前期准备" memberEnd="_XEv50V2pEemzt5YgROmCEw _XEv51F2pEemzt5YgROmCEw">
+      <ownedEnd xmi:id="_XEv50V2pEemzt5YgROmCEw" name="远程反舰" type="_9IQkEV0jEem7yKe9qSXl1Q" association="_XEv50F2pEemzt5YgROmCEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XEv50l2pEemzt5YgROmCEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XEv5012pEemzt5YgROmCEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_XEv51F2pEemzt5YgROmCEw" name="接收任务及前期准备" type="__f_QcF0jEem7yKe9qSXl1Q" association="_XEv50F2pEemzt5YgROmCEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XEv51V2pEemzt5YgROmCEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XEv51l2pEemzt5YgROmCEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_fO8qcF0BEemem_7_jX00Yw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_fO8qcV0BEemem_7_jX00Yw" name="任务结束--活动图0-反潜" group="_go0AYF0BEemem_7_jX00Yw" node="_htZC0F0BEemem_7_jX00Yw _kCw-wF0BEemem_7_jX00Yw _kYewEF0BEemem_7_jX00Yw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_k0mrYF0BEemem_7_jX00Yw" name="" source="_kYewEF0BEemem_7_jX00Yw" target="_htZC0F0BEemem_7_jX00Yw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_k0mrYV0BEemem_7_jX00Yw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_k0mrYl0BEemem_7_jX00Yw"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lVLo4F0BEemem_7_jX00Yw" name="" source="_htZC0F0BEemem_7_jX00Yw" target="_kCw-wF0BEemem_7_jX00Yw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_lVLo4V0BEemem_7_jX00Yw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_lVLo4l0BEemem_7_jX00Yw"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_go0AYF0BEemem_7_jX00Yw" name="导航&amp;导航-反潜" node="_htZC0F0BEemem_7_jX00Yw _kCw-wF0BEemem_7_jX00Yw _kYewEF0BEemem_7_jX00Yw">
+      <eAnnotations xmi:id="_aTPtYGcxEemCf6GH5ATlIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_aTPtYWcxEemCf6GH5ATlIQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_R22FEFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </group>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_htZC0F0BEemem_7_jX00Yw" name="返航" inPartition="_go0AYF0BEemem_7_jX00Yw" outgoing="_lVLo4F0BEemem_7_jX00Yw" incoming="_k0mrYF0BEemem_7_jX00Yw">
+      <ownedComment xmi:id="_ZnxHcGcxEemCf6GH5ATlIQ">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>1a8d788c-3196-4691-99dd-24f144fd21c0&lt;/ID>&#xD;
+&lt;Name>通信能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>c312a02e-6657-48cd-80e0-a7d2c79350b8&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>747d338c-9cf5-4379-ab1a-b745ee54157c&lt;/ID>&#xD;
+&lt;Name>导航能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>d28f3ac7-4f11-4d74-99be-cbeae6be06f1&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_kCw-wF0BEemem_7_jX00Yw" name="ActivityFinalNode1" inPartition="_go0AYF0BEemem_7_jX00Yw" incoming="_lVLo4F0BEemem_7_jX00Yw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_kYewEF0BEemem_7_jX00Yw" name="InitialNode1" inPartition="_go0AYF0BEemem_7_jX00Yw" outgoing="_k0mrYF0BEemem_7_jX00Yw"/>
+  </packagedElement>
+</uml:Model>

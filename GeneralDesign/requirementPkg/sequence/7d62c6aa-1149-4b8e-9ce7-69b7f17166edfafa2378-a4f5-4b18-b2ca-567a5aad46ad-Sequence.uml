@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_gANi0FxSEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_gANi0VxSEemawpDNrkj6eg" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mLgAYVxSEemawpDNrkj6eg" name="MessageSend" covered="_glG_oFxSEemawpDNrkj6eg" message="_mLgAYFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mLgAYlxSEemawpDNrkj6eg" name="MessageRecv" covered="_hDKNkFxSEemawpDNrkj6eg" message="_mLgAYFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nMgxcVxSEemawpDNrkj6eg" name="MessageSend2" covered="_hDKNkFxSEemawpDNrkj6eg" message="_nMgxcFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nMgxclxSEemawpDNrkj6eg" name="MessageRecv2" covered="_hDKNkFxSEemawpDNrkj6eg" message="_nMgxcFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n3g2QVxSEemawpDNrkj6eg" name="MessageSend3" covered="_hDKNkFxSEemawpDNrkj6eg" message="_n3g2QFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n3g2QlxSEemawpDNrkj6eg" name="MessageRecv3" covered="_hDKNkFxSEemawpDNrkj6eg" message="_n3g2QFxSEemawpDNrkj6eg"/>
+    <lifeline xmi:id="_glG_oFxSEemawpDNrkj6eg" name="岸基指挥中心" coveredBy="_mLgAYVxSEemawpDNrkj6eg"/>
+    <lifeline xmi:id="_hDKNkFxSEemawpDNrkj6eg" name="航渡值更" coveredBy="_mLgAYlxSEemawpDNrkj6eg _nMgxcVxSEemawpDNrkj6eg _nMgxclxSEemawpDNrkj6eg _n3g2QVxSEemawpDNrkj6eg _n3g2QlxSEemawpDNrkj6eg"/>
+    <message xmi:id="_mLgAYFxSEemawpDNrkj6eg" name="岸指发送新指令" messageSort="asynchCall" receiveEvent="_mLgAYlxSEemawpDNrkj6eg" sendEvent="_mLgAYVxSEemawpDNrkj6eg"/>
+    <message xmi:id="_nMgxcFxSEemawpDNrkj6eg" name="接收新指令" messageSort="asynchCall" receiveEvent="_nMgxclxSEemawpDNrkj6eg" sendEvent="_nMgxcVxSEemawpDNrkj6eg"/>
+    <message xmi:id="_n3g2QFxSEemawpDNrkj6eg" name="转到其它任务" messageSort="asynchCall" receiveEvent="_n3g2QlxSEemawpDNrkj6eg" sendEvent="_n3g2QVxSEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

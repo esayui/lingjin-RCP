@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_P8AE4Fw9EemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_P8AE4Vw9EemawpDNrkj6eg" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UDeQkVw9EemawpDNrkj6eg" name="MessageSend" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_UDeQkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UDeQklw9EemawpDNrkj6eg" name="MessageRecv" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_UDeQkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VCs48Vw9EemawpDNrkj6eg" name="MessageSend2" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_VCs48Fw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VC2p8Fw9EemawpDNrkj6eg" name="MessageRecv2" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_VCs48Fw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WkmJgVw9EemawpDNrkj6eg" name="MessageSend3" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_WkmJgFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WkmJglw9EemawpDNrkj6eg" name="MessageRecv3" covered="_Rp8NYFw9EemawpDNrkj6eg" message="_WkmJgFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_YKWmYFw9EemawpDNrkj6eg" name="InteractionUse"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_Y468kFw9EemawpDNrkj6eg" name="InteractionUse2"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_ZhibwFw9EemawpDNrkj6eg" name="InteractionUse3"/>
+    <lifeline xmi:id="_Rp8NYFw9EemawpDNrkj6eg" name="远程反舰" coveredBy="_UDeQkVw9EemawpDNrkj6eg _UDeQklw9EemawpDNrkj6eg _VCs48Vw9EemawpDNrkj6eg _VC2p8Fw9EemawpDNrkj6eg _WkmJgVw9EemawpDNrkj6eg _WkmJglw9EemawpDNrkj6eg"/>
+    <message xmi:id="_UDeQkFw9EemawpDNrkj6eg" name="规避" messageSort="asynchCall" receiveEvent="_UDeQklw9EemawpDNrkj6eg" sendEvent="_UDeQkVw9EemawpDNrkj6eg"/>
+    <message xmi:id="_VCs48Fw9EemawpDNrkj6eg" name="水声对抗规避" messageSort="asynchCall" receiveEvent="_VC2p8Fw9EemawpDNrkj6eg" sendEvent="_VCs48Vw9EemawpDNrkj6eg"/>
+    <message xmi:id="_WkmJgFw9EemawpDNrkj6eg" name="鱼雷攻击" messageSort="asynchCall" receiveEvent="_WkmJglw9EemawpDNrkj6eg" sendEvent="_WkmJgVw9EemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

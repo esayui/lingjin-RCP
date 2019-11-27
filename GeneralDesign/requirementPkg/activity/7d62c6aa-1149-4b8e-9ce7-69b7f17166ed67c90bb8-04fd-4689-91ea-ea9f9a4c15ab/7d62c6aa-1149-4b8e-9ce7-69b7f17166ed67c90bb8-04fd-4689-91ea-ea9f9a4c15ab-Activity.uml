@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_mUi5kFxQEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_mUi5kVxQEemawpDNrkj6eg" name="航渡值更--活动图1" node="_m_QDcFxQEemawpDNrkj6eg _nY1oIFxQEemawpDNrkj6eg _n65zYFxQEemawpDNrkj6eg _oUpJEFxQEemawpDNrkj6eg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_q2W34FxQEemawpDNrkj6eg" name="" source="_m_QDcFxQEemawpDNrkj6eg" target="_nY1oIFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_q2W34VxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_q2W34lxQEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rTqe8FxQEemawpDNrkj6eg" name="" source="_nY1oIFxQEemawpDNrkj6eg" target="_n65zYFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_rTqe8VxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_rTqe8lxQEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rw-tEFxQEemawpDNrkj6eg" name="" source="_n65zYFxQEemawpDNrkj6eg" target="_oUpJEFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_rw-tEVxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_rw-tElxQEemawpDNrkj6eg"/>
+    </edge>
+    <node xmi:type="uml:InitialNode" xmi:id="_m_QDcFxQEemawpDNrkj6eg" name="InitialNode1" outgoing="_q2W34FxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nY1oIFxQEemawpDNrkj6eg" name="噪声监测" outgoing="_rTqe8FxQEemawpDNrkj6eg" incoming="_q2W34FxQEemawpDNrkj6eg">
+      <ownedComment xmi:id="_o_Mh8FxQEemawpDNrkj6eg">
+        <body>噪声监测</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_n65zYFxQEemawpDNrkj6eg" name="被探测范围估计" outgoing="_rw-tEFxQEemawpDNrkj6eg" incoming="_rTqe8FxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_oUpJEFxQEemawpDNrkj6eg" name="FlowFinalNode1" incoming="_rw-tEFxQEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

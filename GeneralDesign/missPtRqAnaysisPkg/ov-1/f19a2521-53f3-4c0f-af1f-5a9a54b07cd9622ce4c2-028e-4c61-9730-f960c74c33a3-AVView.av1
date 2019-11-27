@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<av1:av1view xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:av1="http://org.seri.mdt/2011/av1" imagePath="d8521199-cd95-4b37-b4de-05b8878cf855.jpg" alpha="153" style="2#741#1191" pointID="_0ib88GcXEemtwaUNn7ceLQ">
+  <children xsi:type="av1:Warship" id="3c3b976b-da3a-46d4-ae45-cd370529118d" name="敌方战舰" imagePath="GeneralDesign/requirementPkg/ov-1/images/chuan.png" camp="敌方" nameBAK="战舰1" materialType="战舰" materialCountry="美国" materialModel="福特级" standardDrainage="65000" fullDrainage="85000" warShipLength="337" warShipWidth="78" modelWidth="78" draft="12" speed="30" navigationDistance="10000" carryWeapons="飞机，导弹"/>
+  <children xsi:type="av1:UnderwaterShip" id="e2112690-9d83-4c15-a714-ffb52e91b4a5" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:Connection" name="反舰" source="//@children.1" target="//@children.0"/>
+  <children xsi:type="av1:Torpedo" id="9b782dfd-a477-4c48-90a5-d67b6940e328" name="鱼雷1" imagePath="GeneralDesign/requirementPkg/ov-1/images/鱼雷.png" camp="敌方" nameBAK="鱼雷1" materialType="鱼雷" materialCountry="美国" materialModel="MK84" torpedoLength="5.8" promote="65" torpedoWeight="1.5" amountOfExplosives="800" shootingRange="65" maxSpeed="55" cruisingSpeed="65" hitRadius="800"/>
+  <children xsi:type="av1:Connection" name="综合防御" source="//@children.3" target="//@children.1"/>
+  <children xsi:type="av1:Mine" id="f9c2fe93-2134-4f32-a35b-8fb8e23b1638" name="干扰器才" imagePath="images\mine.png" camp="我方" nameBAK="水雷1"/>
+  <children xsi:type="av1:Connection" name="布雷" source="//@children.1" target="//@children.5"/>
+  <children xsi:type="av1:UUV" id="4fbfb366-77b3-440e-a13a-5b6ff9447a6e" name="无人水下航行器" imagePath="GeneralDesign/requirementPkg/ov-1/images/uuv.png" nameBAK="无人水下航行器1" materialType="无人水下航行器" materialCountry="中国" materialModel="XJ-1" volume="8" emptyWeight="0.6" powerSource="锂离子电池" cycleSpeed="3~4" operationalSpeed="2~6" lifeTime="2" targetResolution="70" recognitionRate="70" communicationStyle="水声链路" carryWeaponAndSequipment="无"/>
+  <children xsi:type="av1:Radar" id="064b1f6c-0e39-4a26-a9c9-a21ab06636d9" name="岸基指挥中心" imagePath="GeneralDesign/requirementPkg/ov-1/images/radar.png" camp="我方" nameBAK="雷达1" materialType="雷达" materialCountry="前苏联" materialModel="“眼窝”" use="用于指控SS-Ｎ-14导弹" communicationFrequency="F波段(用于指控SS-Ｎ-14导弹)" detectionRange="76.7" shieldingEffect="用于指控SS-Ｎ-14导弹" software="GAMMA" carryWeaponAndSequipment="无"/>
+  <children xsi:type="av1:Torpedo" id="8a1d4982-1e82-4bae-9698-30ec7a021578" name="我方鱼雷" imagePath="images\torpedo.png" nameBAK="鱼雷1"/>
+</av1:av1view>

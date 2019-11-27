@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_E7-ScFzsEemz1JY8VfERPA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_E7-ScVzsEemz1JY8VfERPA" name="StateMachine0">
+    <region xmi:id="_E7-SclzsEemz1JY8VfERPA" name="Region0">
+      <transition xmi:id="_WAtl0FzsEemz1JY8VfERPA" name="" source="_Lo42YFzsEemz1JY8VfERPA" target="_NaGVUFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_Z8SqkFzsEemz1JY8VfERPA" name="发现敌方反潜兵力" source="_NaGVUFzsEemz1JY8VfERPA" target="_OkCY4FzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_ejTR8FzsEemz1JY8VfERPA" name="非威胁" source="_OkCY4FzsEemz1JY8VfERPA" target="_NaGVUFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_gxFYIFzsEemz1JY8VfERPA" name="鱼雷威胁" source="_OkCY4FzsEemz1JY8VfERPA" target="_SU6CcFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_kMOpUFzsEemz1JY8VfERPA" name="鱼雷威胁及敌方兵力威胁" source="_OkCY4FzsEemz1JY8VfERPA" target="_SU6CcFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_r2ls8FzsEemz1JY8VfERPA" name="敌方兵力威胁" source="_OkCY4FzsEemz1JY8VfERPA" target="_l_YpAFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_us-rQFzsEemz1JY8VfERPA" name="tm(500)" source="_l_YpAFzsEemz1JY8VfERPA" target="_NaGVUFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_265u8FzsEemz1JY8VfERPA" name="/威胁预警" source="_SU6CcFzsEemz1JY8VfERPA" target="_oygQ4FzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_-0374FzsEemz1JY8VfERPA" name="tm(1000)/鱼雷报警" source="_oygQ4FzsEemz1JY8VfERPA" target="_qC13YFzsEemz1JY8VfERPA"/>
+      <transition xmi:id="_DYeC4FztEemz1JY8VfERPA" name="" source="_qC13YFzsEemz1JY8VfERPA" target="_NaGVUFzsEemz1JY8VfERPA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Lo42YFzsEemz1JY8VfERPA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_NaGVUFzsEemz1JY8VfERPA" name="探测威胁中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_OkCY4FzsEemz1JY8VfERPA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_SU6CcFzsEemz1JY8VfERPA" name="" kind="junction"/>
+      <subvertex xmi:type="uml:State" xmi:id="_l_YpAFzsEemz1JY8VfERPA" name="发送探测结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oygQ4FzsEemz1JY8VfERPA" name="发送威胁预警结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_qC13YFzsEemz1JY8VfERPA" name="发送鱼雷报警结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

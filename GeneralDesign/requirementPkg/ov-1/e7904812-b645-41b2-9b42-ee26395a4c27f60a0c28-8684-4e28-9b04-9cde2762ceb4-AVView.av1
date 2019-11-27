@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<av1:av1view xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:av1="http://org.seri.mdt/2011/av1" imagePath="745b24c7-71bf-4aeb-9370-8b162be8b9a1" style="2#796#1435">
+  <children xsi:type="av1:UnderwaterShip" id="1c579509-c74c-434f-8ebe-9986486ff455" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:UnderwaterShip" id="5735f6ab-755f-4e07-8d64-3bce49323ee9" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:UnderwaterShip" id="196516f1-db83-4f0c-927c-6cd45690fde3" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:UnderwaterShip" id="8f04c321-e89b-4a6b-8232-cc0e47394e22" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:Connection" name="进入侦察阵地" source="//@children.0" target="//@children.1"/>
+  <children xsi:type="av1:Connection" name="跟踪重要舰艇" source="//@children.1" target="//@children.2"/>
+  <children xsi:type="av1:Connection" name="隐蔽撤离" source="//@children.2" target="//@children.3"/>
+  <children xsi:type="av1:Radar" id="0a003fb8-d253-4978-9924-f6b553333abd" name="岸基指挥所" imagePath="images\radar.png" nameBAK="雷达1"/>
+  <children xsi:type="av1:ArrowDashedConnection" name="紧急上报" source="//@children.3" target="//@children.7"/>
+  <children xsi:type="av1:Warship" id="f18511b7-bc78-4cb2-85a9-2ab044a61801" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Connection" name="持续跟踪" source="//@children.1" target="//@children.9"/>
+</av1:av1view>

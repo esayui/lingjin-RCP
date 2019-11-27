@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JLULcV0SEemPzIHwcwrhwQ" type="PapyrusUMLDeploymentDiagram" name="远程反舰--系统部署图" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Ezcn4GfJEemkssg_OM2uiw" type="2008" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ezcn5GfJEemkssg_OM2uiw" type="9"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ezcn5WfJEemkssg_OM2uiw" type="19">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Ezcn5mfJEemkssg_OM2uiw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ezcn52fJEemkssg_OM2uiw"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ezcn4WfJEemkssg_OM2uiw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ezcn4mfJEemkssg_OM2uiw"/>
+    <element xmi:type="uml:Node" href="f0ab469a-fa2f-4d5f-b599-828042f3c044-Deploy.uml#_EytoEWfJEemkssg_OM2uiw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ezcn42fJEemkssg_OM2uiw" x="175" y="180" width="200" height="120"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_JLULcl0SEemPzIHwcwrhwQ"/>
+  <element xmi:type="uml:Model" href="f0ab469a-fa2f-4d5f-b599-828042f3c044-Deploy.uml#_JLULcF0SEemPzIHwcwrhwQ"/>
+</notation:Diagram>

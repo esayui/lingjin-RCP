@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_0J84IF3aEemdMc92IRn1oA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_0KGCEF3aEemdMc92IRn1oA" name="StateMachine0">
+    <region xmi:id="_0KGCEV3aEemdMc92IRn1oA" name="Region0">
+      <transition xmi:id="_H1dZcF3bEemdMc92IRn1oA" name="" source="_5mOTkF3aEemdMc92IRn1oA" target="_6ViQoF3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_JChpgF3bEemdMc92IRn1oA" name="收到鱼雷武器准备指令" source="_6ViQoF3aEemdMc92IRn1oA" target="_72Y_YF3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_MrzdUF3bEemdMc92IRn1oA" name="收到鱼雷攻击指令" source="_6ViQoF3aEemdMc92IRn1oA" target="_72Y_YF3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_NuAhMF3bEemdMc92IRn1oA" name="" source="_72Y_YF3aEemdMc92IRn1oA" target="_9Eo7MF3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_O-yzoF3bEemdMc92IRn1oA" name="[Defense_attack]" source="_9Eo7MF3aEemdMc92IRn1oA" target="__D1y0F3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_RLO2AF3bEemdMc92IRn1oA" name="[Attack]" source="_9Eo7MF3aEemdMc92IRn1oA" target="_BBQhwF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_SsiQsF3bEemdMc92IRn1oA" name="" source="__D1y0F3aEemdMc92IRn1oA" target="_ClYm8F3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_TdoWcF3bEemdMc92IRn1oA" name="" source="_BBQhwF3bEemdMc92IRn1oA" target="_ClYm8F3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_UsevMF3bEemdMc92IRn1oA" name="接收到鱼雷防御攻击信息" source="_ClYm8F3bEemdMc92IRn1oA" target="_EyuBMF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_XhPV0F3bEemdMc92IRn1oA" name="接收到鱼雷攻击信息" source="_ClYm8F3bEemdMc92IRn1oA" target="_GDpdkF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_ZWxUEF3bEemdMc92IRn1oA" name="/setDefense_attack(false);" source="_EyuBMF3bEemdMc92IRn1oA" target="_6ViQoF3aEemdMc92IRn1oA"/>
+      <transition xmi:id="_bYy2MF3bEemdMc92IRn1oA" name="/setAttack(false);" source="_GDpdkF3bEemdMc92IRn1oA" target="_6ViQoF3aEemdMc92IRn1oA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_5mOTkF3aEemdMc92IRn1oA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_6ViQoF3aEemdMc92IRn1oA" name="等待指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_72Y_YF3aEemdMc92IRn1oA" name="鱼雷武器准备中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_9Eo7MF3aEemdMc92IRn1oA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="__D1y0F3aEemdMc92IRn1oA" name="发送鱼雷防御攻击指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BBQhwF3bEemdMc92IRn1oA" name="下达鱼雷攻击指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ClYm8F3bEemdMc92IRn1oA" name="等待鱼雷防御攻击结果中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_EyuBMF3bEemdMc92IRn1oA" name="发送鱼雷防御攻击信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GDpdkF3bEemdMc92IRn1oA" name="发送鱼雷攻击信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>

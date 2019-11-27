@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TLrDcFzNEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_TLrDcVzNEemXstz2ddlLtA" name="效果评估--活动图1-反军队" node="_Vb1IMFzNEemXstz2ddlLtA _V39DgFzNEemXstz2ddlLtA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WVQqkFzNEemXstz2ddlLtA" name="" source="_Vb1IMFzNEemXstz2ddlLtA" target="_V39DgFzNEemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_WVQqkVzNEemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_WVQqklzNEemXstz2ddlLtA"/>
+    </edge>
+    <node xmi:type="uml:InitialNode" xmi:id="_Vb1IMFzNEemXstz2ddlLtA" name="InitialNode1" outgoing="_WVQqkFzNEemXstz2ddlLtA"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_V39DgFzNEemXstz2ddlLtA" name="FlowFinalNode1" incoming="_WVQqkFzNEemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

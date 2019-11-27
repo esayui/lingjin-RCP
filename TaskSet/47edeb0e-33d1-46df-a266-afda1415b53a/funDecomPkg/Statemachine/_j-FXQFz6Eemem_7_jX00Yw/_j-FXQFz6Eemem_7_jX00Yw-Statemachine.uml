@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_SalTMF0ZEem5uM72vBeSMw" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_SalTMV0ZEem5uM72vBeSMw" name="StateMachine0">
+    <region xmi:id="_SalTMl0ZEem5uM72vBeSMw" name="Region0">
+      <transition xmi:id="_a9oSUF0ZEem5uM72vBeSMw" name="" source="_Z-_f0F0ZEem5uM72vBeSMw" target="_WxiFUF0ZEem5uM72vBeSMw"/>
+      <transition xmi:id="_brJfoF0ZEem5uM72vBeSMw" name="接收到发射武器指令/发射武器" source="_WxiFUF0ZEem5uM72vBeSMw" target="_Z-_f0F0ZEem5uM72vBeSMw"/>
+      <transition xmi:id="_d6tugF0ZEem5uM72vBeSMw" name="" source="_Twk1wF0ZEem5uM72vBeSMw" target="_WxiFUF0ZEem5uM72vBeSMw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Twk1wF0ZEem5uM72vBeSMw" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_WxiFUF0ZEem5uM72vBeSMw" name="等待鱼雷发射指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Z-_f0F0ZEem5uM72vBeSMw" name="上报发射正常"/>
+    </region>
+  </packagedElement>
+</uml:Model>

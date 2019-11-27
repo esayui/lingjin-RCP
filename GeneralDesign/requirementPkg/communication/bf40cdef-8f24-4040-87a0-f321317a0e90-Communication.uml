@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_z66MMFuNEembLZAqEtkumA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_z7D9MFuNEembLZAqEtkumA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDbFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDbluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDbVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDbluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDeFuNEembLZAqEtkumA" covered="_0dR5cFuNEembLZAqEtkumA" message="_0dbDeluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDeVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDeluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDhFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDhluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDhVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDhluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDkFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDkluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDkVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDkluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDnFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDnluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDnVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDnluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDqFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDqluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDqVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDqluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDtFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDtluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDtVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDtluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDwFuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDwluNEembLZAqEtkumA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0dbDwVuNEembLZAqEtkumA" covered="_0dbDYFuNEembLZAqEtkumA" message="_0dbDwluNEembLZAqEtkumA"/>
+    <lifeline xmi:id="_0dR5cFuNEembLZAqEtkumA" name="敌方反潜兵力" coveredBy="_0dbDeFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dR5cVuNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dR5cluNEembLZAqEtkumA" key="GeneralDesign/requirementPkg/sequence/bf40cdef-8f24-4040-87a0-f321317a0e90059458b9-94f8-4d56-9fcb-4fa8fee4dbd7-Sequence.uml#_G-BYIFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_0dbDYFuNEembLZAqEtkumA" name="防兵力" coveredBy="_0dbDbFuNEembLZAqEtkumA _0dbDbVuNEembLZAqEtkumA _0dbDeVuNEembLZAqEtkumA _0dbDhFuNEembLZAqEtkumA _0dbDhVuNEembLZAqEtkumA _0dbDkFuNEembLZAqEtkumA _0dbDkVuNEembLZAqEtkumA _0dbDnFuNEembLZAqEtkumA _0dbDnVuNEembLZAqEtkumA _0dbDqFuNEembLZAqEtkumA _0dbDqVuNEembLZAqEtkumA _0dbDtFuNEembLZAqEtkumA _0dbDtVuNEembLZAqEtkumA _0dbDwFuNEembLZAqEtkumA _0dbDwVuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDYVuNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDYluNEembLZAqEtkumA" key="GeneralDesign/requirementPkg/sequence/bf40cdef-8f24-4040-87a0-f321317a0e90059458b9-94f8-4d56-9fcb-4fa8fee4dbd7-Sequence.uml#_Inf3YFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_0dulYFuNEembLZAqEtkumA" name="敌方反潜兵力">
+      <eAnnotations xmi:id="_0dulYVuNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dulYluNEembLZAqEtkumA" key="GeneralDesign/requirementPkg/sequence/bf40cdef-8f24-4040-87a0-f321317a0e90aea3ec54-7d06-4f29-b151-9ea4aea30846-Sequence.uml#_KwsjEFuMEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_0dulbFuNEembLZAqEtkumA" name="防鱼雷">
+      <eAnnotations xmi:id="_0dulbVuNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dulbluNEembLZAqEtkumA" key="GeneralDesign/requirementPkg/sequence/bf40cdef-8f24-4040-87a0-f321317a0e90aea3ec54-7d06-4f29-b151-9ea4aea30846-Sequence.uml#_MOk2UFuMEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_0dbDbluNEembLZAqEtkumA" receiveEvent="_0dbDbVuNEembLZAqEtkumA" sendEvent="_0dbDbFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDb1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDcFuNEembLZAqEtkumA" key="_NVNjsFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDeluNEembLZAqEtkumA" receiveEvent="_0dbDeVuNEembLZAqEtkumA" sendEvent="_0dbDeFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDe1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDfFuNEembLZAqEtkumA" key="_PfaxcFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDhluNEembLZAqEtkumA" receiveEvent="_0dbDhVuNEembLZAqEtkumA" sendEvent="_0dbDhFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDh1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDiFuNEembLZAqEtkumA" key="_SBu9MFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDkluNEembLZAqEtkumA" receiveEvent="_0dbDkVuNEembLZAqEtkumA" sendEvent="_0dbDkFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDk1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDlFuNEembLZAqEtkumA" key="_T3j2YFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDnluNEembLZAqEtkumA" receiveEvent="_0dbDnVuNEembLZAqEtkumA" sendEvent="_0dbDnFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDn1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDoFuNEembLZAqEtkumA" key="_V_iPgFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDqluNEembLZAqEtkumA" receiveEvent="_0dbDqVuNEembLZAqEtkumA" sendEvent="_0dbDqFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDq1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDrFuNEembLZAqEtkumA" key="_X6bO4FuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDtluNEembLZAqEtkumA" receiveEvent="_0dbDtVuNEembLZAqEtkumA" sendEvent="_0dbDtFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDt1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDuFuNEembLZAqEtkumA" key="_arBHMFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_0dbDwluNEembLZAqEtkumA" receiveEvent="_0dbDwVuNEembLZAqEtkumA" sendEvent="_0dbDwFuNEembLZAqEtkumA">
+      <eAnnotations xmi:id="_0dbDw1uNEembLZAqEtkumA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0dbDxFuNEembLZAqEtkumA" key="_cFoEAFuLEemKjc9xY2b6Jw"/>
+      </eAnnotations>
+    </message>
+  </packagedElement>
+</uml:Model>

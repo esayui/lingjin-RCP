@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_v3eHQFzSEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_v3eHQVzSEemXstz2ddlLtA" name="StateMachine0">
+    <region xmi:id="_v3eHQlzSEemXstz2ddlLtA" name="Region0">
+      <transition xmi:id="_duACoFzhEemXstz2ddlLtA" name="" source="_ClOegFzhEemXstz2ddlLtA" target="_DWKzQFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_hRU_cFzhEemXstz2ddlLtA" name="接收到雷弹发射发射前准备指令" source="_DWKzQFzhEemXstz2ddlLtA" target="_K48BIFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_i9owQFzhEemXstz2ddlLtA" name="接收到使用雷弹发射发射水声对抗器材指令" source="_DWKzQFzhEemXstz2ddlLtA" target="_M4vVsFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_kwMTAFzhEemXstz2ddlLtA" name="[else]/setDirect_launch(true);" source="_M4vVsFzhEemXstz2ddlLtA" target="_K48BIFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_mpmEoFzhEemXstz2ddlLtA" name="[Prepared]" source="_M4vVsFzhEemXstz2ddlLtA" target="_Q_d6gFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_ornmwFzhEemXstz2ddlLtA" name="tm(1500)" source="_K48BIFzhEemXstz2ddlLtA" target="_Om-ZIFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_qweacFzhEemXstz2ddlLtA" name="" source="_Om-ZIFzhEemXstz2ddlLtA" target="_T-f3cFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_s04iMFzhEemXstz2ddlLtA" name="接收到使用雷弹发射发射水声对抗器材指令" source="_T-f3cFzhEemXstz2ddlLtA" target="_Q_d6gFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_xON58FzhEemXstz2ddlLtA" name="[Direct_launch]" source="_T-f3cFzhEemXstz2ddlLtA" target="_Q_d6gFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_7MdEsFzhEemXstz2ddlLtA" name="tm(1500)" source="_Q_d6gFzhEemXstz2ddlLtA" target="_aNDrcFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_A2a94FziEemXstz2ddlLtA" name="接收到取消雷弹发射准备指令" source="_T-f3cFzhEemXstz2ddlLtA" target="_DWKzQFzhEemXstz2ddlLtA"/>
+      <transition xmi:id="_DvVrwFziEemXstz2ddlLtA" name="/setPrepared(false);setDirect_launch(false);" source="_aNDrcFzhEemXstz2ddlLtA" target="_DWKzQFzhEemXstz2ddlLtA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ClOegFzhEemXstz2ddlLtA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_DWKzQFzhEemXstz2ddlLtA" name="等待接收命令中">
+        <ownedComment xmi:id="_EHaqAFzhEemXstz2ddlLtA">
+          <body>等待接收命令中</body>
+        </ownedComment>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_K48BIFzhEemXstz2ddlLtA" name="雷弹发射发射前准备中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_M4vVsFzhEemXstz2ddlLtA" name="Choice0" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Om-ZIFzhEemXstz2ddlLtA" name="发送雷弹发射发射前准备结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Q_d6gFzhEemXstz2ddlLtA" name="使用雷弹发射水声对抗器材中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_T-f3cFzhEemXstz2ddlLtA" name="雷弹发射准备完毕"/>
+      <subvertex xmi:type="uml:State" xmi:id="_aNDrcFzhEemXstz2ddlLtA" name="发送使用雷弹发射水声对抗器材结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

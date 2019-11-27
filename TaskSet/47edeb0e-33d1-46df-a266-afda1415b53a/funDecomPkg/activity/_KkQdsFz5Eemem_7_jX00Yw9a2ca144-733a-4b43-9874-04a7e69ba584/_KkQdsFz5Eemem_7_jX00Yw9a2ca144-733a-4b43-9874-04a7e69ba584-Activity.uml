@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_kvDrwFz7Eemem_7_jX00Yw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_kvDrwVz7Eemem_7_jX00Yw" name="接收任务--活动图0-反潜" group="_wvCEwFz7Eemem_7_jX00Yw _zv_UUFz7Eemem_7_jX00Yw" node="_1MhjwFz7Eemem_7_jX00Yw _3UNB8Fz7Eemem_7_jX00Yw _48f1cFz7Eemem_7_jX00Yw _3Du40F0CEemHZIzWnsr2RQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6gU_sFz7Eemem_7_jX00Yw" name="" source="_3UNB8Fz7Eemem_7_jX00Yw" target="_1MhjwFz7Eemem_7_jX00Yw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_6gU_sVz7Eemem_7_jX00Yw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_6gU_slz7Eemem_7_jX00Yw"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7bPIwFz7Eemem_7_jX00Yw" name="" source="_1MhjwFz7Eemem_7_jX00Yw" target="_48f1cFz7Eemem_7_jX00Yw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_7bPIwVz7Eemem_7_jX00Yw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_7bPIwlz7Eemem_7_jX00Yw"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3gS5AF0CEemHZIzWnsr2RQ" name="" source="_48f1cFz7Eemem_7_jX00Yw" target="_3Du40F0CEemHZIzWnsr2RQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3gS5AV0CEemHZIzWnsr2RQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_3gS5Al0CEemHZIzWnsr2RQ"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_wvCEwFz7Eemem_7_jX00Yw" name="通信&amp;通信-反潜" node="_1MhjwFz7Eemem_7_jX00Yw _3UNB8Fz7Eemem_7_jX00Yw">
+      <eAnnotations xmi:id="_Bfr-gFz8Eemem_7_jX00Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Bfr-gVz8Eemem_7_jX00Yw" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_PNiggFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_zv_UUFz7Eemem_7_jX00Yw" name="导航&amp;导航-反潜" node="_48f1cFz7Eemem_7_jX00Yw _3Du40F0CEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_COGjsFz8Eemem_7_jX00Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_COGjsVz8Eemem_7_jX00Yw" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_R22FEFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </group>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1MhjwFz7Eemem_7_jX00Yw" name="接收使命任务" inPartition="_wvCEwFz7Eemem_7_jX00Yw" outgoing="_7bPIwFz7Eemem_7_jX00Yw" incoming="_6gU_sFz7Eemem_7_jX00Yw">
+      <ownedComment xmi:id="_TEO-cGcwEemQGZ6RDyodiQ">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>73a7b487-2c0a-476a-87da-edfb98c2a15b&lt;/ID>&#xD;
+&lt;Name>指挥控制能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>c12306cf-7998-4e5d-a072-a9247b2511bd&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;ChildCapacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>ad0110cc-a639-4f1b-8361-3f7082082b4a&lt;/ID>&#xD;
+&lt;Name>辅助决策能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>24f5a204-5402-465f-bf75-83b66d1a03df&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>c8ae9f3d-9e71-4139-8150-27eb8d98acec&lt;/ID>&#xD;
+&lt;Name>目标指示能力&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>5eee1fa4-29fc-4b8e-aee3-aadb144b1571&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/ChildCapacity>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:InitialNode" xmi:id="_3UNB8Fz7Eemem_7_jX00Yw" name="InitialNode1" inPartition="_wvCEwFz7Eemem_7_jX00Yw" outgoing="_6gU_sFz7Eemem_7_jX00Yw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_48f1cFz7Eemem_7_jX00Yw" name="进入作战海区" inPartition="_zv_UUFz7Eemem_7_jX00Yw" outgoing="_3gS5AF0CEemHZIzWnsr2RQ" incoming="_7bPIwFz7Eemem_7_jX00Yw">
+      <ownedComment xmi:id="_UDVrAGcwEemQGZ6RDyodiQ">
+        <body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;GBK&quot; standalone=&quot;no&quot;?>&#xD;
+&lt;CapacitySystem>&#xD;
+&lt;Capacity>&#xD;
+&lt;ID>b1a508e3-c0a6-448d-a4e5-a62b884cc21c&lt;/ID>&#xD;
+&lt;Name>感知范围&lt;/Name>&#xD;
+&lt;Type>探测能力&lt;/Type>&#xD;
+&lt;DataType>&#xD;
+&lt;Complex>&#xD;
+&lt;StructName>int&lt;/StructName>&#xD;
+&lt;Simple>&#xD;
+&lt;SimpleType>int&lt;/SimpleType>&#xD;
+&lt;Id>75726ef0-1987-4e5e-bf29-71ab679c0a2b&lt;/Id>&#xD;
+&lt;/Simple>&#xD;
+&lt;/Complex>&#xD;
+&lt;/DataType>&#xD;
+&lt;UnderCondition/>&#xD;
+&lt;RequiredCapacity/>&#xD;
+&lt;CurrentCapacity/>&#xD;
+&lt;GapAnalysis/>&#xD;
+&lt;CustomValue/>&#xD;
+&lt;CustomDesc/>&#xD;
+&lt;/Capacity>&#xD;
+&lt;/CapacitySystem>&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_3Du40F0CEemHZIzWnsr2RQ" name="FlowFinalNode1" inPartition="_zv_UUFz7Eemem_7_jX00Yw" incoming="_3gS5AF0CEemHZIzWnsr2RQ"/>
+  </packagedElement>
+</uml:Model>

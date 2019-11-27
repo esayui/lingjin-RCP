@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_1HGiEF3IEemuibsJnG5VdA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_1HPsAF3IEemuibsJnG5VdA" name="StateMachine0">
+    <region xmi:id="_1HPsAV3IEemuibsJnG5VdA" name="Region0">
+      <transition xmi:id="_k_v_0F3PEemdMc92IRn1oA" name="" source="_2_KP4F3IEemuibsJnG5VdA" target="_BdFnUF3JEemuibsJnG5VdA"/>
+      <transition xmi:id="_xp1TgF3UEemdMc92IRn1oA" name="取消导弹武器准备" source="_BdFnUF3JEemuibsJnG5VdA" target="_Y77BkV3PEemdMc92IRn1oA"/>
+      <transition xmi:id="_zKrbMF3UEemdMc92IRn1oA" name="" source="_Y77BkV3PEemdMc92IRn1oA" target="_BdFnUF3JEemuibsJnG5VdA"/>
+      <transition xmi:id="_5Lj_kF3UEemdMc92IRn1oA" name="装订导弹发射参数" source="_YyPd8F3LEemuibsJnG5VdA" target="_boCmYF3LEemuibsJnG5VdA"/>
+      <transition xmi:id="_LKUrMF3VEemdMc92IRn1oA" name="取消导弹武器准备" source="_boCmYF3LEemuibsJnG5VdA" target="_Y77BkV3PEemdMc92IRn1oA"/>
+      <transition xmi:id="_PRWyAF3VEemdMc92IRn1oA" name="收到发射导弹指令" source="_boCmYF3LEemuibsJnG5VdA" target="_a8dV8F3PEemdMc92IRn1oA"/>
+      <transition xmi:id="_Qxw00F3VEemdMc92IRn1oA" name="" source="_a8dV8F3PEemdMc92IRn1oA" target="_cq_7YF3PEemdMc92IRn1oA"/>
+      <transition xmi:id="_SAwXgF3VEemdMc92IRn1oA" name="收到导弹发射完毕结果" source="_cq_7YF3PEemdMc92IRn1oA" target="_f6rjcF3PEemdMc92IRn1oA"/>
+      <transition xmi:id="_Y5kpcF3VEemdMc92IRn1oA" name="/setMissile_weapon_ready(false);" source="_f6rjcF3PEemdMc92IRn1oA" target="_BdFnUF3JEemuibsJnG5VdA"/>
+      <transition xmi:id="_zJ8pIF3ZEemdMc92IRn1oA" name="再次收到导弹航路指令需要重新规划" source="_boCmYF3LEemuibsJnG5VdA" target="_S6q4gF3JEemuibsJnG5VdA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_2_KP4F3IEemuibsJnG5VdA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_BdFnUF3JEemuibsJnG5VdA" name="战前准备预备中">
+        <region xmi:id="_KYFMYF3JEemuibsJnG5VdA" name="Region0">
+          <transition xmi:id="_n4-2wF3PEemdMc92IRn1oA" name="" source="_KYFMbV3JEemuibsJnG5VdA" target="_OGtaQF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_o1PDoF3PEemdMc92IRn1oA" name="" source="_f_hO4F3JEemuibsJnG5VdA" target="_hmU0oF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_qGURAF3PEemdMc92IRn1oA" name="收到导弹航路规划指令" source="_OGtaQF3JEemuibsJnG5VdA" target="_S6q4gF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_r6NQgF3PEemdMc92IRn1oA" name="收到导弹准备指令" source="_hmU0oF3JEemuibsJnG5VdA" target="_jGu3cF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_t6ma8F3PEemdMc92IRn1oA" name="导弹武器尚未就绪" source="_jGu3cF3JEemuibsJnG5VdA" target="_lHRL0F3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_wIrcEF3PEemdMc92IRn1oA" name="" source="_lHRL0F3JEemuibsJnG5VdA" target="_n0ltsF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_9ZlRcF3PEemdMc92IRn1oA" name="导弹未准备好" source="_n0ltsF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="__QS7cF3PEemdMc92IRn1oA" name="导弹已准备好" source="_n0ltsF3JEemuibsJnG5VdA" target="_cpBXsF3KEemuibsJnG5VdA"/>
+          <transition xmi:id="_OFnw8F3QEemdMc92IRn1oA" name="导弹未准备好" source="_n0ltsF3JEemuibsJnG5VdA" target="_L7teIF3QEemdMc92IRn1oA"/>
+          <transition xmi:id="_RBXwYF3QEemdMc92IRn1oA" name="tm(100)" source="_L7teIF3QEemdMc92IRn1oA" target="_lHRL0F3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_UYDYUF3QEemdMc92IRn1oA" name="" source="_cpBXsF3KEemuibsJnG5VdA" target="_f7FlYF3KEemuibsJnG5VdA"/>
+          <transition xmi:id="_1H-LIF3QEemdMc92IRn1oA" name="" source="_AsWcAF3LEemuibsJnG5VdA" target="_Cf8gkF3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_3WM9QF3QEemdMc92IRn1oA" name="tm(1500)" source="_Cf8gkF3LEemuibsJnG5VdA" target="_D2F0IF3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_O_-D4F3REemdMc92IRn1oA" name="导弹已预备好" source="_D2F0IF3LEemuibsJnG5VdA" target="_GIetgF3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_TlW6oF3REemdMc92IRn1oA" name="导弹未预备好" source="_D2F0IF3LEemuibsJnG5VdA" target="_Ro-tgF3REemdMc92IRn1oA"/>
+          <transition xmi:id="_XYvssF3REemdMc92IRn1oA" name="tm(100)" source="_GIetgF3LEemuibsJnG5VdA" target="_VOnmMF3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_c73XAF3REemdMc92IRn1oA" name="tm（100）" source="_Ro-tgF3REemdMc92IRn1oA" target="_cpBXsF3KEemuibsJnG5VdA"/>
+          <transition xmi:id="__bGV4F3SEemdMc92IRn1oA" name="tm(300)" source="_S6q4gF3JEemuibsJnG5VdA" target="_W_VAwF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_CFmNQF3TEemdMc92IRn1oA" name="航路已确认" source="_W_VAwF3JEemuibsJnG5VdA" target="_Yw_LoF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_Q5uv8F3TEemdMc92IRn1oA" name="tm(1000)" source="_Yw_LoF3JEemuibsJnG5VdA" target="_c5WvMF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_Ss4IkF3TEemdMc92IRn1oA" name="再次收到导弹航路指令需要重新规划" source="_c5WvMF3JEemuibsJnG5VdA" target="_S6q4gF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_dxDAoF3TEemdMc92IRn1oA" name="" source="_c5WvMF3JEemuibsJnG5VdA" target="_YyPd8F3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_lIsHIF3UEemdMc92IRn1oA" name="" source="_VOnmMF3LEemuibsJnG5VdA" target="_YyPd8F3LEemuibsJnG5VdA"/>
+          <transition xmi:id="_Od2UoF3ZEemdMc92IRn1oA" name="航路未确认" source="_W_VAwF3JEemuibsJnG5VdA" target="_S6q4gF3JEemuibsJnG5VdA"/>
+          <transition xmi:id="_T_hYAF3aEemdMc92IRn1oA" name="导弹武器已经就绪" source="_jGu3cF3JEemuibsJnG5VdA" target="_GIetgF3LEemuibsJnG5VdA"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_KYFMbV3JEemuibsJnG5VdA" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_OGtaQF3JEemuibsJnG5VdA" name="等待导弹航路规划指令中"/>
+          <subvertex xmi:type="uml:State" xmi:id="_S6q4gF3JEemuibsJnG5VdA" name="导弹航路规划中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_W_VAwF3JEemuibsJnG5VdA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_Yw_LoF3JEemuibsJnG5VdA" name="发送导弹航路规划结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_c5WvMF3JEemuibsJnG5VdA" name="航路已确认等待导弹预备中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_f_hO4F3JEemuibsJnG5VdA" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_hmU0oF3JEemuibsJnG5VdA" name="等待导弹武器准备指令中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_jGu3cF3JEemuibsJnG5VdA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_lHRL0F3JEemuibsJnG5VdA" name="导弹武器准备中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_n0ltsF3JEemuibsJnG5VdA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_cpBXsF3KEemuibsJnG5VdA" name="导弹武器预备中"/>
+          <subvertex xmi:type="uml:State" xmi:id="_f7FlYF3KEemuibsJnG5VdA" name="预备中">
+            <region xmi:id="_llgKgF3KEemuibsJnG5VdA" name="Region0">
+              <transition xmi:id="_gxwf8F3QEemdMc92IRn1oA" name="" source="_llp7gl3KEemuibsJnG5VdA" target="_rw8ZEF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_jwfh8F3QEemdMc92IRn1oA" name="不具备发射条件" source="_rw8ZEF3KEemuibsJnG5VdA" target="_t7mSwF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_lr-XMF3QEemdMc92IRn1oA" name="" source="_3Bv-8F3KEemuibsJnG5VdA" target="_4B3_MF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_nVJ7gF3QEemdMc92IRn1oA" name="" source="_4B3_MF3KEemuibsJnG5VdA" target="_5cLaAF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_oiOLkF3QEemdMc92IRn1oA" name="接收到雷弹发射准备结果" source="_5cLaAF3KEemuibsJnG5VdA" target="_7O4twF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_qU64QF3QEemdMc92IRn1oA" name="" source="_t7mSwF3KEemuibsJnG5VdA" target="_vuArkF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_sJaUsF3QEemdMc92IRn1oA" name="接收到本艇机动结果" source="_vuArkF3KEemuibsJnG5VdA" target="_zD8FkF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_t9AZQF3QEemdMc92IRn1oA" name="具备发射条件" source="_rw8ZEF3KEemuibsJnG5VdA" target="_zD8FkF3KEemuibsJnG5VdA"/>
+              <transition xmi:id="_x03boF3QEemdMc92IRn1oA" name="" source="_zD8FkF3KEemuibsJnG5VdA" target="_AsWcAF3LEemuibsJnG5VdA"/>
+              <transition xmi:id="_y55KAF3QEemdMc92IRn1oA" name="" source="_7O4twF3KEemuibsJnG5VdA" target="_AsWcAF3LEemuibsJnG5VdA"/>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_llp7gl3KEemuibsJnG5VdA" name=""/>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_rw8ZEF3KEemuibsJnG5VdA" name="" kind="choice"/>
+              <subvertex xmi:type="uml:State" xmi:id="_t7mSwF3KEemuibsJnG5VdA" name="发送不具备发射条件信息"/>
+              <subvertex xmi:type="uml:State" xmi:id="_vuArkF3KEemuibsJnG5VdA" name="等待机动导航结果"/>
+              <subvertex xmi:type="uml:State" xmi:id="_zD8FkF3KEemuibsJnG5VdA" name="等待雷弹发射准备中"/>
+              <subvertex xmi:type="uml:Pseudostate" xmi:id="_3Bv-8F3KEemuibsJnG5VdA" name=""/>
+              <subvertex xmi:type="uml:State" xmi:id="_4B3_MF3KEemuibsJnG5VdA" name="发送雷弹发射准备指令"/>
+              <subvertex xmi:type="uml:State" xmi:id="_5cLaAF3KEemuibsJnG5VdA" name="等待雷弹发射准备结果中"/>
+              <subvertex xmi:type="uml:State" xmi:id="_7O4twF3KEemuibsJnG5VdA" name="等待发射条件中"/>
+            </region>
+          </subvertex>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_AsWcAF3LEemuibsJnG5VdA" name="" kind="join"/>
+          <subvertex xmi:type="uml:State" xmi:id="_Cf8gkF3LEemuibsJnG5VdA" name="处理中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_D2F0IF3LEemuibsJnG5VdA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_GIetgF3LEemuibsJnG5VdA" name="发送导弹预备完毕结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_VOnmMF3LEemuibsJnG5VdA" name="导弹预备完毕等待航路确认中"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_L7teIF3QEemdMc92IRn1oA" name="1000" kind="choice"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_Ro-tgF3REemdMc92IRn1oA" name="1000" kind="choice"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_YyPd8F3LEemuibsJnG5VdA" name="" kind="join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_boCmYF3LEemuibsJnG5VdA" name="等待发射指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Y77BkV3PEemdMc92IRn1oA" name="发送雷弹发射取消指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_a8dV8F3PEemdMc92IRn1oA" name="发送发射导弹指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_cq_7YF3PEemdMc92IRn1oA" name="等待发射结果中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_f6rjcF3PEemdMc92IRn1oA" name="发送导弹发射完毕信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>

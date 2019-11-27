@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_2ZdusFxQEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_2ZdusVxQEemawpDNrkj6eg" name="航渡值更--活动图3" node="_2u5MIFxQEemawpDNrkj6eg _3HvJ8FxQEemawpDNrkj6eg _3owzYFxQEemawpDNrkj6eg _4ESRwFxQEemawpDNrkj6eg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4n1qwFxQEemawpDNrkj6eg" name="" source="_2u5MIFxQEemawpDNrkj6eg" target="_3HvJ8FxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_4n1qwVxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_4n1qwlxQEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5BuxcFxQEemawpDNrkj6eg" name="" source="_3HvJ8FxQEemawpDNrkj6eg" target="_3owzYFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_5BuxcVxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_5BuxclxQEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5bKlIFxQEemawpDNrkj6eg" name="" source="_3owzYFxQEemawpDNrkj6eg" target="_4ESRwFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_5bUWIFxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_5bUWIVxQEemawpDNrkj6eg"/>
+    </edge>
+    <node xmi:type="uml:InitialNode" xmi:id="_2u5MIFxQEemawpDNrkj6eg" name="InitialNode1" outgoing="_4n1qwFxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3HvJ8FxQEemawpDNrkj6eg" name="接收新指令" outgoing="_5BuxcFxQEemawpDNrkj6eg" incoming="_4n1qwFxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3owzYFxQEemawpDNrkj6eg" name="转到其它任务" outgoing="_5bKlIFxQEemawpDNrkj6eg" incoming="_5BuxcFxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_4ESRwFxQEemawpDNrkj6eg" name="FlowFinalNode1" incoming="_5bKlIFxQEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

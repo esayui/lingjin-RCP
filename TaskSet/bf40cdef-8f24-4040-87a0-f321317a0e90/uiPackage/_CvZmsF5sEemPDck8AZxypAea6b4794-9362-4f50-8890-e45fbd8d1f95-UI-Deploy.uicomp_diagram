@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.seri.mdt.design="uicomp.design.mdt.seri.org" xmi:id="_nmVcwl5tEemPDck8AZxypA" type="Uicomp" name="_CvZmsF5sEemPDck8AZxypAea6b4794-9362-4f50-8890-e45fbd8d1f95-UI-Deploy.uicomp_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_GPwdIF5uEemPDck8AZxypA" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GPwdIl5uEemPDck8AZxypA" type="5001"/>
+    <element xmi:type="org.seri.mdt.design:CustomScreen" href="_CvZmsF5sEemPDck8AZxypAea6b4794-9362-4f50-8890-e45fbd8d1f95-UI-Deploy.uicomp#//@rScreens.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPwdIV5uEemPDck8AZxypA" x="20" y="20" width="800" height="299"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_nmVcw15tEemPDck8AZxypA"/>
+  <element xmi:type="org.seri.mdt.design:BasePanel" href="_CvZmsF5sEemPDck8AZxypAea6b4794-9362-4f50-8890-e45fbd8d1f95-UI-Deploy.uicomp#/"/>
+</notation:Diagram>

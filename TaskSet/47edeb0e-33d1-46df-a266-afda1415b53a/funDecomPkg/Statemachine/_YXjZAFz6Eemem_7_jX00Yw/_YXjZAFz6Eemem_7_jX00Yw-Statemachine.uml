@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_0FS3IF0VEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_0FS3IV0VEemPzIHwcwrhwQ" name="StateMachine0">
+    <region xmi:id="_0FS3Il0VEemPzIHwcwrhwQ" name="Region0">
+      <transition xmi:id="_jodb0F0WEem5uM72vBeSMw" name="" source="_U9jGkV0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_lTuDwF0WEem5uM72vBeSMw" name="[!Reach_battle_field]" source="_XW7_0F0WEem5uM72vBeSMw" target="_ccAcMF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_mL0JYF0WEem5uM72vBeSMw" name="" source="_ccAcMF0WEem5uM72vBeSMw" target="_ec_cgF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_nD5n8F0WEem5uM72vBeSMw" name="" source="_ec_cgF0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_oVRwQF0WEem5uM72vBeSMw" name="" source="_XW7_0F0WEem5uM72vBeSMw" target="_f-JGMF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_qD0VsF0WEem5uM72vBeSMw" name="/战术水声决策、搜索指挥" source="_f-JGMF0WEem5uM72vBeSMw" target="_h8TcAF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_tiO9UF0WEem5uM72vBeSMw" name="接收到重新规划指令/战术水声决策、搜索指挥" source="_XW7_0F0WEem5uM72vBeSMw" target="_h8TcAF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_v_oz4F0WEem5uM72vBeSMw" name="/setReach_battle_field(true);" source="_h8TcAF0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_35K78F0WEem5uM72vBeSMw" name="" source="_XW7_0F0WEem5uM72vBeSMw" target="_zod7wF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_4tFsMF0WEem5uM72vBeSMw" name="/setTarget_locate_result(true);" source="_zod7wF0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_6nrJkF0WEem5uM72vBeSMw" name="" source="_XW7_0F0WEem5uM72vBeSMw" target="_2LX9YF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_7o_coF0WEem5uM72vBeSMw" name="/setStatus_result(true);" source="_2LX9YF0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_FmCUkF0XEem5uM72vBeSMw" name="接收到不具备发射条件信息/战术决策" source="_XW7_0F0WEem5uM72vBeSMw" target="__EbowF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_HrV0MF0XEem5uM72vBeSMw" name="/战术决策" source="_XW7_0F0WEem5uM72vBeSMw" target="__EbowF0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_L-RpAF0XEem5uM72vBeSMw" name="/setTarget_locate_result(false);setStatus_result(false);setGuide_reasult(false);" source="__EbowF0WEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_RgNAgF0XEem5uM72vBeSMw" name="接收到目标运动要素分析结果" source="_XW7_0F0WEem5uM72vBeSMw" target="_Pa6H8F0XEem5uM72vBeSMw"/>
+      <transition xmi:id="_SOBv0F0XEem5uM72vBeSMw" name="" source="_Pa6H8F0XEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_DXinQF0YEem5uM72vBeSMw" name="接收到武器准备完毕结果" source="_XW7_0F0WEem5uM72vBeSMw" target="_CCJhoF0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_FU9WMF0YEem5uM72vBeSMw" name="" source="_CCJhoF0YEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_KZSLsF0YEem5uM72vBeSMw" name="" source="_XW7_0F0WEem5uM72vBeSMw" target="_HVDlsF0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_LAtYEF0YEem5uM72vBeSMw" name="" source="_HVDlsF0YEem5uM72vBeSMw" target="_JwqsgF0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_Lq0FAF0YEem5uM72vBeSMw" name="" source="_JwqsgF0YEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_O3h4oF0YEem5uM72vBeSMw" name="" source="_XW7_0F0WEem5uM72vBeSMw" target="_NqwjgF0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_PbrHgF0YEem5uM72vBeSMw" name="/setGuide_reasult(true);" source="_NqwjgF0YEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <transition xmi:id="_Tky5AF0YEem5uM72vBeSMw" name="[!Attack_again&amp;Guide_reasult]" source="_XW7_0F0WEem5uM72vBeSMw" target="_RbnmAF0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_W76l0F0YEem5uM72vBeSMw" name="" source="_RbnmAF0YEem5uM72vBeSMw" target="_SkX90F0YEem5uM72vBeSMw"/>
+      <transition xmi:id="_XimLUF0YEem5uM72vBeSMw" name="/setGuide_reasult(false);setReach_battle_field(false);" source="_SkX90F0YEem5uM72vBeSMw" target="_XW7_0F0WEem5uM72vBeSMw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_U9jGkV0WEem5uM72vBeSMw" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_XW7_0F0WEem5uM72vBeSMw" name="等待信息或结果中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ccAcMF0WEem5uM72vBeSMw" name="使命任务结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ec_cgF0WEem5uM72vBeSMw" name="发送进入作战海区指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_f-JGMF0WEem5uM72vBeSMw" name="接收到抵达作战海区结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_h8TcAF0WEem5uM72vBeSMw" name="发送进行水声探测指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_zod7wF0WEem5uM72vBeSMw" name="接收到目标定位结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_2LX9YF0WEem5uM72vBeSMw" name="接收到态势生成结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="__EbowF0WEem5uM72vBeSMw" name="发送目标运动要素分析指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Pa6H8F0XEem5uM72vBeSMw" name="发送在线鱼雷攻击效果评估指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_CCJhoF0YEem5uM72vBeSMw" name="发送发射武器指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HVDlsF0YEem5uM72vBeSMw" name="接收到发射武器结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_JwqsgF0YEem5uM72vBeSMw" name="发送武器导引指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_NqwjgF0YEem5uM72vBeSMw" name="接收到武器导引结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_RbnmAF0YEem5uM72vBeSMw" name="发送返航指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_SkX90F0YEem5uM72vBeSMw" name="发送水声探测返回等待指令"/>
+    </region>
+  </packagedElement>
+</uml:Model>

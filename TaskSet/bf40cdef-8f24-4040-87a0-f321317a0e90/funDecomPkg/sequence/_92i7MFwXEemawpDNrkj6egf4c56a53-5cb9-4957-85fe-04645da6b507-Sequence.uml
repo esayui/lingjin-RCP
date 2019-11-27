@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_9doNMFzNEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_9doNMVzNEemXstz2ddlLtA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BWYAYVzOEemXstz2ddlLtA" name="MessageSend" covered="__8NvgFzNEemXstz2ddlLtA" message="_BWYAYFzOEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BWYAYlzOEemXstz2ddlLtA" name="MessageRecv" covered="__8NvgFzNEemXstz2ddlLtA" message="_BWYAYFzOEemXstz2ddlLtA"/>
+    <lifeline xmi:id="__8NvgFzNEemXstz2ddlLtA" name="指挥决策&amp;指挥决策" coveredBy="_BWYAYVzOEemXstz2ddlLtA _BWYAYlzOEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_EThcEFzQEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_EThcEVzQEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_Ty9vMFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_BWYAYFzOEemXstz2ddlLtA" name="转其他任务" messageSort="asynchCall" receiveEvent="_BWYAYlzOEemXstz2ddlLtA" sendEvent="_BWYAYVzOEemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

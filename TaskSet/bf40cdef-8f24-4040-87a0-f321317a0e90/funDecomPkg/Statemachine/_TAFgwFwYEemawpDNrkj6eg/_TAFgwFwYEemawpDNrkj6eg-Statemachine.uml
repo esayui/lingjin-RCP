@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_V6wTUFziEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_V6wTUVziEemXstz2ddlLtA" name="StateMachine0">
+    <region xmi:id="_V6wTUlziEemXstz2ddlLtA" name="Region0">
+      <transition xmi:id="_nAiIgFziEemXstz2ddlLtA" name="Transition0" source="_eQsqkFziEemXstz2ddlLtA" target="_e3rLAFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_n-HyIFziEemXstz2ddlLtA" name="接收到机动规避指令" source="_e3rLAFziEemXstz2ddlLtA" target="_iE-0gFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_pAoYAFziEemXstz2ddlLtA" name="tm(1500)" source="_iE-0gFziEemXstz2ddlLtA" target="_j1TioFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_p2VQ8FziEemXstz2ddlLtA" name="" source="_j1TioFziEemXstz2ddlLtA" target="_e3rLAFziEemXstz2ddlLtA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eQsqkFziEemXstz2ddlLtA" name="Initial0"/>
+      <subvertex xmi:type="uml:State" xmi:id="_e3rLAFziEemXstz2ddlLtA" name="等待接收命令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iE-0gFziEemXstz2ddlLtA" name="机动规避中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_j1TioFziEemXstz2ddlLtA" name="发送机动规避结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_wlhZsFzKEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_wlhZsVzKEemXstz2ddlLtA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bx0EwFzLEemXstz2ddlLtA" name="MessageSend" covered="_UoB-oFzLEemXstz2ddlLtA" message="_bxqTwFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bx0EwVzLEemXstz2ddlLtA" name="MessageRecv" covered="_UoB-oFzLEemXstz2ddlLtA" message="_bxqTwFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d3taQVzLEemXstz2ddlLtA" name="MessageSend2" covered="_UoB-oFzLEemXstz2ddlLtA" message="_d3taQFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d3taQlzLEemXstz2ddlLtA" name="MessageRecv2" covered="_V9brUFzLEemXstz2ddlLtA" message="_d3taQFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_esqsUVzLEemXstz2ddlLtA" name="MessageSend3" covered="_V9brUFzLEemXstz2ddlLtA" message="_esqsUFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_esqsUlzLEemXstz2ddlLtA" name="MessageRecv3" covered="_V9brUFzLEemXstz2ddlLtA" message="_esqsUFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ft1OYVzLEemXstz2ddlLtA" name="MessageSend4" covered="_V9brUFzLEemXstz2ddlLtA" message="_ft1OYFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ft1OYlzLEemXstz2ddlLtA" name="MessageRecv4" covered="_UoB-oFzLEemXstz2ddlLtA" message="_ft1OYFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jXs4EVzLEemXstz2ddlLtA" name="MessageSend5" covered="_UoB-oFzLEemXstz2ddlLtA" message="_jXs4EFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jXs4ElzLEemXstz2ddlLtA" name="MessageRecv5" covered="_XDf7gFzLEemXstz2ddlLtA" message="_jXs4EFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k5cXoVzLEemXstz2ddlLtA" name="MessageSend6" covered="_XDf7gFzLEemXstz2ddlLtA" message="_k5cXoFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k5cXolzLEemXstz2ddlLtA" name="MessageRecv6" covered="_XDf7gFzLEemXstz2ddlLtA" message="_k5cXoFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_l-xoAVzLEemXstz2ddlLtA" name="MessageSend7" covered="_XDf7gFzLEemXstz2ddlLtA" message="_l-xoAFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_l-xoAlzLEemXstz2ddlLtA" name="MessageRecv7" covered="_UoB-oFzLEemXstz2ddlLtA" message="_l-xoAFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oWXxgVzLEemXstz2ddlLtA" name="MessageSend8" covered="_UoB-oFzLEemXstz2ddlLtA" message="_oWXxgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oWXxglzLEemXstz2ddlLtA" name="MessageRecv8" covered="_YJ3tsFzLEemXstz2ddlLtA" message="_oWXxgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pNkfQVzLEemXstz2ddlLtA" name="MessageSend9" covered="_YJ3tsFzLEemXstz2ddlLtA" message="_pNkfQFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pNkfQlzLEemXstz2ddlLtA" name="MessageRecv9" covered="_YJ3tsFzLEemXstz2ddlLtA" message="_pNkfQFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qbOlMVzLEemXstz2ddlLtA" name="MessageSend10" covered="_YJ3tsFzLEemXstz2ddlLtA" message="_qbOlMFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qbOlMlzLEemXstz2ddlLtA" name="MessageRecv10" covered="_UoB-oFzLEemXstz2ddlLtA" message="_qbOlMFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r5G4cVzLEemXstz2ddlLtA" name="MessageSend11" covered="_UoB-oFzLEemXstz2ddlLtA" message="_r5G4cFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_r5G4clzLEemXstz2ddlLtA" name="MessageRecv11" covered="_V9brUFzLEemXstz2ddlLtA" message="_r5G4cFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_s3cI8VzLEemXstz2ddlLtA" name="MessageSend12" covered="_V9brUFzLEemXstz2ddlLtA" message="_s3cI8FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_s3cI8lzLEemXstz2ddlLtA" name="MessageRecv12" covered="_V9brUFzLEemXstz2ddlLtA" message="_s3cI8FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ujTN0VzLEemXstz2ddlLtA" name="MessageSend13" covered="_V9brUFzLEemXstz2ddlLtA" message="_ujTN0FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ujTN0lzLEemXstz2ddlLtA" name="MessageRecv13" covered="_UoB-oFzLEemXstz2ddlLtA" message="_ujTN0FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_28XxkVzLEemXstz2ddlLtA" name="MessageSend14" covered="_UoB-oFzLEemXstz2ddlLtA" message="_28XxkFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_28XxklzLEemXstz2ddlLtA" name="MessageRecv14" covered="_V9brUFzLEemXstz2ddlLtA" message="_28XxkFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5N36IVzLEemXstz2ddlLtA" name="MessageSend15" covered="_V9brUFzLEemXstz2ddlLtA" message="_5N36IFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5N36IlzLEemXstz2ddlLtA" name="MessageRecv15" covered="_V9brUFzLEemXstz2ddlLtA" message="_5N36IFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6ZAQgVzLEemXstz2ddlLtA" name="MessageSend16" covered="_V9brUFzLEemXstz2ddlLtA" message="_6ZAQgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6ZAQglzLEemXstz2ddlLtA" name="MessageRecv16" covered="_UoB-oFzLEemXstz2ddlLtA" message="_6ZAQgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_76AJMVzLEemXstz2ddlLtA" name="MessageSend17" covered="_UoB-oFzLEemXstz2ddlLtA" message="_76AJMFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_76AJMlzLEemXstz2ddlLtA" name="MessageRecv17" covered="_XDf7gFzLEemXstz2ddlLtA" message="_76AJMFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_851OgVzLEemXstz2ddlLtA" name="MessageSend18" covered="_XDf7gFzLEemXstz2ddlLtA" message="_851OgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_851OglzLEemXstz2ddlLtA" name="MessageRecv18" covered="_XDf7gFzLEemXstz2ddlLtA" message="_851OgFzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_95Wx0VzLEemXstz2ddlLtA" name="MessageSend19" covered="_XDf7gFzLEemXstz2ddlLtA" message="_95Wx0FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_95Wx0lzLEemXstz2ddlLtA" name="MessageRecv19" covered="_UoB-oFzLEemXstz2ddlLtA" message="_95Wx0FzLEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_C9idYFzMEemXstz2ddlLtA" name="InteractionUse"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_HAsw0FzMEemXstz2ddlLtA" name="InteractionUse2"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_Jy7n4FzMEemXstz2ddlLtA" name="InteractionUse3"/>
+    <lifeline xmi:id="_UoB-oFzLEemXstz2ddlLtA" name="指挥决策&amp;指挥决策-综合防御" coveredBy="_bx0EwFzLEemXstz2ddlLtA _bx0EwVzLEemXstz2ddlLtA _d3taQVzLEemXstz2ddlLtA _ft1OYlzLEemXstz2ddlLtA _jXs4EVzLEemXstz2ddlLtA _l-xoAlzLEemXstz2ddlLtA _oWXxgVzLEemXstz2ddlLtA _qbOlMlzLEemXstz2ddlLtA _r5G4cVzLEemXstz2ddlLtA _ujTN0lzLEemXstz2ddlLtA _28XxkVzLEemXstz2ddlLtA _6ZAQglzLEemXstz2ddlLtA _76AJMVzLEemXstz2ddlLtA _95Wx0lzLEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_jgCX4FzPEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_jgCX4VzPEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_Ty9vMFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_V9brUFzLEemXstz2ddlLtA" name="水声对抗&amp;水声对抗-综合防御" coveredBy="_d3taQlzLEemXstz2ddlLtA _esqsUVzLEemXstz2ddlLtA _esqsUlzLEemXstz2ddlLtA _ft1OYVzLEemXstz2ddlLtA _r5G4clzLEemXstz2ddlLtA _s3cI8VzLEemXstz2ddlLtA _s3cI8lzLEemXstz2ddlLtA _ujTN0VzLEemXstz2ddlLtA _28XxklzLEemXstz2ddlLtA _5N36IVzLEemXstz2ddlLtA _5N36IlzLEemXstz2ddlLtA _6ZAQgVzLEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_kXiAkFzPEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_kXiAkVzPEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_Q8Hd4FwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_XDf7gFzLEemXstz2ddlLtA" name="雷达发射&amp;雷弹发射-综合防御" coveredBy="_jXs4ElzLEemXstz2ddlLtA _k5cXoVzLEemXstz2ddlLtA _k5cXolzLEemXstz2ddlLtA _l-xoAVzLEemXstz2ddlLtA _76AJMlzLEemXstz2ddlLtA _851OgVzLEemXstz2ddlLtA _851OglzLEemXstz2ddlLtA _95Wx0VzLEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_lNrlcFzPEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_lNrlcVzPEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_SGEIgFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_YJ3tsFzLEemXstz2ddlLtA" name="导航&amp;导航-综合防御" coveredBy="_oWXxglzLEemXstz2ddlLtA _pNkfQVzLEemXstz2ddlLtA _pNkfQlzLEemXstz2ddlLtA _qbOlMVzLEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_l4h5QFzPEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_l4h5QVzPEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_TAFgwFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_bxqTwFzLEemXstz2ddlLtA" name="综合防御决策" messageSort="asynchCall" receiveEvent="_bx0EwVzLEemXstz2ddlLtA" sendEvent="_bx0EwFzLEemXstz2ddlLtA"/>
+    <message xmi:id="_d3taQFzLEemXstz2ddlLtA" name="发送水声对抗发射前准备指令" messageSort="asynchCall" receiveEvent="_d3taQlzLEemXstz2ddlLtA" sendEvent="_d3taQVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_esqsUFzLEemXstz2ddlLtA" name="水声对抗发射前准备" messageSort="asynchCall" receiveEvent="_esqsUlzLEemXstz2ddlLtA" sendEvent="_esqsUVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_ft1OYFzLEemXstz2ddlLtA" name="发送水声对抗发射前准备结果" messageSort="asynchCall" receiveEvent="_ft1OYlzLEemXstz2ddlLtA" sendEvent="_ft1OYVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_jXs4EFzLEemXstz2ddlLtA" name="发送雷弹发射发射前准备指令" messageSort="asynchCall" receiveEvent="_jXs4ElzLEemXstz2ddlLtA" sendEvent="_jXs4EVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_k5cXoFzLEemXstz2ddlLtA" name="雷弹发射发射前准备" messageSort="asynchCall" receiveEvent="_k5cXolzLEemXstz2ddlLtA" sendEvent="_k5cXoVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_l-xoAFzLEemXstz2ddlLtA" name="发送雷弹发射发射前准备结果" messageSort="asynchCall" receiveEvent="_l-xoAlzLEemXstz2ddlLtA" sendEvent="_l-xoAVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_oWXxgFzLEemXstz2ddlLtA" name="发送机动规避指令" messageSort="asynchCall" receiveEvent="_oWXxglzLEemXstz2ddlLtA" sendEvent="_oWXxgVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_pNkfQFzLEemXstz2ddlLtA" name="机动规避" messageSort="asynchCall" receiveEvent="_pNkfQlzLEemXstz2ddlLtA" sendEvent="_pNkfQVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_qbOlMFzLEemXstz2ddlLtA" name="发送机动规避结果" messageSort="asynchCall" receiveEvent="_qbOlMlzLEemXstz2ddlLtA" sendEvent="_qbOlMVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_r5G4cFzLEemXstz2ddlLtA" name="发送防御器材发控指令" messageSort="asynchCall" receiveEvent="_r5G4clzLEemXstz2ddlLtA" sendEvent="_r5G4cVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_s3cI8FzLEemXstz2ddlLtA" name="防御器材发控" messageSort="asynchCall" receiveEvent="_s3cI8lzLEemXstz2ddlLtA" sendEvent="_s3cI8VzLEemXstz2ddlLtA"/>
+    <message xmi:id="_ujTN0FzLEemXstz2ddlLtA" name="发送防御器材发控结果" messageSort="asynchCall" receiveEvent="_ujTN0lzLEemXstz2ddlLtA" sendEvent="_ujTN0VzLEemXstz2ddlLtA"/>
+    <message xmi:id="_28XxkFzLEemXstz2ddlLtA" name="发送使用水声对抗器材指令" messageSort="asynchCall" receiveEvent="_28XxklzLEemXstz2ddlLtA" sendEvent="_28XxkVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_5N36IFzLEemXstz2ddlLtA" name="使用水声对抗器材" messageSort="asynchCall" receiveEvent="_5N36IlzLEemXstz2ddlLtA" sendEvent="_5N36IVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_6ZAQgFzLEemXstz2ddlLtA" name="发送使用水声对抗器材结果" messageSort="asynchCall" receiveEvent="_6ZAQglzLEemXstz2ddlLtA" sendEvent="_6ZAQgVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_76AJMFzLEemXstz2ddlLtA" name="发送使用雷弹发射水声对抗器材指令" messageSort="asynchCall" receiveEvent="_76AJMlzLEemXstz2ddlLtA" sendEvent="_76AJMVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_851OgFzLEemXstz2ddlLtA" name="使用雷弹发射水声对抗器材" messageSort="asynchCall" receiveEvent="_851OglzLEemXstz2ddlLtA" sendEvent="_851OgVzLEemXstz2ddlLtA"/>
+    <message xmi:id="_95Wx0FzLEemXstz2ddlLtA" name="发送使用雷弹发射水声对抗器材结果" messageSort="asynchCall" receiveEvent="_95Wx0lzLEemXstz2ddlLtA" sendEvent="_95Wx0VzLEemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

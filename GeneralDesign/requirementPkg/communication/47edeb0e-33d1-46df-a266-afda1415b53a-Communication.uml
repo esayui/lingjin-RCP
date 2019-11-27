@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_3jltoGfDEemGmtD69Y__TA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_3jltoWfDEemGmtD69Y__TA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgEGfDEemGmtD69Y__TA" covered="_5pV5MGfDEemGmtD69Y__TA" message="_5qFgEmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgEWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgEmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgHGfDEemGmtD69Y__TA" covered="_5pylIGfDEemGmtD69Y__TA" message="_5qFgHmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgHWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgHmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgKGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgKmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgKWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgKmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgNGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgNmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgNWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgNmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgQGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgQmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgQWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgQmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgTGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgTmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgTWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgTmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgWGfDEemGmtD69Y__TA" covered="_5p7vF2fDEemGmtD69Y__TA" message="_5qFgWmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgWWfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qFgWmfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qFgZGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqAWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqAGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqAWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqC2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqDWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqDGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqDWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqF2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqGWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqGGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqGWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqI2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqJWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqJGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqJWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqL2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqMWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqMGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqMWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqO2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqPWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqPGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqPWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqR2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqSWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqSGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqSWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqU2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqVWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqVGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqVWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqX2fDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqYWfDEemGmtD69Y__TA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5qOqYGfDEemGmtD69Y__TA" covered="_5p7vI2fDEemGmtD69Y__TA" message="_5qOqYWfDEemGmtD69Y__TA"/>
+    <lifeline xmi:id="_5pV5MGfDEemGmtD69Y__TA" name="岸基指挥中心" coveredBy="_5qFgEGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5pV5MWfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5pV5MmfDEemGmtD69Y__TA" key="GeneralDesign/requirementPkg/sequence/47edeb0e-33d1-46df-a266-afda1415b53a51d74729-3e7a-4ec7-b044-3ba8210e8708-Sequence.uml#_d6Eq0FxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_5pylIGfDEemGmtD69Y__TA" name="编队指挥中心" coveredBy="_5qFgHGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5pylIWfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5pylImfDEemGmtD69Y__TA" key="GeneralDesign/requirementPkg/sequence/47edeb0e-33d1-46df-a266-afda1415b53a51d74729-3e7a-4ec7-b044-3ba8210e8708-Sequence.uml#_fXNXMFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_5p7vF2fDEemGmtD69Y__TA" name="敌潜艇" coveredBy="_5qFgWGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5p7vGGfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5p7vGWfDEemGmtD69Y__TA" key="GeneralDesign/requirementPkg/sequence/47edeb0e-33d1-46df-a266-afda1415b53a51d74729-3e7a-4ec7-b044-3ba8210e8708-Sequence.uml#_gh5BoFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_5p7vI2fDEemGmtD69Y__TA" name="反潜" coveredBy="_5qFgEWfDEemGmtD69Y__TA _5qFgHWfDEemGmtD69Y__TA _5qFgKGfDEemGmtD69Y__TA _5qFgKWfDEemGmtD69Y__TA _5qFgNGfDEemGmtD69Y__TA _5qFgNWfDEemGmtD69Y__TA _5qFgQGfDEemGmtD69Y__TA _5qFgQWfDEemGmtD69Y__TA _5qFgTGfDEemGmtD69Y__TA _5qFgTWfDEemGmtD69Y__TA _5qFgWWfDEemGmtD69Y__TA _5qFgZGfDEemGmtD69Y__TA _5qOqAGfDEemGmtD69Y__TA _5qOqC2fDEemGmtD69Y__TA _5qOqDGfDEemGmtD69Y__TA _5qOqF2fDEemGmtD69Y__TA _5qOqGGfDEemGmtD69Y__TA _5qOqI2fDEemGmtD69Y__TA _5qOqJGfDEemGmtD69Y__TA _5qOqL2fDEemGmtD69Y__TA _5qOqMGfDEemGmtD69Y__TA _5qOqO2fDEemGmtD69Y__TA _5qOqPGfDEemGmtD69Y__TA _5qOqR2fDEemGmtD69Y__TA _5qOqSGfDEemGmtD69Y__TA _5qOqU2fDEemGmtD69Y__TA _5qOqVGfDEemGmtD69Y__TA _5qOqX2fDEemGmtD69Y__TA _5qOqYGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5p7vJGfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5p7vJWfDEemGmtD69Y__TA" key="GeneralDesign/requirementPkg/sequence/47edeb0e-33d1-46df-a266-afda1415b53a51d74729-3e7a-4ec7-b044-3ba8210e8708-Sequence.uml#_h91bMFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_5qFgEmfDEemGmtD69Y__TA" receiveEvent="_5qFgEWfDEemGmtD69Y__TA" sendEvent="_5qFgEGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgE2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgFGfDEemGmtD69Y__TA" key="_lv4wgFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgHmfDEemGmtD69Y__TA" receiveEvent="_5qFgHWfDEemGmtD69Y__TA" sendEvent="_5qFgHGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgH2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgIGfDEemGmtD69Y__TA" key="_mtx8IFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgKmfDEemGmtD69Y__TA" receiveEvent="_5qFgKWfDEemGmtD69Y__TA" sendEvent="_5qFgKGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgK2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgLGfDEemGmtD69Y__TA" key="_nkYM8FxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgNmfDEemGmtD69Y__TA" receiveEvent="_5qFgNWfDEemGmtD69Y__TA" sendEvent="_5qFgNGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgN2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgOGfDEemGmtD69Y__TA" key="_oSWtQFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgQmfDEemGmtD69Y__TA" receiveEvent="_5qFgQWfDEemGmtD69Y__TA" sendEvent="_5qFgQGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgQ2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgRGfDEemGmtD69Y__TA" key="_pBENYFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgTmfDEemGmtD69Y__TA" receiveEvent="_5qFgTWfDEemGmtD69Y__TA" sendEvent="_5qFgTGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgT2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgUGfDEemGmtD69Y__TA" key="_pwYKcFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qFgWmfDEemGmtD69Y__TA" receiveEvent="_5qFgWWfDEemGmtD69Y__TA" sendEvent="_5qFgWGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qFgW2fDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qFgXGfDEemGmtD69Y__TA" key="_tBG7YFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqAWfDEemGmtD69Y__TA" receiveEvent="_5qOqAGfDEemGmtD69Y__TA" sendEvent="_5qFgZGfDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqAmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqA2fDEemGmtD69Y__TA" key="_wl6e4FxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqDWfDEemGmtD69Y__TA" receiveEvent="_5qOqDGfDEemGmtD69Y__TA" sendEvent="_5qOqC2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqDmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqD2fDEemGmtD69Y__TA" key="_xxC1QFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqGWfDEemGmtD69Y__TA" receiveEvent="_5qOqGGfDEemGmtD69Y__TA" sendEvent="_5qOqF2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqGmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqG2fDEemGmtD69Y__TA" key="_yk0bkFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqJWfDEemGmtD69Y__TA" receiveEvent="_5qOqJGfDEemGmtD69Y__TA" sendEvent="_5qOqI2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqJmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqJ2fDEemGmtD69Y__TA" key="_0AK_QFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqMWfDEemGmtD69Y__TA" receiveEvent="_5qOqMGfDEemGmtD69Y__TA" sendEvent="_5qOqL2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqMmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqM2fDEemGmtD69Y__TA" key="_1Dak8FxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqPWfDEemGmtD69Y__TA" receiveEvent="_5qOqPGfDEemGmtD69Y__TA" sendEvent="_5qOqO2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqPmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqP2fDEemGmtD69Y__TA" key="_1xFjQFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqSWfDEemGmtD69Y__TA" receiveEvent="_5qOqSGfDEemGmtD69Y__TA" sendEvent="_5qOqR2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqSmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqS2fDEemGmtD69Y__TA" key="_9mc9AFxUEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqVWfDEemGmtD69Y__TA" receiveEvent="_5qOqVGfDEemGmtD69Y__TA" sendEvent="_5qOqU2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqVmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqV2fDEemGmtD69Y__TA" key="_AIUc0FxVEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+    <message xmi:id="_5qOqYWfDEemGmtD69Y__TA" receiveEvent="_5qOqYGfDEemGmtD69Y__TA" sendEvent="_5qOqX2fDEemGmtD69Y__TA">
+      <eAnnotations xmi:id="_5qOqYmfDEemGmtD69Y__TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_5qOqY2fDEemGmtD69Y__TA" key="_DJ4JUFxVEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </message>
+  </packagedElement>
+</uml:Model>

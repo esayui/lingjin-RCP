@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:requirements="http://org.seri.mdt/2011/requirements">
+  <itsMissions itsMissionpoints="//@itsCapacity.0 //@itsCapacity.1" Id="48e525d3-4e4a-4a04-acf1-067f1e82a803" Title="ZZSystem"/>
+  <itsCapacity xsi:type="requirements:Missionpoint" Name="独立作战" Id="f19a2521-53f3-4c0f-af1f-5a9a54b07cd9"/>
+  <itsCapacity xsi:type="requirements:Missionpoint" Name="编队作战" Id="e3f37d4a-381f-496f-9352-fb1c39907fd2"/>
+  <itstasks Id="7d62c6aa-1149-4b8e-9ce7-69b7f17166ed" Title="航渡值更" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="e7904812-b645-41b2-9b42-ee26395a4c27" Title="侦查" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="c86a9eaa-4b3d-4507-98c7-02cce21965b5" Title="布雷" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="bf40cdef-8f24-4040-87a0-f321317a0e90" Title="综合防御" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="c3ab0a0b-9030-4ab0-a093-d2721611caa7" Title="近程反舰" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="54775583-fe33-4ca1-8b7e-1d0711925067" Title="特种作战" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="47edeb0e-33d1-46df-a266-afda1415b53a" Title="反潜" itsTargetpoint="//@itsCapacity.0"/>
+  <itstasks Id="38a13dd2-c203-4441-be93-b3dc950a75c9" Title="编队护航" itsTargetpoint="//@itsCapacity.1"/>
+  <itstasks Id="f0ab469a-fa2f-4d5f-b599-828042f3c044" Title="远程反舰" itsTargetpoint="//@itsCapacity.1"/>
+  <itstasks Id="7496f349-bc82-437d-a56b-491ffd7f0cc2" Title="对陆打击" itsTargetpoint="//@itsCapacity.1"/>
+</requirements:Project>

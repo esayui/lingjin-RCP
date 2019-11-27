@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_u1858FxQEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_u1858VxQEemawpDNrkj6eg" name="航渡值更--活动图2" node="_wIrGEFxQEemawpDNrkj6eg _wfSPQFxQEemawpDNrkj6eg _w5Bk8FxQEemawpDNrkj6eg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yUNwkFxQEemawpDNrkj6eg" name="" source="_wIrGEFxQEemawpDNrkj6eg" target="_wfSPQFxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_yUNwkVxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_yUNwklxQEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zP4HkFxQEemawpDNrkj6eg" name="" source="_wfSPQFxQEemawpDNrkj6eg" target="_w5Bk8FxQEemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zP4HkVxQEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zP4HklxQEemawpDNrkj6eg"/>
+    </edge>
+    <node xmi:type="uml:InitialNode" xmi:id="_wIrGEFxQEemawpDNrkj6eg" name="InitialNode1" outgoing="_yUNwkFxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wfSPQFxQEemawpDNrkj6eg" name="执行作战训练任务" outgoing="_zP4HkFxQEemawpDNrkj6eg" incoming="_yUNwkFxQEemawpDNrkj6eg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_w5Bk8FxQEemawpDNrkj6eg" name="FlowFinalNode1" incoming="_zP4HkFxQEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_IWArQFw6EemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_IWArQVw6EemawpDNrkj6eg" name="Interaction1">
+    <ownedComment xmi:id="_kP6xYFw6EemawpDNrkj6eg">
+      <body>发送编队指挥中心信息</body>
+    </ownedComment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nJ4oIVw6EemawpDNrkj6eg" name="MessageSend3" covered="_KEQVwFw6EemawpDNrkj6eg" message="_nJ4oIFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SpE2gVw6EemawpDNrkj6eg" name="MessageSend" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_SpE2gFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pTMeAVw6EemawpDNrkj6eg" name="MessageSend5" covered="_PP3fAFw6EemawpDNrkj6eg" message="_pTMeAFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SpE2glw6EemawpDNrkj6eg" name="MessageRecv" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_SpE2gFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z35L0Fw6EemawpDNrkj6eg" name="MessageSend10" covered="_KEQVwFw6EemawpDNrkj6eg" message="_z3wB4Fw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1r78UFw6EemawpDNrkj6eg" name="MessageSend11" covered="_PP3fAFw6EemawpDNrkj6eg" message="_1ryyYFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TbXPEVw6EemawpDNrkj6eg" name="MessageSend2" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_TbXPEFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_umtJkVw7EemawpDNrkj6eg" name="MessageSend16" covered="_PP3fAFw6EemawpDNrkj6eg" message="_umtJkFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yMQ7AVw7EemawpDNrkj6eg" name="MessageSend19" covered="_KEQVwFw6EemawpDNrkj6eg" message="_yMQ7AFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TbXPElw6EemawpDNrkj6eg" name="MessageRecv2" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_TbXPEFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nJ4oIlw6EemawpDNrkj6eg" name="MessageRecv3" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_nJ4oIFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oCHQoVw6EemawpDNrkj6eg" name="MessageSend4" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_oCHQoFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oCHQolw6EemawpDNrkj6eg" name="MessageRecv4" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_oCHQoFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pTMeAlw6EemawpDNrkj6eg" name="MessageRecv5" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_pTMeAFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qNXnQVw6EemawpDNrkj6eg" name="MessageSend6" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_qNXnQFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qNXnQlw6EemawpDNrkj6eg" name="MessageRecv6" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_qNXnQFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q8-fQVw6EemawpDNrkj6eg" name="MessageSend7" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_q8-fQFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q8-fQlw6EemawpDNrkj6eg" name="MessageRecv7" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_q8-fQFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sgp4gVw6EemawpDNrkj6eg" name="MessageSend8" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_sgp4gFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sgp4glw6EemawpDNrkj6eg" name="MessageRecv8" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_sgp4gFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_xsfrQFw6EemawpDNrkj6eg" name="Not_Enemy_military" covered="_MQ2JIFw6EemawpDNrkj6eg">
+      <invariant xmi:id="_xsfrQVw6EemawpDNrkj6eg" name=""/>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zD-bkVw6EemawpDNrkj6eg" name="MessageSend9" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_zD-bkFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zD-bklw6EemawpDNrkj6eg" name="MessageRecv9" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_zD-bkFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_z35L0Vw6EemawpDNrkj6eg" name="MessageRecv10" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_z3wB4Fw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1r78UVw6EemawpDNrkj6eg" name="MessageRecv11" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_1ryyYFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_50Ak8Vw6EemawpDNrkj6eg" name="MessageSend12" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_50Ak8Fw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_50Ak8lw6EemawpDNrkj6eg" name="MessageRecv12" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_50Ak8Fw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7A7rEVw6EemawpDNrkj6eg" name="MessageSend13" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_7A7rEFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7A7rElw6EemawpDNrkj6eg" name="MessageRecv13" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_7A7rEFw6EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_9FVy0Fw6EemawpDNrkj6eg" name="Not_cancel_task" covered="_MQ2JIFw6EemawpDNrkj6eg">
+      <invariant xmi:id="_9FVy0Vw6EemawpDNrkj6eg" name=""/>
+    </fragment>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_BzWaEFw7EemawpDNrkj6eg" name="Attack" covered="_MQ2JIFw6EemawpDNrkj6eg">
+      <invariant xmi:id="_BzWaEVw7EemawpDNrkj6eg" name=""/>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EQcuoFw7EemawpDNrkj6eg" name="MessageSend14" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_EQTksFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EQcuoVw7EemawpDNrkj6eg" name="MessageRecv14" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_EQTksFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FAzNgVw7EemawpDNrkj6eg" name="MessageSend15" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_FAzNgFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FAzNglw7EemawpDNrkj6eg" name="MessageRecv15" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_FAzNgFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_umtJklw7EemawpDNrkj6eg" name="MessageRecv16" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_umtJkFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vb0MoVw7EemawpDNrkj6eg" name="MessageSend17" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_vb0MoFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vb0Molw7EemawpDNrkj6eg" name="MessageRecv17" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_vb0MoFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xE_w8Vw7EemawpDNrkj6eg" name="MessageSend18" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_xE_w8Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xE_w8lw7EemawpDNrkj6eg" name="MessageRecv18" covered="_PP3fAFw6EemawpDNrkj6eg" message="_xE_w8Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yMQ7Alw7EemawpDNrkj6eg" name="MessageRecv19" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_yMQ7AFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0Y_4UVw7EemawpDNrkj6eg" name="MessageSend20" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_0Y_4UFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8IkMEVw7EemawpDNrkj6eg" name="MessageSend22" covered="_PP3fAFw6EemawpDNrkj6eg" message="_8IkMEFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0Y_4Ulw7EemawpDNrkj6eg" name="MessageRecv20" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_0Y_4UFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2LaRIVw7EemawpDNrkj6eg" name="MessageSend21" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_2LaRIFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8IkMElw7EemawpDNrkj6eg" name="MessageRecv22" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_8IkMEFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2LaRIlw7EemawpDNrkj6eg" name="MessageRecv21" covered="_KEQVwFw6EemawpDNrkj6eg" message="_2LaRIFw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-kn-0Vw7EemawpDNrkj6eg" name="MessageSend24" covered="_KEQVwFw6EemawpDNrkj6eg" message="_-kn-0Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9XQz0Vw7EemawpDNrkj6eg" name="MessageSend23" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_9XQz0Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9XQz0lw7EemawpDNrkj6eg" name="MessageRecv23" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_9XQz0Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-kn-0lw7EemawpDNrkj6eg" name="MessageRecv24" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_-kn-0Fw7EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BMJasVw8EemawpDNrkj6eg" name="MessageSend25" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_BMJasFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BMJaslw8EemawpDNrkj6eg" name="MessageRecv25" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_BMJasFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CGwo0Vw8EemawpDNrkj6eg" name="MessageSend26" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_CGwo0Fw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CGwo0lw8EemawpDNrkj6eg" name="MessageRecv26" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_CGwo0Fw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_E5l80Fw8EemawpDNrkj6eg" name="Not_Enemy_military" covered="_MQ2JIFw6EemawpDNrkj6eg">
+      <invariant xmi:id="_E5vGwFw8EemawpDNrkj6eg" name=""/>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G0oGIVw8EemawpDNrkj6eg" name="MessageSend27" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_G0oGIFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G0oGIlw8EemawpDNrkj6eg" name="MessageRecv27" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_G0oGIFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HnzPgVw8EemawpDNrkj6eg" name="MessageSend28" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_HnzPgFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HnzPglw8EemawpDNrkj6eg" name="MessageRecv28" covered="_MQ2JIFw6EemawpDNrkj6eg" message="_HnzPgFw8EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_OTYWsFw8EemawpDNrkj6eg" name="InteractionUse"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_Sv_E4Fw8EemawpDNrkj6eg" name="InteractionUse2"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_hCVwMFw8EemawpDNrkj6eg" name="InteractionUse3"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_l0EZ0Fw8EemawpDNrkj6eg" name="InteractionUse4"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_o9N8EFw8EemawpDNrkj6eg" name="InteractionUse5"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_rMCkEFw8EemawpDNrkj6eg" name="InteractionUse6"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_suE-kFw8EemawpDNrkj6eg" name="InteractionUse7"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_x3nEMFw8EemawpDNrkj6eg" name="InteractionUse8"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_zN5hsFw8EemawpDNrkj6eg" name="InteractionUse9"/>
+    <lifeline xmi:id="_KEQVwFw6EemawpDNrkj6eg" name="岸基指挥中心" coveredBy="_nJ4oIVw6EemawpDNrkj6eg _z35L0Fw6EemawpDNrkj6eg _yMQ7AVw7EemawpDNrkj6eg _2LaRIlw7EemawpDNrkj6eg _-kn-0Vw7EemawpDNrkj6eg"/>
+    <lifeline xmi:id="_MQ2JIFw6EemawpDNrkj6eg" name="远程反舰" coveredBy="_SpE2gVw6EemawpDNrkj6eg _SpE2glw6EemawpDNrkj6eg _TbXPEVw6EemawpDNrkj6eg _TbXPElw6EemawpDNrkj6eg _nJ4oIlw6EemawpDNrkj6eg _oCHQoVw6EemawpDNrkj6eg _oCHQolw6EemawpDNrkj6eg _pTMeAlw6EemawpDNrkj6eg _qNXnQVw6EemawpDNrkj6eg _qNXnQlw6EemawpDNrkj6eg _q8-fQVw6EemawpDNrkj6eg _q8-fQlw6EemawpDNrkj6eg _sgp4gVw6EemawpDNrkj6eg _sgp4glw6EemawpDNrkj6eg _xsfrQFw6EemawpDNrkj6eg _zD-bkVw6EemawpDNrkj6eg _zD-bklw6EemawpDNrkj6eg _z35L0Vw6EemawpDNrkj6eg _1r78UVw6EemawpDNrkj6eg _50Ak8Vw6EemawpDNrkj6eg _50Ak8lw6EemawpDNrkj6eg _7A7rEVw6EemawpDNrkj6eg _7A7rElw6EemawpDNrkj6eg _9FVy0Fw6EemawpDNrkj6eg _BzWaEFw7EemawpDNrkj6eg _EQcuoFw7EemawpDNrkj6eg _EQcuoVw7EemawpDNrkj6eg _FAzNgVw7EemawpDNrkj6eg _FAzNglw7EemawpDNrkj6eg _umtJklw7EemawpDNrkj6eg _vb0MoVw7EemawpDNrkj6eg _vb0Molw7EemawpDNrkj6eg _xE_w8Vw7EemawpDNrkj6eg _yMQ7Alw7EemawpDNrkj6eg _0Y_4UVw7EemawpDNrkj6eg _0Y_4Ulw7EemawpDNrkj6eg _2LaRIVw7EemawpDNrkj6eg _8IkMElw7EemawpDNrkj6eg _9XQz0Vw7EemawpDNrkj6eg _9XQz0lw7EemawpDNrkj6eg _-kn-0lw7EemawpDNrkj6eg _BMJasVw8EemawpDNrkj6eg _BMJaslw8EemawpDNrkj6eg _CGwo0Vw8EemawpDNrkj6eg _CGwo0lw8EemawpDNrkj6eg _E5l80Fw8EemawpDNrkj6eg _G0oGIVw8EemawpDNrkj6eg _G0oGIlw8EemawpDNrkj6eg _HnzPgVw8EemawpDNrkj6eg _HnzPglw8EemawpDNrkj6eg"/>
+    <lifeline xmi:id="_PP3fAFw6EemawpDNrkj6eg" name="编队指挥中心" coveredBy="_pTMeAVw6EemawpDNrkj6eg _1r78UFw6EemawpDNrkj6eg _umtJkVw7EemawpDNrkj6eg _xE_w8lw7EemawpDNrkj6eg _8IkMEVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_SpE2gFw6EemawpDNrkj6eg" name="到达待机海区" messageSort="asynchCall" receiveEvent="_SpE2glw6EemawpDNrkj6eg" sendEvent="_SpE2gVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_TbXPEFw6EemawpDNrkj6eg" name="水声决策" messageSort="asynchCall" receiveEvent="_TbXPElw6EemawpDNrkj6eg" sendEvent="_TbXPEVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_nJ4oIFw6EemawpDNrkj6eg" name="发送编队指挥中心信息" messageSort="asynchCall" receiveEvent="_nJ4oIlw6EemawpDNrkj6eg" sendEvent="_nJ4oIVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_oCHQoFw6EemawpDNrkj6eg" name="接收岸基指挥中心信息" messageSort="asynchCall" receiveEvent="_oCHQolw6EemawpDNrkj6eg" sendEvent="_oCHQoVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_pTMeAFw6EemawpDNrkj6eg" name="发送编队指挥中心信息" messageSort="asynchCall" receiveEvent="_pTMeAlw6EemawpDNrkj6eg" sendEvent="_pTMeAVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_qNXnQFw6EemawpDNrkj6eg" name="接收岸基指挥中心信息" messageSort="asynchCall" receiveEvent="_qNXnQlw6EemawpDNrkj6eg" sendEvent="_qNXnQVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_q8-fQFw6EemawpDNrkj6eg" name="警戒探测" messageSort="asynchCall" receiveEvent="_q8-fQlw6EemawpDNrkj6eg" sendEvent="_q8-fQVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_sgp4gFw6EemawpDNrkj6eg" name="机动到预备待机区" messageSort="asynchCall" receiveEvent="_sgp4glw6EemawpDNrkj6eg" sendEvent="_sgp4gVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_zD-bkFw6EemawpDNrkj6eg" name="生成态势" messageSort="asynchCall" receiveEvent="_zD-bklw6EemawpDNrkj6eg" sendEvent="_zD-bkVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_z3wB4Fw6EemawpDNrkj6eg" name="发送岸基指挥中心指示命令" messageSort="asynchCall" receiveEvent="_z35L0Vw6EemawpDNrkj6eg" sendEvent="_z35L0Fw6EemawpDNrkj6eg"/>
+    <message xmi:id="_1ryyYFw6EemawpDNrkj6eg" name="发送编队指挥中心指示命令" messageSort="asynchCall" receiveEvent="_1r78UVw6EemawpDNrkj6eg" sendEvent="_1r78UFw6EemawpDNrkj6eg"/>
+    <message xmi:id="_50Ak8Fw6EemawpDNrkj6eg" name="接收岸基或编队指挥中心指示命令" messageSort="asynchCall" receiveEvent="_50Ak8lw6EemawpDNrkj6eg" sendEvent="_50Ak8Vw6EemawpDNrkj6eg"/>
+    <message xmi:id="_7A7rEFw6EemawpDNrkj6eg" name="返航" messageSort="asynchCall" receiveEvent="_7A7rElw6EemawpDNrkj6eg" sendEvent="_7A7rEVw6EemawpDNrkj6eg"/>
+    <message xmi:id="_EQTksFw7EemawpDNrkj6eg" name="前往攻击海区" messageSort="asynchCall" receiveEvent="_EQcuoVw7EemawpDNrkj6eg" sendEvent="_EQcuoFw7EemawpDNrkj6eg"/>
+    <message xmi:id="_FAzNgFw7EemawpDNrkj6eg" name="达到攻击海区" messageSort="asynchCall" receiveEvent="_FAzNglw7EemawpDNrkj6eg" sendEvent="_FAzNgVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_umtJkFw7EemawpDNrkj6eg" name="发送编队指挥中心通信命令" messageSort="asynchCall" receiveEvent="_umtJklw7EemawpDNrkj6eg" sendEvent="_umtJkVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_vb0MoFw7EemawpDNrkj6eg" name="建立与编队指挥中心的通信" messageSort="asynchCall" receiveEvent="_vb0Molw7EemawpDNrkj6eg" sendEvent="_vb0MoVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_xE_w8Fw7EemawpDNrkj6eg" name="完成与编队指挥中心通信" messageSort="asynchCall" receiveEvent="_xE_w8lw7EemawpDNrkj6eg" sendEvent="_xE_w8Vw7EemawpDNrkj6eg"/>
+    <message xmi:id="_yMQ7AFw7EemawpDNrkj6eg" name="发送岸基指挥中心通信命令" messageSort="asynchCall" receiveEvent="_yMQ7Alw7EemawpDNrkj6eg" sendEvent="_yMQ7AVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_0Y_4UFw7EemawpDNrkj6eg" name="建立与岸基指挥中心的通信" messageSort="asynchCall" receiveEvent="_0Y_4Ulw7EemawpDNrkj6eg" sendEvent="_0Y_4UVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_2LaRIFw7EemawpDNrkj6eg" name="完成与岸基指挥中心通信" messageSort="asynchCall" receiveEvent="_2LaRIlw7EemawpDNrkj6eg" sendEvent="_2LaRIVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_8IkMEFw7EemawpDNrkj6eg" name="发送编队指挥中心接收指示信息" messageSort="asynchCall" receiveEvent="_8IkMElw7EemawpDNrkj6eg" sendEvent="_8IkMEVw7EemawpDNrkj6eg"/>
+    <message xmi:id="_9XQz0Fw7EemawpDNrkj6eg" name="接收指示信息" messageSort="asynchCall" receiveEvent="_9XQz0lw7EemawpDNrkj6eg" sendEvent="_9XQz0Vw7EemawpDNrkj6eg"/>
+    <message xmi:id="_-kn-0Fw7EemawpDNrkj6eg" name="发送岸基指挥中心接收指示信息" messageSort="asynchCall" receiveEvent="_-kn-0lw7EemawpDNrkj6eg" sendEvent="_-kn-0Vw7EemawpDNrkj6eg"/>
+    <message xmi:id="_BMJasFw8EemawpDNrkj6eg" name="接收指示信息" messageSort="asynchCall" receiveEvent="_BMJaslw8EemawpDNrkj6eg" sendEvent="_BMJasVw8EemawpDNrkj6eg"/>
+    <message xmi:id="_CGwo0Fw8EemawpDNrkj6eg" name="临战侦察" messageSort="asynchCall" receiveEvent="_CGwo0lw8EemawpDNrkj6eg" sendEvent="_CGwo0Vw8EemawpDNrkj6eg"/>
+    <message xmi:id="_G0oGIFw8EemawpDNrkj6eg" name="撤离战斗海区" messageSort="asynchCall" receiveEvent="_G0oGIlw8EemawpDNrkj6eg" sendEvent="_G0oGIVw8EemawpDNrkj6eg"/>
+    <message xmi:id="_HnzPgFw8EemawpDNrkj6eg" name="返航" messageSort="asynchCall" receiveEvent="_HnzPglw8EemawpDNrkj6eg" sendEvent="_HnzPgVw8EemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_sRgS4FziEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_sRgS4VziEemXstz2ddlLtA" name="StateMachine0">
+    <region xmi:id="_sRgS4lziEemXstz2ddlLtA" name="Region0">
+      <transition xmi:id="_57QGEFziEemXstz2ddlLtA" name="" source="_v_sb4FziEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_kqLqQFzkEemXstz2ddlLtA" name="接收到威胁预警结果" source="_yh22oFziEemXstz2ddlLtA" target="__bsP0FziEemXstz2ddlLtA"/>
+      <transition xmi:id="_lqc0cFzkEemXstz2ddlLtA" name="[else]" source="__bsP0FziEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_rbQ8gFzkEemXstz2ddlLtA" name="[!Torpedo_alert]" source="__bsP0FziEemXstz2ddlLtA" target="_IwbKkFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_s-fp0FzkEemXstz2ddlLtA" name="tm(1500)" source="_IwbKkFzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_vuV7QFzkEemXstz2ddlLtA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_fK5zkFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_wtkjoFzkEemXstz2ddlLtA" name="/setPrepare_launch_device(true);" source="_fK5zkFzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_0l4R8FzkEemXstz2ddlLtA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_lyTlYFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_2AoYsFzkEemXstz2ddlLtA" name="/setTorpedo_alert(true);" source="_lyTlYFzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_AhYaoFzlEemXstz2ddlLtA" name="[Torpedo_alert&amp;!General_defense_decision_complete&amp;!Defense_again]" source="_yh22oFziEemXstz2ddlLtA" target="_r0X1gFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_GdyusFzlEemXstz2ddlLtA" name="[Defense_again&amp;!General_defense_decision_complete]" source="_yh22oFziEemXstz2ddlLtA" target="_r0X1gFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_OoSq8FzlEemXstz2ddlLtA" name="接收到探测结果" source="_yh22oFziEemXstz2ddlLtA" target="_yk3R4FzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_QkqRAFzlEemXstz2ddlLtA" name="[else]" source="_yk3R4FzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_TQDgQFzlEemXstz2ddlLtA" name="[!General_defense_decision_complete]" source="_yk3R4FzjEemXstz2ddlLtA" target="_r0X1gFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_WU97YVzoEemz1JY8VfERPA" name="tm(1000)/setGeneral_defense_decision_complete(true);" source="_r0X1gFzjEemXstz2ddlLtA" target="_l7lyUFzlEemXstz2ddlLtA"/>
+      <transition xmi:id="_fX2RIFzoEemz1JY8VfERPA" name="[!Torpedo_alert]/int v1;if(!Maneuve&amp;!Acoustic_countermeasure_defense){v1 = rand()%100 + 1;if(v1>=50){setManeuve(true);}else{setAcoustic_countermeasure_defense(true);}}" source="_l7lyUFzlEemXstz2ddlLtA" target="_IwbKkFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_o2sxMFzoEemz1JY8VfERPA" name="[Torpedo_alert]/setManeuve(true);setAcoustic_countermeasure_defense(true);setDefense_again(false);" source="_l7lyUFzlEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_40BwkFzoEemz1JY8VfERPA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_1KJSEFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_66EQAFzoEemz1JY8VfERPA" name="/setPrepare_acoustic_countermeasure" source="_1KJSEFzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_-lR9gFzoEemz1JY8VfERPA" name="[Prepare_acoustic_countermeasure&amp;Prepare_launch_device&amp;General_defense_decision_complete]" source="_yh22oFziEemXstz2ddlLtA" target="_4Y8JUFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_A-9xsFzpEemz1JY8VfERPA" name="[Torpedo_alert&amp;(General_defense_decision_complete&amp;(Acoustic_countermeasure_defense||Maneuve))]" source="_yh22oFziEemXstz2ddlLtA" target="_4Y8JUFzjEemXstz2ddlLtA"/>
+      <transition xmi:id="_IemzEFzpEemz1JY8VfERPA" name="/setManeuve(false);setAcoustic_countermeasure_defense(false);setPrepare_acoustic_countermeasure(false);setPrepare_launch_device(false);" source="_4Y8JUFzjEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_g7tbIFzpEemz1JY8VfERPA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_SKsQIFzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_iQD-8FzpEemz1JY8VfERPA" name="/setManeuve_result(true);" source="_SKsQIFzkEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_kH97wFzpEemz1JY8VfERPA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_UDMp4FzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_lWhZkFzpEemz1JY8VfERPA" name="/setDefense_device_result(true);" source="_UDMp4FzkEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_TKG3AFzqEemz1JY8VfERPA" name="[Defense_device_result]/int v2;if(!Acoustic_countermeasure_launch&amp;!Launch_device_launch){v2 = rand()%100 + 1;if(v2>=50){setAcoustic_countermeasure_launch(true);}else{setLaunch_device_launch(true);}}" source="_yh22oFziEemXstz2ddlLtA" target="_wblCcFzpEemz1JY8VfERPA"/>
+      <transition xmi:id="_bgprMFzqEemz1JY8VfERPA" name="/setDefense_device_result(false);setAcoustic_countermeasure_launch(false);setLaunch_device_launch(false);" source="_wblCcFzpEemz1JY8VfERPA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_RjfCAFzrEemz1JY8VfERPA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_L50DwFzrEemz1JY8VfERPA"/>
+      <transition xmi:id="_Sxu90FzrEemz1JY8VfERPA" name="/setAcoustic_countermeasure_result(true);" source="_L50DwFzrEemz1JY8VfERPA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_T7rocFzrEemz1JY8VfERPA" name="" source="_yh22oFziEemXstz2ddlLtA" target="_OBfh8FzrEemz1JY8VfERPA"/>
+      <transition xmi:id="_U7WVsFzrEemz1JY8VfERPA" name="/setLaunch_device_result(true);" source="_OBfh8FzrEemz1JY8VfERPA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_bauz8FzrEemz1JY8VfERPA" name="[else]/setDefense_again(true);setGeneral_defense_decision_complete(false);setAcoustic_countermeasure_result(false);setLaunch_device_result(false);setManeuve_result(false);" source="_ZcgQ4FzkEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <transition xmi:id="_dhg6QFzrEemz1JY8VfERPA" name="[(((Acoustic_countermeasure_result||Launch_device_result||Maneuve_result)&amp;!Torpedo_alert)||(((Acoustic_countermeasure_result||Launch_device_result)&amp;Maneuve_result)&amp;Torpedo_alert))]" source="_yh22oFziEemXstz2ddlLtA" target="_YSacUFzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_fLvncFzrEemz1JY8VfERPA" name="[else]" source="_YSacUFzkEemXstz2ddlLtA" target="_bmHowFzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_hIQ-gFzrEemz1JY8VfERPA" name="[Torpedo_alert]/Defense_effect_evaluation();" source="_YSacUFzkEemXstz2ddlLtA" target="_ZcgQ4FzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_i_4AYFzrEemz1JY8VfERPA" name="[Defense_success]" source="_ZcgQ4FzkEemXstz2ddlLtA" target="_bmHowFzkEemXstz2ddlLtA"/>
+      <transition xmi:id="_nzF3wFzrEemz1JY8VfERPA" name="/Change_to_other_tasks();setAcoustic_countermeasure_result(false);setManeuve_result(false);setLaunch_device_result(false);setTorpedo_alert(false);setGeneral_defense_decision_complete(false);setDefense_again(false);" source="_bmHowFzkEemXstz2ddlLtA" target="_yh22oFziEemXstz2ddlLtA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_v_sb4FziEemXstz2ddlLtA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_yh22oFziEemXstz2ddlLtA" name="等待信息或结果中">
+        <region xmi:id="_CbdzoFzjEemXstz2ddlLtA" name="Region0"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="__bsP0FziEemXstz2ddlLtA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IwbKkFzjEemXstz2ddlLtA" name="发送命令中">
+        <region xmi:id="_LxFfMFzjEemXstz2ddlLtA" name="Region0">
+          <subvertex xmi:type="uml:State" xmi:id="_LxFfPVzjEemXstz2ddlLtA" name="发送雷弹发射发射前准备指令"/>
+          <subvertex xmi:type="uml:State" xmi:id="_MewdgFzjEemXstz2ddlLtA" name="发送水声对抗发射前准备指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_fK5zkFzjEemXstz2ddlLtA" name="接受到雷弹发射发射前准备结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_lyTlYFzjEemXstz2ddlLtA" name="接收到鱼雷报警结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_r0X1gFzjEemXstz2ddlLtA" name="综合防御决策中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_yk3R4FzjEemXstz2ddlLtA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1KJSEFzjEemXstz2ddlLtA" name="接收到水声对抗发射前准备结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_4Y8JUFzjEemXstz2ddlLtA" name="发送防御指令">
+        <region xmi:id="_7LLAYFzjEemXstz2ddlLtA" name="Region0">
+          <transition xmi:id="_KpadwFzpEemz1JY8VfERPA" name="" source="_7LLAbVzjEemXstz2ddlLtA" target="_9Ib-UFzjEemXstz2ddlLtA"/>
+          <transition xmi:id="_MEBakFzpEemz1JY8VfERPA" name="选择机动规避" source="_9Ib-UFzjEemXstz2ddlLtA" target="_-dGEIFzjEemXstz2ddlLtA"/>
+          <transition xmi:id="_OULfUFzpEemz1JY8VfERPA" name="" source="__8A5MFzjEemXstz2ddlLtA" target="_C9tvoFzkEemXstz2ddlLtA"/>
+          <transition xmi:id="_PODGkFzpEemz1JY8VfERPA" name="选择水声对抗" source="_C9tvoFzkEemXstz2ddlLtA" target="_ErECQFzkEemXstz2ddlLtA"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_7LLAbVzjEemXstz2ddlLtA" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_9Ib-UFzjEemXstz2ddlLtA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_-dGEIFzjEemXstz2ddlLtA" name="发送机动规避指令"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="__8A5MFzjEemXstz2ddlLtA" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_C9tvoFzkEemXstz2ddlLtA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_ErECQFzkEemXstz2ddlLtA" name="发送防御器材发控指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_SKsQIFzkEemXstz2ddlLtA" name="接收到机动规避结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_UDMp4FzkEemXstz2ddlLtA" name="接收到防御器材发控结果"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_YSacUFzkEemXstz2ddlLtA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ZcgQ4FzkEemXstz2ddlLtA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_bmHowFzkEemXstz2ddlLtA" name="发送取消指令中">
+        <region xmi:id="_cig_kFzkEemXstz2ddlLtA" name="Region0">
+          <subvertex xmi:type="uml:State" xmi:id="_cig_nVzkEemXstz2ddlLtA" name="发送取消水声对抗准备指令"/>
+          <subvertex xmi:type="uml:State" xmi:id="_gIhc8FzkEemXstz2ddlLtA" name="发送取消雷弹发射准备指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_l7lyUFzlEemXstz2ddlLtA" name="Choice0" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_wblCcFzpEemz1JY8VfERPA" name="发送发射指令中">
+        <region xmi:id="_y7gokFzpEemz1JY8VfERPA" name="Region0">
+          <transition xmi:id="_AFkPEFzqEemz1JY8VfERPA" name="" source="_y7gonVzpEemz1JY8VfERPA" target="_0zkWYFzpEemz1JY8VfERPA"/>
+          <transition xmi:id="_A_SsYFzqEemz1JY8VfERPA" name="" source="_493zoFzpEemz1JY8VfERPA" target="_6jfGkFzpEemz1JY8VfERPA"/>
+          <transition xmi:id="_CSTzcFzqEemz1JY8VfERPA" name="使用水声对抗器材发射" source="_0zkWYFzpEemz1JY8VfERPA" target="_2y6_AFzpEemz1JY8VfERPA"/>
+          <transition xmi:id="_DqYZoFzqEemz1JY8VfERPA" name="使用雷弹发射进行发射" source="_6jfGkFzpEemz1JY8VfERPA" target="_9oUJgFzpEemz1JY8VfERPA"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_y7gonVzpEemz1JY8VfERPA" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_0zkWYFzpEemz1JY8VfERPA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_2y6_AFzpEemz1JY8VfERPA" name="发送使用水声对抗器材指令"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_493zoFzpEemz1JY8VfERPA" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_6jfGkFzpEemz1JY8VfERPA" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_9oUJgFzpEemz1JY8VfERPA" name="发送使用雷弹发射发射水声对抗器材指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_L50DwFzrEemz1JY8VfERPA" name="接收到使用水声对抗器材结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_OBfh8FzrEemz1JY8VfERPA" name="接收到使用雷弹发射水声对抗器材结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_9rDrsF2-Eem9TInVy14vbA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_9rDrsV2-Eem9TInVy14vbA" name="StateMachine0">
+    <region xmi:id="_9rDrsl2-Eem9TInVy14vbA" name="Region0">
+      <transition xmi:id="_hGHuwF3CEemJGNuZjo5dDQ" name="" source="_MwmHcF2_Eem9TInVy14vbA" target="_PCGQAF2_Eem9TInVy14vbA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_MwmHcF2_Eem9TInVy14vbA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_PCGQAF2_Eem9TInVy14vbA" name="工作中"/>
+    </region>
+    <region xmi:id="_w1jjcV2_EemJGNuZjo5dDQ" name="Region0">
+      <transition xmi:id="_XG4B8F3DEemJGNuZjo5dDQ" name="" source="_w12eYl2_EemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_YKaikF3DEemJGNuZjo5dDQ" name="" source="__2yG8F2_EemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_cBPDIF3DEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="__2yG8F2_EemJGNuZjo5dDQ"/>
+      <transition xmi:id="_e-VGYF3DEemJGNuZjo5dDQ" name="/setReceive_acoustic_attack_evade_result(false);" source="_C3mMkF3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_g3RlAF3DEemJGNuZjo5dDQ" name="[Receive_acoustic_attack_evade_result&amp;Acoustic_attack_evade_not_success&amp;!Missile_launch_stage]/Prepare_torpedo_attack();" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_C3mMkF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_jsVtoF3DEemJGNuZjo5dDQ" name="/setReceive_acoustic_attack_evade_result(true);" source="_EtIK0F3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_mhiZIF3DEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_EtIK0F3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_q1gvwF3DEemJGNuZjo5dDQ" name="/setReceive_evade_navigation_result(false);" source="_HtyfcF3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_wy0bsF3DEemJGNuZjo5dDQ" name="[Receive_evade_navigation_result&amp;Evade_not_success&amp;!Missile_launch_stage]/Acoustic_attack_evade();" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_HtyfcF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_0PJ_sF3DEemJGNuZjo5dDQ" name="" source="_KOm2YF3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_6amOQF3DEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_KOm2YF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_87bMQF3DEemJGNuZjo5dDQ" name="/if(!Missile_launch_stage){setReceive_evade_navigation_result(true);}" source="_Lwp38F3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="__jYtAF3DEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_Lwp38F3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_MFkbMF3EEemJGNuZjo5dDQ" name="是敌反潜兵力" source="_aC3ZUF3AEemJGNuZjo5dDQ" target="_PTFc4F3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_N2fmQF3EEemJGNuZjo5dDQ" name="不是敌反潜兵力" source="_aC3ZUF3AEemJGNuZjo5dDQ" target="_dSQGcF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_P3B6oF3EEemJGNuZjo5dDQ" name="接收到信号分析结果" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_aC3ZUF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_V1FNcF3EEemJGNuZjo5dDQ" name="/setWhether_arrive_wait_region(false);" source="_dSQGcF3AEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_ZjHlcF3EEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_DWkLEF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_a-BdMF3EEemJGNuZjo5dDQ" name="" source="_DWkLEF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_cB24wF3EEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_GTXTYF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_mQUQ0F3EEemJGNuZjo5dDQ" name="/setWhether_arrive_wait_region(true);" source="_GTXTYF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_rqNtsF3EEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_IDFkkF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_tEhIgF3EEemJGNuZjo5dDQ" name="/setReceive_status(true);" source="_IDFkkF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_ue0jUF3EEemJGNuZjo5dDQ" name="[Whether_arrive_wait_region&amp;Receive_status]" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_JjfnYF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_wty8UF3EEemJGNuZjo5dDQ" name="取消任务" source="_JjfnYF3BEemJGNuZjo5dDQ" target="_NkR8QF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_zFsn0F3EEemJGNuZjo5dDQ" name="不取消任务" source="_JjfnYF3BEemJGNuZjo5dDQ" target="_KcoO0F3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_0XqmAF3EEemJGNuZjo5dDQ" name="进行攻击" source="_KcoO0F3BEemJGNuZjo5dDQ" target="_LzNnQF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_3CKdYF3EEemJGNuZjo5dDQ" name="不进行攻击" source="_KcoO0F3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_AU9ecF3FEemJGNuZjo5dDQ" name="/setWhether_arrive_wait_region(false);setReceive_status(false);" source="_NkR8QF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_ETESwF3FEemJGNuZjo5dDQ" name="/setWhether_arrive_wait_region(false);setReceive_status(false);" source="_LzNnQF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_KSTRUF3FEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_Qaq6kF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_LV_i8F3FEemJGNuZjo5dDQ" name="/setWhether_arrive_attack_region(true);" source="_Qaq6kF3BEemJGNuZjo5dDQ" target="_ndvNkF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_MM5VwF3FEemJGNuZjo5dDQ" name="" source="_ndvNkF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_Oh9vsF3FEemJGNuZjo5dDQ" name="[Whether_arrive_attack_region]" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_pyzngF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_R48SkF3FEemJGNuZjo5dDQ" name="/setReceive_task_result(true);" source="_pyzngF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_T2EGkF3FEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_sUEqYF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_XFmksF3FEemJGNuZjo5dDQ" name="/setReceive_scout_result(true);" source="_sUEqYF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_Y74J0F3FEemJGNuZjo5dDQ" name="[Receive_task_result&amp;Receive_scout_result]" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_vXafkF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_bVHSEF3FEemJGNuZjo5dDQ" name="消攻击任务" source="_vXafkF3BEemJGNuZjo5dDQ" target="_x94ykF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_d8x34F3FEemJGNuZjo5dDQ" name="不消攻击任务" source="_vXafkF3BEemJGNuZjo5dDQ" target="_ws9WMF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_fgwMEF3FEemJGNuZjo5dDQ" name="进行导弹攻击" source="_ws9WMF3BEemJGNuZjo5dDQ" target="_2ox0YF3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_j61KsF3FEemJGNuZjo5dDQ" name="导弹已准备" source="_x94ykF3BEemJGNuZjo5dDQ" target="_KLsk8F3DEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_lhMEgF3FEemJGNuZjo5dDQ" name="导弹未准备" source="_x94ykF3BEemJGNuZjo5dDQ" target="_IU0i4F3DEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_pLM4IF3FEemJGNuZjo5dDQ" name="/setReceive_task_result(false);" source="_GVehUF3DEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_Fb_0QF3GEemJGNuZjo5dDQ" name="/setWhether_arrive_attack_region(false);setMissile_launch_stage(false);setReceive_missile_route_plan_result(false);setReceive_missile_complete_result(false);" source="_IU0i4F3DEemJGNuZjo5dDQ" target="_GVehUF3DEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_nf-P8F3GEemJGNuZjo5dDQ" name="不进行导弹攻击" source="_ws9WMF3BEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_sXy6gF3GEemJGNuZjo5dDQ" name="" source="_2ox0YF3BEemJGNuZjo5dDQ" target="_6dgqSl3BEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_tfzrcF3GEemJGNuZjo5dDQ" name="" source="_2ox0YF3BEemJGNuZjo5dDQ" target="_BJrnUF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_0P100F3GEemJGNuZjo5dDQ" name="/setReceive_task_result(false);" source="_EjxvoF3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_6L0EAF3GEemJGNuZjo5dDQ" name="接收到不具备发射条件信息" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_GoMecF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_7TEnAF3GEemJGNuZjo5dDQ" name="" source="_GoMecF3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_8aosAF3GEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_IWbh4F3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_9g2tMF3GEemJGNuZjo5dDQ" name="/setReceive_missile_route_plan_result(true);" source="_IWbh4F3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="__fdu8F3GEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_J0mwEF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_E1yTYF3HEemJGNuZjo5dDQ" name="/setReceive_missile_complete_result(true);" source="_J0mwEF3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_HDkZkF3HEemJGNuZjo5dDQ" name="[Receive_missile_route_plan_result&amp;Receive_missile_complete_result&amp;Launch_approved]" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_LshT8F3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_Kh13QF3HEemJGNuZjo5dDQ" name="/setReceive_missile_route_plan_result(false);setReceive_missile_complete_result(false);" source="_LshT8F3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_M4io4F3HEemJGNuZjo5dDQ" name="" source="_5M3-QF3AEemJGNuZjo5dDQ" target="_Of72wF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_S2JPwF3HEemJGNuZjo5dDQ" name="/setMissile_launch_stage(false);setMissile_launched(true);setMissile_prepare_launch(false);setLaunch_approved(false);setReceive_missile_route_plan_result(false);setReceive_missile_complete_result(false);" source="_Of72wF3CEemJGNuZjo5dDQ" target="_QPX0EF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_Vv0LkF3HEemJGNuZjo5dDQ" name="/setWhether_arrive_attack_region(false);" source="_QPX0EF3CEemJGNuZjo5dDQ" target="_Rqj_sF3CEemJGNuZjo5dDQ"/>
+      <transition xmi:id="_X_YacF3HEemJGNuZjo5dDQ" name="/setMissile_launched(false);" source="_Rqj_sF3CEemJGNuZjo5dDQ" target="_5M3-QF3AEemJGNuZjo5dDQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_w12eYl2_EemJGNuZjo5dDQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="__2yG8F2_EemJGNuZjo5dDQ" name="接收鱼雷攻击结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_C3mMkF3AEemJGNuZjo5dDQ" name="发送鱼雷攻击指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_EtIK0F3AEemJGNuZjo5dDQ" name="接收水声对抗规避结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HtyfcF3AEemJGNuZjo5dDQ" name="发送水声对抗规避指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KOm2YF3AEemJGNuZjo5dDQ" name="接收到鱼雷防御攻击结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Lwp38F3AEemJGNuZjo5dDQ" name="接收到规避导航结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PTFc4F3AEemJGNuZjo5dDQ" name="发送指令中">
+        <region xmi:id="_QkA5QF3AEemJGNuZjo5dDQ" name="Region0">
+          <transition xmi:id="_F6IMoF3EEemJGNuZjo5dDQ" name="/Evade_depend_enemy();Evade();" source="_QkA5TV3AEemJGNuZjo5dDQ" target="_ShSeQF3AEemJGNuZjo5dDQ"/>
+          <transition xmi:id="_HP00QF3EEemJGNuZjo5dDQ" name="" source="_Vlz_MF3AEemJGNuZjo5dDQ" target="_W9vbcF3AEemJGNuZjo5dDQ"/>
+          <transition xmi:id="_JC-M4F3EEemJGNuZjo5dDQ" name="处于导弹发射状态" source="_W9vbcF3AEemJGNuZjo5dDQ" target="_YcDzkF3AEemJGNuZjo5dDQ"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_QkA5TV3AEemJGNuZjo5dDQ" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_ShSeQF3AEemJGNuZjo5dDQ" name="发送规避导航指令"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_Vlz_MF3AEemJGNuZjo5dDQ" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_W9vbcF3AEemJGNuZjo5dDQ" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_YcDzkF3AEemJGNuZjo5dDQ" name="发送鱼雷武器准备指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_aC3ZUF3AEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dSQGcF3AEemJGNuZjo5dDQ" name="发送指令中">
+        <region xmi:id="_ez2cEF3AEemJGNuZjo5dDQ" name="Region0">
+          <transition xmi:id="_SADcoF3EEemJGNuZjo5dDQ" name="" source="_iLkl0F3AEemJGNuZjo5dDQ" target="_jRpdEF3AEemJGNuZjo5dDQ"/>
+          <transition xmi:id="_TY3psF3EEemJGNuZjo5dDQ" name="需要突破岛链" source="_jRpdEF3AEemJGNuZjo5dDQ" target="_lXPQkF3AEemJGNuZjo5dDQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_ez2cHV3AEemJGNuZjo5dDQ" name="发送机动到预备待机区指令">
+            <ownedComment xmi:id="_fZyasF3AEemJGNuZjo5dDQ">
+              <body>发送机动到预备待机区指令</body>
+            </ownedComment>
+          </subvertex>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_iLkl0F3AEemJGNuZjo5dDQ" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_jRpdEF3AEemJGNuZjo5dDQ" name="" kind="choice"/>
+          <subvertex xmi:type="uml:State" xmi:id="_lXPQkF3AEemJGNuZjo5dDQ" name="发送隐蔽突破岛链指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_5M3-QF3AEemJGNuZjo5dDQ" name="等待信息或结果中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_DWkLEF3BEemJGNuZjo5dDQ" name="接收到警戒探测结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GTXTYF3BEemJGNuZjo5dDQ" name="接收到达待机海区结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IDFkkF3BEemJGNuZjo5dDQ" name="接收态势结果"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_JjfnYF3BEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_KcoO0F3BEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LzNnQF3BEemJGNuZjo5dDQ" name="发送前往攻击海区指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_NkR8QF3BEemJGNuZjo5dDQ" name="发送返航指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Qaq6kF3BEemJGNuZjo5dDQ" name="接收已到达攻击海区结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ndvNkF3BEemJGNuZjo5dDQ" name="发送临战侦察指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_pyzngF3BEemJGNuZjo5dDQ" name="接收任务结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_sUEqYF3BEemJGNuZjo5dDQ" name="接收临战侦察结果"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_vXafkF3BEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ws9WMF3BEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_x94ykF3BEemJGNuZjo5dDQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_2ox0YF3BEemJGNuZjo5dDQ" name="" kind="fork"/>
+      <subvertex xmi:type="uml:State" xmi:id="_5GB58F3BEemJGNuZjo5dDQ" name="发送指令中">
+        <region xmi:id="_6dW5QF3BEemJGNuZjo5dDQ" name="Region0">
+          <transition xmi:id="_wU3NAF3GEemJGNuZjo5dDQ" name="" source="_6dgqSl3BEemJGNuZjo5dDQ" target="_EjxvoF3CEemJGNuZjo5dDQ"/>
+          <transition xmi:id="_yHavwF3GEemJGNuZjo5dDQ" name="" source="_BJrnUF3CEemJGNuZjo5dDQ" target="_EjxvoF3CEemJGNuZjo5dDQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_6dgqSl3BEemJGNuZjo5dDQ" name="发送导弹航路规划指令">
+            <ownedComment xmi:id="_6-FnwF3BEemJGNuZjo5dDQ">
+              <body>发送导弹航路规划指令</body>
+            </ownedComment>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_BJrnUF3CEemJGNuZjo5dDQ" name="发送导弹准备指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_EjxvoF3CEemJGNuZjo5dDQ" name="" kind="join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GoMecF3CEemJGNuZjo5dDQ" name="发送本艇机动指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IWbh4F3CEemJGNuZjo5dDQ" name="接收到导弹航路规划结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_J0mwEF3CEemJGNuZjo5dDQ" name="接收到导弹预备完毕结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_LshT8F3CEemJGNuZjo5dDQ" name="发送发射导弹指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Of72wF3CEemJGNuZjo5dDQ" name="收到导弹发射完毕信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_QPX0EF3CEemJGNuZjo5dDQ" name="发送撤离战斗海区指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Rqj_sF3CEemJGNuZjo5dDQ" name="发送警戒探测指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GVehUF3DEemJGNuZjo5dDQ" name="发送警戒探测指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IU0i4F3DEemJGNuZjo5dDQ" name="发送撤离战斗海区指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KLsk8F3DEemJGNuZjo5dDQ" name="取消导弹准备"/>
+      <subvertex xmi:type="uml:State" xmi:id="_mtt3IF3HEemJGNuZjo5dDQ" name="进行决策中"/>
+    </region>
+  </packagedElement>
+</uml:Model>

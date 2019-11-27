@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_p-2HIF27Eem9TInVy14vbA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_p-2HIV27Eem9TInVy14vbA" name="StateMachine0">
+    <region xmi:id="_p-2HIl27Eem9TInVy14vbA" name="Region0">
+      <transition xmi:id="_2PL3YF27Eem9TInVy14vbA" name="" source="_rx2V0F27Eem9TInVy14vbA" target="_tJ68AF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_3ovrUF27Eem9TInVy14vbA" name="接收到临战侦察指令" source="_tJ68AF27Eem9TInVy14vbA" target="_u17x4F27Eem9TInVy14vbA"/>
+      <transition xmi:id="_8FWZgF27Eem9TInVy14vbA" name="接收到警戒探测指令" source="_u17x4F27Eem9TInVy14vbA" target="_tJ68AF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_9sTJMF27Eem9TInVy14vbA" name="" source="_wwOUUF27Eem9TInVy14vbA" target="_u17x4F27Eem9TInVy14vbA"/>
+      <transition xmi:id="_-aazcF27Eem9TInVy14vbA" name="探测到信号" source="_u17x4F27Eem9TInVy14vbA" target="_wwOUUF27Eem9TInVy14vbA"/>
+      <transition xmi:id="__uBwYF27Eem9TInVy14vbA" name="tm(1000)" source="_u17x4F27Eem9TInVy14vbA" target="_1AoZkF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_Aii9kF28Eem9TInVy14vbA" name="" source="_1AoZkF27Eem9TInVy14vbA" target="_u17x4F27Eem9TInVy14vbA"/>
+      <transition xmi:id="_CNElsF28Eem9TInVy14vbA" name="" source="_z5X2kF27Eem9TInVy14vbA" target="_tJ68AF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_DCxeoF28Eem9TInVy14vbA" name="探测到信号" source="_tJ68AF27Eem9TInVy14vbA" target="_z5X2kF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_FYSkgF28Eem9TInVy14vbA" name="tm(1000)" source="_tJ68AF27Eem9TInVy14vbA" target="_y0fSIF27Eem9TInVy14vbA"/>
+      <transition xmi:id="_GpOn8F28Eem9TInVy14vbA" name="" source="_y0fSIF27Eem9TInVy14vbA" target="_tJ68AF27Eem9TInVy14vbA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_rx2V0F27Eem9TInVy14vbA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_tJ68AF27Eem9TInVy14vbA" name="警戒探测中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_u17x4F27Eem9TInVy14vbA" name="临战侦察中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_wwOUUF27Eem9TInVy14vbA" name="发送信号信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_y0fSIF27Eem9TInVy14vbA" name="发送警戒探测信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_z5X2kF27Eem9TInVy14vbA" name="发送信号信息"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1AoZkF27Eem9TInVy14vbA" name="发送临战侦察信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>

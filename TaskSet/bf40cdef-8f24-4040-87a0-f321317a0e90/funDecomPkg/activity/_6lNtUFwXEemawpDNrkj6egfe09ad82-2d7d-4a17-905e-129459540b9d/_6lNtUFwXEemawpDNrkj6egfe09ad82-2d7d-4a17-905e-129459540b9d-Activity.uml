@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_juy_4Fy_EemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_juy_4Vy_EemXstz2ddlLtA" name="目标探测--活动图1" group="_mmiCAFy_EemXstz2ddlLtA" node="_oeb-0Fy_EemXstz2ddlLtA _o05-EFy_EemXstz2ddlLtA _qc5PkFy_EemXstz2ddlLtA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_q3PCMFy_EemXstz2ddlLtA" name="" source="_oeb-0Fy_EemXstz2ddlLtA" target="_o05-EFy_EemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_q3PCMVy_EemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_q3PCMly_EemXstz2ddlLtA"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rVu8EFy_EemXstz2ddlLtA" name="" source="_o05-EFy_EemXstz2ddlLtA" target="_qc5PkFy_EemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_rVu8EVy_EemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_rVu8Ely_EemXstz2ddlLtA"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_mmiCAFy_EemXstz2ddlLtA" name="水声探测&amp;水声探测-综合防御" node="_oeb-0Fy_EemXstz2ddlLtA _o05-EFy_EemXstz2ddlLtA _qc5PkFy_EemXstz2ddlLtA">
+      <eAnnotations xmi:id="_n77HoFy_EemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_n77HoVy_EemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_VVAJsFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </group>
+    <node xmi:type="uml:InitialNode" xmi:id="_oeb-0Fy_EemXstz2ddlLtA" name="InitialNode1" inPartition="_mmiCAFy_EemXstz2ddlLtA" outgoing="_q3PCMFy_EemXstz2ddlLtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_o05-EFy_EemXstz2ddlLtA" name="威胁目标探测" inPartition="_mmiCAFy_EemXstz2ddlLtA" outgoing="_rVu8EFy_EemXstz2ddlLtA" incoming="_q3PCMFy_EemXstz2ddlLtA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_qc5PkFy_EemXstz2ddlLtA" name="ActivityFinalNode1" inPartition="_mmiCAFy_EemXstz2ddlLtA" incoming="_rVu8EFy_EemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

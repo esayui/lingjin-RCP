@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_mFWfMlzNEemXstz2ddlLtA" type="PapyrusUMLSequenceDiagram" name="效果评估--顺序图1-反军队" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_mFWfM1zNEemXstz2ddlLtA" type="2001" fontName="微软雅黑" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFWfNFzNEemXstz2ddlLtA" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFWfNVzNEemXstz2ddlLtA" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFWfNlzNEemXstz2ddlLtA" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFWfN1zNEemXstz2ddlLtA" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFWfOFzNEemXstz2ddlLtA" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFWfOVzNEemXstz2ddlLtA" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFWfOlzNEemXstz2ddlLtA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFWfO1zNEemXstz2ddlLtA" type="7001">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mFWfPFzNEemXstz2ddlLtA"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="_9BbREFwXEemawpDNrkj6eg14912432-cfae-4b09-8498-aa92dfd37bdd-Sequence.uml#_mFWfMVzNEemXstz2ddlLtA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mFWfPVzNEemXstz2ddlLtA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_mFWfPlzNEemXstz2ddlLtA"/>
+  <element xmi:type="uml:Interaction" href="_9BbREFwXEemawpDNrkj6eg14912432-cfae-4b09-8498-aa92dfd37bdd-Sequence.uml#_mFWfMVzNEemXstz2ddlLtA"/>
+</notation:Diagram>

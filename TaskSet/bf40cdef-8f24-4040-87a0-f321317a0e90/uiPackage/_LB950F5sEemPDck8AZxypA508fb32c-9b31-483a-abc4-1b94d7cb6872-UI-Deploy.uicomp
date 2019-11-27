@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.seri.mdt.design:BasePanel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.seri.mdt.design="uicomp.design.mdt.seri.org" DisplayDescription="">
+  <rScreens ID="bb30727d-e5ff-4e35-952a-f3959a86eb7b" x="20" y="20" height="290" width="800" brotherID="77059674-e279-4622-ae7d-886420674f65" leftLine="[(20,20),(20,310)]" rightLine="[(820,20),(820,310)]" upperLine="[(20,20),(820,20)]" bottomLine="[(20,310),(820,310)]"/>
+  <rScreens ID="414d183c-d018-4bd9-b36f-f153edd0edb4" x="20" y="310" height="310" width="388" brotherID="77059674-e279-4622-ae7d-886420674f65" leftLine="[(20,310),(20,620)]" rightLine="[(408,310),(408,620)]" upperLine="[(20,310),(408,310)]" bottomLine="[(20,620),(408,620)]"/>
+  <rScreens ID="a344f3ce-57b7-4390-a4d0-21e537becaee" x="408" y="310" height="310" width="412" brotherID="77059674-e279-4622-ae7d-886420674f65" leftLine="[(408,310),(408,620)]" rightLine="[(820,310),(820,620)]" upperLine="[(408,310),(820,310)]" bottomLine="[(408,620),(820,620)]"/>
+</org.seri.mdt.design:BasePanel>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<unitCompList>
+<Component compdefValue="接收使命任务&#10;" id="_X-XskF5xEemrVr9LAt4y0A86dde838-940a-4d10-9974-4e20f728514a" name="通信组件" type="处理组件">
+<port attriDescription="" attribute="输入" dataType="接收使命任务" name="in_接收使命任务"/>
+<port attriDescription="" attribute="输出" dataType="发送使命任务结果" name="out_发送使命任务结果"/>
+</Component>
+<Component compdefValue="进入作战海区&#10;" id="_dYvqkF5xEemrVr9LAt4y0A920fd78e-58d6-4608-ae87-71cfa054062b" name="导航组件" type="处理组件">
+<port attriDescription="" attribute="输出" dataType="发送进入作战海区指令" name="out_发送进入作战海区指令"/>
+<port attriDescription="" attribute="输入" dataType="进入作战海区" name="in_进入作战海区"/>
+<port attriDescription="" attribute="输出" dataType="发送抵达作战海区结果" name="out_发送抵达作战海区结果"/>
+<port attriDescription="" attribute="输入" dataType="发送返航指令" name="in_发送返航指令"/>
+<port attriDescription="" attribute="输入" dataType="返航" name="in_返航"/>
+</Component>
+<Component compdefValue="进行水声探测&#10;识别目标&#10;目标定位&#10;态势生成&#10;目标运动要素分析&#10;" id="_f-VMwF5xEemrVr9LAt4y0Ac59238d8-f668-4a21-8e6f-01c9e3be02a8" name="水声探测组件" type="处理组件">
+<port attriDescription="" attribute="输入" dataType="发送进行水声探测指令" name="in_发送进行水声探测指令"/>
+<port attriDescription="" attribute="输入" dataType="进行水声探测" name="in_进行水声探测"/>
+<port attriDescription="" attribute="输入" dataType="识别目标" name="in_识别目标"/>
+<port attriDescription="" attribute="输入" dataType="目标定位" name="in_目标定位"/>
+<port attriDescription="" attribute="输出" dataType="发送目标定位结果" name="out_发送目标定位结果"/>
+<port attriDescription="" attribute="输出" dataType="发送态势生成指令" name="out_发送态势生成指令"/>
+<port attriDescription="" attribute="输出" dataType="发送重新规划指令" name="out_发送重新规划指令"/>
+<port attriDescription="" attribute="输入" dataType="返回等待状态" name="in_返回等待状态"/>
+<port attriDescription="" attribute="输入" dataType="发送态势生成指令" name="in_发送态势生成指令"/>
+<port attriDescription="" attribute="输入" dataType="态势生成" name="in_态势生成"/>
+<port attriDescription="" attribute="输出" dataType="发送态势生成结果" name="out_发送态势生成结果"/>
+</Component>
+<Component compdefValue="战术水声决策&#10;搜索指挥&#10;战术决策&#10;" id="_iJSocF5xEemrVr9LAt4y0A81376647-142b-4f11-b6a7-bbec8b57f5ed" name="指挥决策组件" type="处理组件">
+<port attriDescription="" attribute="输入" dataType="发送使命任务结果" name="in_发送使命任务结果"/>
+<port attriDescription="" attribute="输入" dataType="发送进入作战海区指令" name="in_发送进入作战海区指令"/>
+<port attriDescription="" attribute="输入" dataType="发送抵达作战海区结果" name="in_发送抵达作战海区结果"/>
+<port attriDescription="" attribute="输出" dataType="发送返航指令" name="out_发送返航指令"/>
+<port attriDescription="" attribute="输出" dataType="发送进行水声探测指令" name="out_发送进行水声探测指令"/>
+<port attriDescription="" attribute="输入" dataType="发送目标定位结果" name="in_发送目标定位结果"/>
+<port attriDescription="" attribute="输入" dataType="发送重新规划指令" name="in_发送重新规划指令"/>
+<port attriDescription="" attribute="输出" dataType="返回等待状态" name="out_返回等待状态"/>
+<port attriDescription="" attribute="输入" dataType="发送态势生成结果" name="in_发送态势生成结果"/>
+<port attriDescription="" attribute="输入" dataType="战术水声决策" name="in_战术水声决策"/>
+<port attriDescription="" attribute="输入" dataType="搜索指挥" name="in_搜索指挥"/>
+<port attriDescription="" attribute="输出" dataType="发送武器导引指令" name="out_发送武器导引指令"/>
+<port attriDescription="" attribute="输入" dataType="发送武器导引结果" name="in_发送武器导引结果"/>
+<port attriDescription="" attribute="输入" dataType="发送不具备发射条件信息" name="in_发送不具备发射条件信息"/>
+</Component>
+<Component compdefValue="作战方案推演及在线鱼雷攻击效果评估&#10;武器发射控制&#10;武器导引&#10;发射武器&#10;" id="_juY-AF5xEemrVr9LAt4y0A6fa7e074-ad4b-4a5d-b75c-eea121a328a4" name="鱼雷武控组件" type="处理组件">
+<port attriDescription="" attribute="输入" dataType="发送武器导引指令" name="in_发送武器导引指令"/>
+<port attriDescription="" attribute="输出" dataType="发送武器导引结果" name="out_发送武器导引结果"/>
+<port attriDescription="" attribute="输出" dataType="发送不具备发射条件信息" name="out_发送不具备发射条件信息"/>
+<port attriDescription="" attribute="输入" dataType="武器导引" name="in_武器导引"/>
+</Component>
+</unitCompList>

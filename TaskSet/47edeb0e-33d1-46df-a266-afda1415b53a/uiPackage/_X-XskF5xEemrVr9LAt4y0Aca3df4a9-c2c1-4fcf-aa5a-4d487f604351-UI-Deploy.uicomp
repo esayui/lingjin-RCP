@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.seri.mdt.design:BasePanel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.seri.mdt.design="uicomp.design.mdt.seri.org" DisplayDescription="">
+  <rScreens ID="3ff090c3-ed3d-4201-8137-0a34d5511a4d" x="20" y="20" height="600" width="800" leftLine="[(20,20),(20,620)]" rightLine="[(820,20),(820,620)]" upperLine="[(20,20),(820,20)]" bottomLine="[(20,620),(820,620)]"/>
+</org.seri.mdt.design:BasePanel>

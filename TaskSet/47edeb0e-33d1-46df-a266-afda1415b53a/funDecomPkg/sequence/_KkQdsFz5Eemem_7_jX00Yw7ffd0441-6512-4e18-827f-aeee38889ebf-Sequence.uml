@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_-_76YF0CEemHZIzWnsr2RQ" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_-_76YV0CEemHZIzWnsr2RQ" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZfW_gV0DEemHZIzWnsr2RQ" name="MessageSend2" covered="_LhFt0F0DEemHZIzWnsr2RQ" message="_ZfW_gF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dmGLYV0DEemHZIzWnsr2RQ" name="MessageSend5" covered="_Pyht0F0DEemHZIzWnsr2RQ" message="_dmGLYF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_X96a4V0DEemHZIzWnsr2RQ" name="MessageSend" covered="_I81oYF0DEemHZIzWnsr2RQ" message="_X96a4F0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_X96a4l0DEemHZIzWnsr2RQ" name="MessageRecv" covered="_OZHq4F0DEemHZIzWnsr2RQ" message="_X96a4F0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e3eTsV0DEemHZIzWnsr2RQ" name="MessageSend6" covered="_Pyht0F0DEemHZIzWnsr2RQ" message="_e3eTsF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e3eTsl0DEemHZIzWnsr2RQ" name="MessageRecv6" covered="_Pyht0F0DEemHZIzWnsr2RQ" message="_e3eTsF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZfW_gl0DEemHZIzWnsr2RQ" name="MessageRecv2" covered="_OZHq4F0DEemHZIzWnsr2RQ" message="_ZfW_gF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_azHtcV0DEemHZIzWnsr2RQ" name="MessageSend3" covered="_OZHq4F0DEemHZIzWnsr2RQ" message="_azHtcF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AffMIV0EEemHZIzWnsr2RQ" name="MessageSend7" covered="_Pyht0F0DEemHZIzWnsr2RQ" message="_AffMIF0EEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_azHtcl0DEemHZIzWnsr2RQ" name="MessageRecv3" covered="_OZHq4F0DEemHZIzWnsr2RQ" message="_azHtcF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cf4KMV0DEemHZIzWnsr2RQ" name="MessageSend4" covered="_OZHq4F0DEemHZIzWnsr2RQ" message="_cf4KMF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_cf4KMl0DEemHZIzWnsr2RQ" name="MessageRecv4" covered="_R56REF0DEemHZIzWnsr2RQ" message="_cf4KMF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dmGLYl0DEemHZIzWnsr2RQ" name="MessageRecv5" covered="_R56REF0DEemHZIzWnsr2RQ" message="_dmGLYF0DEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AffMIl0EEemHZIzWnsr2RQ" name="MessageRecv7" covered="_R56REF0DEemHZIzWnsr2RQ" message="_AffMIF0EEemHZIzWnsr2RQ"/>
+    <lifeline xmi:id="_I81oYF0DEemHZIzWnsr2RQ" name="岸基指挥中心&amp;导航-反潜" coveredBy="_X96a4V0DEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_NPy6oGcwEemQGZ6RDyodiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_NPy6oWcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_R22FEFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_LhFt0F0DEemHZIzWnsr2RQ" name="编队指挥中心&amp;情报处理-反潜" coveredBy="_ZfW_gV0DEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_OSMy0GcwEemQGZ6RDyodiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_OSMy0WcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_U_FoYFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_M68csF0DEemHZIzWnsr2RQ" name="敌潜艇&amp;水声探测-反潜">
+      <eAnnotations xmi:id="_PVSAcGcwEemQGZ6RDyodiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_PVSAcWcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_TaEyYFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_OZHq4F0DEemHZIzWnsr2RQ" name="通信&amp;通信-反潜" coveredBy="_X96a4l0DEemHZIzWnsr2RQ _ZfW_gl0DEemHZIzWnsr2RQ _azHtcV0DEemHZIzWnsr2RQ _azHtcl0DEemHZIzWnsr2RQ _cf4KMV0DEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_gCdgIF0DEemHZIzWnsr2RQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_P_0yQGcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_PNiggFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_Pyht0F0DEemHZIzWnsr2RQ" name="导航&amp;导航-反潜" coveredBy="_dmGLYV0DEemHZIzWnsr2RQ _e3eTsV0DEemHZIzWnsr2RQ _e3eTsl0DEemHZIzWnsr2RQ _AffMIV0EEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_gwIecF0DEemHZIzWnsr2RQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_QYyr4GcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_R22FEFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_R56REF0DEemHZIzWnsr2RQ" name="指挥决策&amp;指挥决策-反潜" coveredBy="_cf4KMl0DEemHZIzWnsr2RQ _dmGLYl0DEemHZIzWnsr2RQ _AffMIl0EEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_hqTAoF0DEemHZIzWnsr2RQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_Q2EdwGcwEemQGZ6RDyodiQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_YXjZAFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_X96a4F0DEemHZIzWnsr2RQ" name="岸基指挥中心发送使命任务信息[TeskMessage]" messageSort="asynchCall" receiveEvent="_X96a4l0DEemHZIzWnsr2RQ" sendEvent="_X96a4V0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_ZfW_gF0DEemHZIzWnsr2RQ" name="编队指挥中心发送使命任务信息[TeskMessage]" messageSort="asynchCall" receiveEvent="_ZfW_gl0DEemHZIzWnsr2RQ" sendEvent="_ZfW_gV0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_azHtcF0DEemHZIzWnsr2RQ" name="接收使命任务[TeskMessage]" messageSort="asynchCall" receiveEvent="_azHtcl0DEemHZIzWnsr2RQ" sendEvent="_azHtcV0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_cf4KMF0DEemHZIzWnsr2RQ" name="发送使命任务结果[TeskMessage]" messageSort="asynchCall" receiveEvent="_cf4KMl0DEemHZIzWnsr2RQ" sendEvent="_cf4KMV0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_dmGLYF0DEemHZIzWnsr2RQ" name="发送进入作战海区指令[TeskMessage]" messageSort="asynchCall" receiveEvent="_dmGLYl0DEemHZIzWnsr2RQ" sendEvent="_dmGLYV0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_e3eTsF0DEemHZIzWnsr2RQ" name="进入作战海区[TeskMessage]" messageSort="asynchCall" receiveEvent="_e3eTsl0DEemHZIzWnsr2RQ" sendEvent="_e3eTsV0DEemHZIzWnsr2RQ"/>
+    <message xmi:id="_AffMIF0EEemHZIzWnsr2RQ" name="发送抵达作战海区结果[TechMessage]" messageSort="asynchCall" receiveEvent="_AffMIl0EEemHZIzWnsr2RQ" sendEvent="_AffMIV0EEemHZIzWnsr2RQ"/>
+  </packagedElement>
+</uml:Model>

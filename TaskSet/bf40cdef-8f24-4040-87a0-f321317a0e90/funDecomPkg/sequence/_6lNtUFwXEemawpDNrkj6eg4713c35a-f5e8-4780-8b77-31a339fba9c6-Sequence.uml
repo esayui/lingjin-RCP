@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_BtfdsFy_EemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Bty_sFy_EemXstz2ddlLtA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Poy68Vy_EemXstz2ddlLtA" name="MessageSend" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_Poy68Fy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SFwFkVy_EemXstz2ddlLtA" name="MessageSend2" covered="_G4XnIFy_EemXstz2ddlLtA" message="_SFwFkFy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Poy68ly_EemXstz2ddlLtA" name="MessageRecv" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_Poy68Fy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SFwFkly_EemXstz2ddlLtA" name="MessageRecv2" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_SFwFkFy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UCuIkVy_EemXstz2ddlLtA" name="MessageSend3" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_UCuIkFy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UCuIkly_EemXstz2ddlLtA" name="MessageRecv3" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_UCuIkFy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VofMgVy_EemXstz2ddlLtA" name="MessageSend4" covered="_Jb3eoFy_EemXstz2ddlLtA" message="_VofMgFy_EemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VofMgly_EemXstz2ddlLtA" name="MessageRecv4" covered="_L3VbgFy_EemXstz2ddlLtA" message="_VofMgFy_EemXstz2ddlLtA"/>
+    <lifeline xmi:id="_G4XnIFy_EemXstz2ddlLtA" name="敌方反潜兵力" coveredBy="_SFwFkVy_EemXstz2ddlLtA"/>
+    <lifeline xmi:id="_Jb3eoFy_EemXstz2ddlLtA" name="水声探测&amp;水声探测-综合防御" coveredBy="_Poy68Vy_EemXstz2ddlLtA _Poy68ly_EemXstz2ddlLtA _SFwFkly_EemXstz2ddlLtA _UCuIkVy_EemXstz2ddlLtA _UCuIkly_EemXstz2ddlLtA _VofMgVy_EemXstz2ddlLtA">
+      <eAnnotations xmi:id="_NmUs4Fy_EemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_NmUs4Vy_EemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_VVAJsFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_L3VbgFy_EemXstz2ddlLtA" name="指挥决策&amp;指挥决策-综合防御" coveredBy="_VofMgly_EemXstz2ddlLtA">
+      <eAnnotations xmi:id="_OKB24Fy_EemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_OKB24Vy_EemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_Ty9vMFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_Poy68Fy_EemXstz2ddlLtA" name="威胁目标探测" messageSort="asynchCall" receiveEvent="_Poy68ly_EemXstz2ddlLtA" sendEvent="_Poy68Vy_EemXstz2ddlLtA"/>
+    <message xmi:id="_SFwFkFy_EemXstz2ddlLtA" name="发现敌方反潜兵力" messageSort="asynchCall" receiveEvent="_SFwFkly_EemXstz2ddlLtA" sendEvent="_SFwFkVy_EemXstz2ddlLtA"/>
+    <message xmi:id="_UCuIkFy_EemXstz2ddlLtA" name="威胁预警" messageSort="asynchCall" receiveEvent="_UCuIkly_EemXstz2ddlLtA" sendEvent="_UCuIkVy_EemXstz2ddlLtA"/>
+    <message xmi:id="_VofMgFy_EemXstz2ddlLtA" name="发送威胁预警结果" messageSort="asynchCall" receiveEvent="_VofMgly_EemXstz2ddlLtA" sendEvent="_VofMgVy_EemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

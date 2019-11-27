@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ZtubMFzNEemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_ZtubMVzNEemXstz2ddlLtA" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jl3lAVzNEemXstz2ddlLtA" name="MessageSend" covered="_g9J2UFzNEemXstz2ddlLtA" message="_jl3lAFzNEemXstz2ddlLtA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jl3lAlzNEemXstz2ddlLtA" name="MessageRecv" covered="_g9J2UFzNEemXstz2ddlLtA" message="_jl3lAFzNEemXstz2ddlLtA"/>
+    <lifeline xmi:id="_g9J2UFzNEemXstz2ddlLtA" name="指挥决策&amp;指挥决策-综合防御" coveredBy="_jl3lAVzNEemXstz2ddlLtA _jl3lAlzNEemXstz2ddlLtA">
+      <eAnnotations xmi:id="_rsKr0FzPEemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_rsKr0VzPEemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_Ty9vMFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_jl3lAFzNEemXstz2ddlLtA" name="防御鱼雷效果在线评估" messageSort="asynchCall" receiveEvent="_jl3lAlzNEemXstz2ddlLtA" sendEvent="_jl3lAVzNEemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JCmXUFzxEemz1JY8VfERPA" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_JEiRAFzxEemz1JY8VfERPA" name="反潜">
+    <ownedComment xmi:id="_JEiRAVzxEemz1JY8VfERPA">
+      <body></body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Hl09sVz5Eemem_7_jX00Yw" name="反潜"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KkQdsFz5Eemem_7_jX00Yw" name="接收任务">
+      <eAnnotations xmi:id="_uSvCIQHmEeq-1KZtLbuoHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_uSvCIgHmEeq-1KZtLbuoHw" key=""/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L8VD4Fz5Eemem_7_jX00Yw" name="搜索和确认目标">
+      <eAnnotations xmi:id="_uSvCIwHmEeq-1KZtLbuoHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_uSvCJAHmEeq-1KZtLbuoHw" key=""/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_No7voFz5Eemem_7_jX00Yw" name="鱼雷攻击准备及发射">
+      <eAnnotations xmi:id="_uSvCJQHmEeq-1KZtLbuoHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_uSvCJgHmEeq-1KZtLbuoHw" key=""/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PFw6AFz5Eemem_7_jX00Yw" name="鱼雷线导导引"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_S0G0AFz5Eemem_7_jX00Yw" name="任务结束"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_bmKfgFz5Eemem_7_jX00Yw" name="A_反潜_接收任务" memberEnd="_bmKfgVz5Eemem_7_jX00Yw _bmKfhFz5Eemem_7_jX00Yw">
+      <ownedEnd xmi:id="_bmKfgVz5Eemem_7_jX00Yw" name="反潜" type="_Hl09sVz5Eemem_7_jX00Yw" association="_bmKfgFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bmKfglz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bmKfg1z5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_bmKfhFz5Eemem_7_jX00Yw" name="接收任务" type="_KkQdsFz5Eemem_7_jX00Yw" association="_bmKfgFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bmKfhVz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bmKfhlz5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ch-ngFz5Eemem_7_jX00Yw" name="A_反潜_搜索和确认目标" memberEnd="_ch-ngVz5Eemem_7_jX00Yw _ch-nhFz5Eemem_7_jX00Yw">
+      <ownedEnd xmi:id="_ch-ngVz5Eemem_7_jX00Yw" name="反潜" type="_Hl09sVz5Eemem_7_jX00Yw" association="_ch-ngFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ch-nglz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ch-ng1z5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ch-nhFz5Eemem_7_jX00Yw" name="搜索和确认目标" type="_L8VD4Fz5Eemem_7_jX00Yw" association="_ch-ngFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ch-nhVz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ch-nhlz5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_d2oGQFz5Eemem_7_jX00Yw" name="A_反潜_鱼雷攻击准备" memberEnd="_d2oGQVz5Eemem_7_jX00Yw _d2oGRFz5Eemem_7_jX00Yw">
+      <ownedEnd xmi:id="_d2oGQVz5Eemem_7_jX00Yw" name="反潜" type="_Hl09sVz5Eemem_7_jX00Yw" association="_d2oGQFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d2oGQlz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d2oGQ1z5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_d2oGRFz5Eemem_7_jX00Yw" name="鱼雷攻击准备" type="_No7voFz5Eemem_7_jX00Yw" association="_d2oGQFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d2oGRVz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d2oGRlz5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eV3nAFz5Eemem_7_jX00Yw" name="A_反潜_鱼雷线导导引" memberEnd="_eV3nAVz5Eemem_7_jX00Yw _eV3nBFz5Eemem_7_jX00Yw">
+      <ownedEnd xmi:id="_eV3nAVz5Eemem_7_jX00Yw" name="反潜" type="_Hl09sVz5Eemem_7_jX00Yw" association="_eV3nAFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eV3nAlz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eV3nA1z5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_eV3nBFz5Eemem_7_jX00Yw" name="鱼雷线导导引" type="_PFw6AFz5Eemem_7_jX00Yw" association="_eV3nAFz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eV3nBVz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eV3nBlz5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_f7oD4Fz5Eemem_7_jX00Yw" name="A_反潜_任务结束" memberEnd="_f7oD4Vz5Eemem_7_jX00Yw _f7oD5Fz5Eemem_7_jX00Yw">
+      <ownedEnd xmi:id="_f7oD4Vz5Eemem_7_jX00Yw" name="反潜" type="_Hl09sVz5Eemem_7_jX00Yw" association="_f7oD4Fz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f7oD4lz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f7oD41z5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_f7oD5Fz5Eemem_7_jX00Yw" name="任务结束" type="_S0G0AFz5Eemem_7_jX00Yw" association="_f7oD4Fz5Eemem_7_jX00Yw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f7oD5Vz5Eemem_7_jX00Yw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f7oD5lz5Eemem_7_jX00Yw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_1U5BcGfDEemGmtD69Y__TA" type="PapyrusUMLCommunicationDiagram" name="航渡值更-协作图" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_1U5BcWfDEemGmtD69Y__TA" type="8002" fontName="Microsoft YaHei UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1U5BcmfDEemGmtD69Y__TA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1U5Bc2fDEemGmtD69Y__TA" type="7001">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1U5BdGfDEemGmtD69Y__TA"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="7d62c6aa-1149-4b8e-9ce7-69b7f17166ed-Communication.uml#_1UTLkGfDEemGmtD69Y__TA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1U5BdWfDEemGmtD69Y__TA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_1U5BdmfDEemGmtD69Y__TA"/>
+  <element xmi:type="uml:Interaction" href="7d62c6aa-1149-4b8e-9ce7-69b7f17166ed-Communication.uml#_1UTLkGfDEemGmtD69Y__TA"/>
+</notation:Diagram>

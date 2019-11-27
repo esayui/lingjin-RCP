@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_7BoTUGcqEemQgqbLWUkXsg" type="PapyrusUMLActivityDiagram" name="接收使命任务--活动图" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_7BoTUWcqEemQgqbLWUkXsg" type="2001" fontName="Microsoft YaHei UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7BoTUmcqEemQgqbLWUkXsg" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7BoTU2cqEemQgqbLWUkXsg" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7BoTVGcqEemQgqbLWUkXsg" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7BoTVWcqEemQgqbLWUkXsg" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7BoTVmcqEemQgqbLWUkXsg" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7BoTV2cqEemQgqbLWUkXsg" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7BoTWGcqEemQgqbLWUkXsg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7BoTWmcqEemQgqbLWUkXsg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7BoTW2cqEemQgqbLWUkXsg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7BoTXGcqEemQgqbLWUkXsg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BoTXWcqEemQgqbLWUkXsg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7BoTXmcqEemQgqbLWUkXsg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7BoTX2cqEemQgqbLWUkXsg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7BoTYGcqEemQgqbLWUkXsg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BoTYWcqEemQgqbLWUkXsg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7BoTYmcqEemQgqbLWUkXsg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7BoTY2cqEemQgqbLWUkXsg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7BoTZGcqEemQgqbLWUkXsg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BoTZWcqEemQgqbLWUkXsg"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7BoTZmcqEemQgqbLWUkXsg" type="7004">
+      <children xmi:type="notation:Shape" xmi:id="_7Edk42cqEemQgqbLWUkXsg" type="3067" fontName="Microsoft YaHei UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Edk5mcqEemQgqbLWUkXsg" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Edk52cqEemQgqbLWUkXsg" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Edk6GcqEemQgqbLWUkXsg" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Edk6WcqEemQgqbLWUkXsg" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Edk6mcqEemQgqbLWUkXsg" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Edk62cqEemQgqbLWUkXsg" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7Edk7GcqEemQgqbLWUkXsg" type="5118"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7Edk7WcqEemQgqbLWUkXsg" type="7006">
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Edk7mcqEemQgqbLWUkXsg"/>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_7Edk5GcqEemQgqbLWUkXsg"/>
+        <element xmi:type="uml:ActivityPartition" href="_MuT-4FxTEemawpDNrkj6eg-Activity.uml#_7Edk4GcqEemQgqbLWUkXsg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Edk5WcqEemQgqbLWUkXsg" x="180" y="37" width="421" height="391"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BoTZ2cqEemQgqbLWUkXsg"/>
+    </children>
+    <element xmi:type="uml:Activity" href="_MuT-4FxTEemawpDNrkj6eg-Activity.uml#_7BeiUWcqEemQgqbLWUkXsg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7BoTaGcqEemQgqbLWUkXsg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_7BoTaWcqEemQgqbLWUkXsg"/>
+  <element xmi:type="uml:Activity" href="_MuT-4FxTEemawpDNrkj6eg-Activity.uml#_7BeiUWcqEemQgqbLWUkXsg"/>
+</notation:Diagram>

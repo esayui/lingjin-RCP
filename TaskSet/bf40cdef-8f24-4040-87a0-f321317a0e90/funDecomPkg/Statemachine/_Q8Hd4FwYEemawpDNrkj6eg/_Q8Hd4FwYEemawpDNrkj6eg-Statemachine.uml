@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_wNczwFzREemXstz2ddlLtA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_wNmkwFzREemXstz2ddlLtA" name="StateMachine0">
+    <region xmi:id="_wNvusFzREemXstz2ddlLtA" name="Region0">
+      <transition xmi:id="_c_XRcFzVEemXstz2ddlLtA" name="" source="_D40yMFzSEemXstz2ddlLtA" target="_GPiK4FzSEemXstz2ddlLtA"/>
+      <transition xmi:id="_flGkoFzVEemXstz2ddlLtA" name="接收到水声对抗发射前准备指令" source="_GPiK4FzSEemXstz2ddlLtA" target="_xJWT8FzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_lxIpEFzVEemXstz2ddlLtA" name="接收到防御器材发控指令" source="_GPiK4FzSEemXstz2ddlLtA" target="_6AU7sFzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_pd-uQFzVEemXstz2ddlLtA" name="[Prepared]" source="_6AU7sFzUEemXstz2ddlLtA" target="_7miEgFzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_rnmGIFzVEemXstz2ddlLtA" name="[else]/setDirect_process(true);" source="_6AU7sFzUEemXstz2ddlLtA" target="_xJWT8FzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_g5XW8FzXEemXstz2ddlLtA" name="tm(1500)" source="_xJWT8FzUEemXstz2ddlLtA" target="_D1_uYFzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_in58YFzXEemXstz2ddlLtA" name="/setPrepared(true);" source="_D1_uYFzXEemXstz2ddlLtA" target="_N7hz8FzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_kIdJIFzXEemXstz2ddlLtA" name="接收到使用水声对抗器材指令" source="_N7hz8FzXEemXstz2ddlLtA" target="_V7mo4FzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_lYyvoFzXEemXstz2ddlLtA" name="tm(1500)" source="_V7mo4FzXEemXstz2ddlLtA" target="_ZjZO8FzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_nlsFAFzXEemXstz2ddlLtA" name="接收到取消水声对抗准备指令" source="_N7hz8FzXEemXstz2ddlLtA" target="_GPiK4FzSEemXstz2ddlLtA"/>
+      <transition xmi:id="_t0iz8FzXEemXstz2ddlLtA" name="接收到防御器材发控指令" source="_N7hz8FzXEemXstz2ddlLtA" target="_7miEgFzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_4qlJYFzXEemXstz2ddlLtA" name="[Direct_process]" source="_N7hz8FzXEemXstz2ddlLtA" target="_7miEgFzUEemXstz2ddlLtA"/>
+      <transition xmi:id="_6LSHIFzXEemXstz2ddlLtA" name="/setDirect_process(false);" source="_SMONEFzXEemXstz2ddlLtA" target="_N7hz8FzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_82ESYFzXEemXstz2ddlLtA" name="tm(1500)" source="_7miEgFzUEemXstz2ddlLtA" target="_SMONEFzXEemXstz2ddlLtA"/>
+      <transition xmi:id="_AxWcMFzYEemXstz2ddlLtA" name="/setPrepared(false);" source="_ZjZO8FzXEemXstz2ddlLtA" target="_GPiK4FzSEemXstz2ddlLtA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_D40yMFzSEemXstz2ddlLtA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_GPiK4FzSEemXstz2ddlLtA" name="等待接收命令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xJWT8FzUEemXstz2ddlLtA" name="水声对抗发射前准备中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_6AU7sFzUEemXstz2ddlLtA" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_7miEgFzUEemXstz2ddlLtA" name="防御器材发控中">
+        <ownedComment xmi:id="_4mflgFzVEemXstz2ddlLtA">
+          <body>防御器材发控中</body>
+        </ownedComment>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_D1_uYFzXEemXstz2ddlLtA" name="发送水声对抗发射前准备结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_N7hz8FzXEemXstz2ddlLtA" name="水声对抗准备完毕"/>
+      <subvertex xmi:type="uml:State" xmi:id="_SMONEFzXEemXstz2ddlLtA" name="发送防御器材发控结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_V7mo4FzXEemXstz2ddlLtA" name="使用水声对抗器材中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZjZO8FzXEemXstz2ddlLtA" name="发送使用水声对抗器材结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

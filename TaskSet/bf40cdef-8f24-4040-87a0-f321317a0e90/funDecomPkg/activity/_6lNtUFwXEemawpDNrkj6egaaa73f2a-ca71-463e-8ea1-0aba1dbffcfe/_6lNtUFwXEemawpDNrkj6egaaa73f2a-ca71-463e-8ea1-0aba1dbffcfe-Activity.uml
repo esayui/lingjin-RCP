@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_eHZzcFwYEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_eHZzcVwYEemawpDNrkj6eg" name="目标探测--活动图0" group="_bHhdgVy-EemXstz2ddlLtA" node="_ciSLUFy-EemXstz2ddlLtA _dIEY8Fy-EemXstz2ddlLtA _z-glMFy-EemXstz2ddlLtA _17eoMFy-EemXstz2ddlLtA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2hRc4Fy-EemXstz2ddlLtA" name="" source="_ciSLUFy-EemXstz2ddlLtA" target="_dIEY8Fy-EemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_2hRc4Vy-EemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_2hRc4ly-EemXstz2ddlLtA"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_27vyYFy-EemXstz2ddlLtA" name="" source="_dIEY8Fy-EemXstz2ddlLtA" target="_z-glMFy-EemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_27vyYVy-EemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_27vyYly-EemXstz2ddlLtA"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3ZEAgFy-EemXstz2ddlLtA" name="" source="_z-glMFy-EemXstz2ddlLtA" target="_17eoMFy-EemXstz2ddlLtA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_3ZEAgVy-EemXstz2ddlLtA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_3ZNKcFy-EemXstz2ddlLtA"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_bHhdgVy-EemXstz2ddlLtA" name="水声探测&amp;水声探测-综合防御" node="_ciSLUFy-EemXstz2ddlLtA _dIEY8Fy-EemXstz2ddlLtA _z-glMFy-EemXstz2ddlLtA _17eoMFy-EemXstz2ddlLtA">
+      <eAnnotations xmi:id="__YII0Fy-EemXstz2ddlLtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="__YII0Vy-EemXstz2ddlLtA" key="\TaskSet\bf40cdef-8f24-4040-87a0-f321317a0e90\funDecomPkg\TaskSet/bf40cdef-8f24-4040-87a0-f321317a0e90/funDecomPkg/bf40cdef-8f24-4040-87a0-f321317a0e90-Composite.uml#_VVAJsFwYEemawpDNrkj6eg"/>
+      </eAnnotations>
+    </group>
+    <node xmi:type="uml:InitialNode" xmi:id="_ciSLUFy-EemXstz2ddlLtA" name="InitialNode1" inPartition="_bHhdgVy-EemXstz2ddlLtA" outgoing="_2hRc4Fy-EemXstz2ddlLtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dIEY8Fy-EemXstz2ddlLtA" name="威胁目标探测" inPartition="_bHhdgVy-EemXstz2ddlLtA" outgoing="_27vyYFy-EemXstz2ddlLtA" incoming="_2hRc4Fy-EemXstz2ddlLtA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_z-glMFy-EemXstz2ddlLtA" name="威胁预警" inPartition="_bHhdgVy-EemXstz2ddlLtA" outgoing="_3ZEAgFy-EemXstz2ddlLtA" incoming="_27vyYFy-EemXstz2ddlLtA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_17eoMFy-EemXstz2ddlLtA" name="ActivityFinalNode1" inPartition="_bHhdgVy-EemXstz2ddlLtA" incoming="_3ZEAgFy-EemXstz2ddlLtA"/>
+  </packagedElement>
+</uml:Model>

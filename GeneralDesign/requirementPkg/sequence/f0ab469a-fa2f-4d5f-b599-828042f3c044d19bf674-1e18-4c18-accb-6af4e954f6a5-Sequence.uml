@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_-0lQ8Fw8EemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_-0lQ8Vw8EemawpDNrkj6eg" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IvieMVw9EemawpDNrkj6eg" name="MessageSend3" covered="_B4XLAFw9EemawpDNrkj6eg" message="_IvieMFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GSlTkVw9EemawpDNrkj6eg" name="MessageSend" covered="___aFUFw8EemawpDNrkj6eg" message="_GSlTkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GSlTklw9EemawpDNrkj6eg" name="MessageRecv" covered="___aFUFw8EemawpDNrkj6eg" message="_GSlTkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G9lYYFw9EemawpDNrkj6eg" name="MessageSend2" covered="___aFUFw8EemawpDNrkj6eg" message="_G9bnYFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G9lYYVw9EemawpDNrkj6eg" name="MessageRecv2" covered="___aFUFw8EemawpDNrkj6eg" message="_G9bnYFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IvieMlw9EemawpDNrkj6eg" name="MessageRecv3" covered="___aFUFw8EemawpDNrkj6eg" message="_IvieMFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KSoBkVw9EemawpDNrkj6eg" name="MessageSend4" covered="___aFUFw8EemawpDNrkj6eg" message="_KSoBkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KSoBklw9EemawpDNrkj6eg" name="MessageRecv4" covered="___aFUFw8EemawpDNrkj6eg" message="_KSoBkFw9EemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_LJ95QFw9EemawpDNrkj6eg" name="CombinedFragment" covered="___aFUFw8EemawpDNrkj6eg">
+      <operand xmi:id="_LKHqQFw9EemawpDNrkj6eg" name="InteractionOperand" covered="___aFUFw8EemawpDNrkj6eg">
+        <guard xmi:id="_LKHqQVw9EemawpDNrkj6eg">
+          <specification xmi:type="uml:LiteralString" xmi:id="_LKHqQlw9EemawpDNrkj6eg"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_LKHqRFw9EemawpDNrkj6eg" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_LKHqQ1w9EemawpDNrkj6eg"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_L_YeUFw9EemawpDNrkj6eg" name="InteractionUse"/>
+    <lifeline xmi:id="___aFUFw8EemawpDNrkj6eg" name="远程反舰" coveredBy="_GSlTkVw9EemawpDNrkj6eg _GSlTklw9EemawpDNrkj6eg _G9lYYFw9EemawpDNrkj6eg _G9lYYVw9EemawpDNrkj6eg _IvieMlw9EemawpDNrkj6eg _KSoBkVw9EemawpDNrkj6eg _KSoBklw9EemawpDNrkj6eg _LJ95QFw9EemawpDNrkj6eg _LKHqQFw9EemawpDNrkj6eg"/>
+    <lifeline xmi:id="_B4XLAFw9EemawpDNrkj6eg" name="敌方反潜兵力" coveredBy="_IvieMVw9EemawpDNrkj6eg"/>
+    <message xmi:id="_GSlTkFw9EemawpDNrkj6eg" name="到达待机海区" messageSort="asynchCall" receiveEvent="_GSlTklw9EemawpDNrkj6eg" sendEvent="_GSlTkVw9EemawpDNrkj6eg"/>
+    <message xmi:id="_G9bnYFw9EemawpDNrkj6eg" name="警戒探测" messageSort="asynchCall" receiveEvent="_G9lYYVw9EemawpDNrkj6eg" sendEvent="_G9lYYFw9EemawpDNrkj6eg"/>
+    <message xmi:id="_IvieMFw9EemawpDNrkj6eg" name="暴露信号" messageSort="asynchCall" receiveEvent="_IvieMlw9EemawpDNrkj6eg" sendEvent="_IvieMVw9EemawpDNrkj6eg"/>
+    <message xmi:id="_KSoBkFw9EemawpDNrkj6eg" name="机动到预备待机区" messageSort="asynchCall" receiveEvent="_KSoBklw9EemawpDNrkj6eg" sendEvent="_KSoBkVw9EemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

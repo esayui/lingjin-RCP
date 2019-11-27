@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_4vtNQF0UEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_4vtNQV0UEemPzIHwcwrhwQ" name="StateMachine0">
+    <region xmi:id="_4vtNQl0UEemPzIHwcwrhwQ" name="Region0">
+      <transition xmi:id="_LkeT0F0VEemPzIHwcwrhwQ" name="" source="_6WXCAF0UEemPzIHwcwrhwQ" target="_7UQNoF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_NG9aQF0VEemPzIHwcwrhwQ" name="接收到进行水声探测指令" source="_7UQNoF0UEemPzIHwcwrhwQ" target="_86TlcF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_ONx4YF0VEemPzIHwcwrhwQ" name="接收到返回等待指令" source="_86TlcF0UEemPzIHwcwrhwQ" target="_7UQNoF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_PoYOIF0VEemPzIHwcwrhwQ" name="敌潜艇发出噪音" source="_86TlcF0UEemPzIHwcwrhwQ" target="_-A1IoF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_SGE_oF0VEemPzIHwcwrhwQ" name="未发现目标" source="_-A1IoF0UEemPzIHwcwrhwQ" target="_AcJUgF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_TrPmoF0VEemPzIHwcwrhwQ" name="发现目标/识别目标" source="_-A1IoF0UEemPzIHwcwrhwQ" target="_Bv6CcF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_WSBboF0VEemPzIHwcwrhwQ" name="" source="_AcJUgF0VEemPzIHwcwrhwQ" target="_7UQNoF0UEemPzIHwcwrhwQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_6WXCAF0UEemPzIHwcwrhwQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_7UQNoF0UEemPzIHwcwrhwQ" name="等待指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_86TlcF0UEemPzIHwcwrhwQ" name="进行水声探测中"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_-A1IoF0UEemPzIHwcwrhwQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_AcJUgF0VEemPzIHwcwrhwQ" name="发送重新规划指令"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Bv6CcF0VEemPzIHwcwrhwQ" name="工作中">
+        <region xmi:id="_DY71wF0VEemPzIHwcwrhwQ" name="Region0">
+          <transition xmi:id="_ZX5AYF0VEemPzIHwcwrhwQ" name="/目标定位" source="_DY71zV0VEemPzIHwcwrhwQ" target="_GF0SwF0VEemPzIHwcwrhwQ"/>
+          <transition xmi:id="_aLzwoF0VEemPzIHwcwrhwQ" name="" source="_EjBqUF0VEemPzIHwcwrhwQ" target="_HUqrgF0VEemPzIHwcwrhwQ"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_DY71zV0VEemPzIHwcwrhwQ" name=""/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_EjBqUF0VEemPzIHwcwrhwQ" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_GF0SwF0VEemPzIHwcwrhwQ" name="发送目标定位结果"/>
+          <subvertex xmi:type="uml:State" xmi:id="_HUqrgF0VEemPzIHwcwrhwQ" name="发送态势生成指令"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eI37gF23Eem9TInVy14vbA" name="Choice0" kind="choice"/>
+    </region>
+  </packagedElement>
+</uml:Model>

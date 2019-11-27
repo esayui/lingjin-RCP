@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_oK52wF3bEemdMc92IRn1oA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_oK52wV3bEemdMc92IRn1oA" name="StateMachine0">
+    <region xmi:id="_oK52wl3bEemdMc92IRn1oA" name="Region0">
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_qHIS4F3bEemdMc92IRn1oA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_rlvl8F3bEemdMc92IRn1oA" name="工作中">
+        <region xmi:id="_1f0pcF3bEemdMc92IRn1oA" name="Region0">
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_1f0pfV3bEemdMc92IRn1oA" name=""/>
+          <subvertex xmi:type="uml:State" xmi:id="_3h_8kF3bEemdMc92IRn1oA" name="等待准备导弹指令中"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4-1G8F3bEemdMc92IRn1oA" name="雷弹发射准备中"/>
+        </region>
+      </subvertex>
+    </region>
+  </packagedElement>
+</uml:Model>

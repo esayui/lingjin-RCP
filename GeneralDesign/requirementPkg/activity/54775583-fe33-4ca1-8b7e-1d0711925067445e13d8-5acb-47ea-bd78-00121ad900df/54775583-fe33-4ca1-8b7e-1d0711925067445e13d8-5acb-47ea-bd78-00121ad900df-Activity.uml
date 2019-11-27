@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_C6oD0Fw-EemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_C6oD0Vw-EemawpDNrkj6eg" name="特种作战--活动图0" node="_DbptQFw-EemawpDNrkj6eg _D9RzoFw-EemawpDNrkj6eg _E9ZM0Fw-EemawpDNrkj6eg _FZ90EFw-EemawpDNrkj6eg _F9OSIFw-EemawpDNrkj6eg _GaO-QFw-EemawpDNrkj6eg _G6qx0Fw-EemawpDNrkj6eg _JhlwwFw-EemawpDNrkj6eg _MaEZwFw-EemawpDNrkj6eg _NB8SEFw-EemawpDNrkj6eg _NlpcEFw-EemawpDNrkj6eg _OITdMFw-EemawpDNrkj6eg _OomG0Fw-EemawpDNrkj6eg _PdtJ4Fw-EemawpDNrkj6eg _RD6SsFw-EemawpDNrkj6eg _R5LGwFw-EemawpDNrkj6eg _TQW8IFw-EemawpDNrkj6eg _hB-48Fw-EemawpDNrkj6eg _iZ6VMFw-EemawpDNrkj6eg _jpzPwFw-EemawpDNrkj6eg _k3ULwFw-EemawpDNrkj6eg _l8ymEFw-EemawpDNrkj6eg _mlHKUFw-EemawpDNrkj6eg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CUHoAFw_EemawpDNrkj6eg" name="" source="_DbptQFw-EemawpDNrkj6eg" target="_D9RzoFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_CUHoAVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_CUHoAlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Czg5wFw_EemawpDNrkj6eg" name="" source="_D9RzoFw-EemawpDNrkj6eg" target="_E9ZM0Fw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Czg5wVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Czg5wlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DXODwFw_EemawpDNrkj6eg" name="" source="_E9ZM0Fw-EemawpDNrkj6eg" target="_FZ90EFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_DXODwVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_DXODwlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_D-pQIFw_EemawpDNrkj6eg" name="" source="_FZ90EFw-EemawpDNrkj6eg" target="_F9OSIFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_D-pQIVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_D-pQIlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ExhekFw_EemawpDNrkj6eg" name="" source="_F9OSIFw-EemawpDNrkj6eg" target="_GaO-QFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ExhekVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Exheklw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FfWN4Fw_EemawpDNrkj6eg" name="" source="_GaO-QFw-EemawpDNrkj6eg" target="_G6qx0Fw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_FfWN4Vw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_FfWN4lw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_F2j0AFw_EemawpDNrkj6eg" name="" source="_G6qx0Fw-EemawpDNrkj6eg" target="_JhlwwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_F2j0AVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_F2j0Alw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GxUzIFw_EemawpDNrkj6eg" name="是" source="_JhlwwFw-EemawpDNrkj6eg" target="_MaEZwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_GxUzIVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_GxUzIlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ikn8wFw_EemawpDNrkj6eg" name="否" source="_JhlwwFw-EemawpDNrkj6eg" target="_F9OSIFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ikn8wVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ikn8wlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_M5fEMFw_EemawpDNrkj6eg" name="" source="_MaEZwFw-EemawpDNrkj6eg" target="_NB8SEFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_M5fEMVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_M5fEMlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NPqIgFw_EemawpDNrkj6eg" name="" source="_NB8SEFw-EemawpDNrkj6eg" target="_NlpcEFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NPqIgVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_NPqIglw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Nr7NwFw_EemawpDNrkj6eg" name="" source="_NlpcEFw-EemawpDNrkj6eg" target="_OITdMFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Nr7NwVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Nr7Nwlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OFXBcFw_EemawpDNrkj6eg" name="" source="_OITdMFw-EemawpDNrkj6eg" target="_OomG0Fw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_OFXBcVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_OFXBclw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OdnJYFw_EemawpDNrkj6eg" name="" source="_OomG0Fw-EemawpDNrkj6eg" target="_PdtJ4Fw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_OdnJYVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_OdnJYlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_O70IUFw_EemawpDNrkj6eg" name="" source="_PdtJ4Fw-EemawpDNrkj6eg" target="_RD6SsFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_O70IUVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_O70IUlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SaYg8Fw_EemawpDNrkj6eg" name="是" source="_RD6SsFw-EemawpDNrkj6eg" target="_R5LGwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_SaYg8Vw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_SaYg8lw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TjSCsFw_EemawpDNrkj6eg" name="" source="_R5LGwFw-EemawpDNrkj6eg" target="_TQW8IFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_TjSCsVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_TjSCslw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YhgQMFw_EemawpDNrkj6eg" name="是" source="_TQW8IFw-EemawpDNrkj6eg" target="_hB-48Fw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_YhgQMVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_YhgQMlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ojcp0Fw_EemawpDNrkj6eg" name="否" source="_RD6SsFw-EemawpDNrkj6eg" target="_TQW8IFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ojcp0Vw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ojcp0lw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zUt0AFw_EemawpDNrkj6eg" name="需要回收" source="_hB-48Fw-EemawpDNrkj6eg" target="_iZ6VMFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_zU298Fw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_zU298Vw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0uki4Fw_EemawpDNrkj6eg" name="" source="_iZ6VMFw-EemawpDNrkj6eg" target="_jpzPwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_0uki4Vw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_0uki4lw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1cPhMFw_EemawpDNrkj6eg" name="是" source="_jpzPwFw-EemawpDNrkj6eg" target="_k3ULwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_1cPhMVw_EemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_1cPhMlw_EemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ao4_0FxAEemawpDNrkj6eg" name="" source="_k3ULwFw-EemawpDNrkj6eg" target="_l8ymEFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ao4_0VxAEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ao4_0lxAEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ee9ScFxAEemawpDNrkj6eg" name="否" source="_jpzPwFw-EemawpDNrkj6eg" target="_iZ6VMFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Ee9ScVxAEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ee9SclxAEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LfqVEFxAEemawpDNrkj6eg" name="是" source="_l8ymEFw-EemawpDNrkj6eg" target="_mlHKUFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_LfqVEVxAEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_LfqVElxAEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NTtFkFxAEemawpDNrkj6eg" name="不需要回收" source="_hB-48Fw-EemawpDNrkj6eg" target="_mlHKUFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NTtFkVxAEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_NTtFklxAEemawpDNrkj6eg"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U3zwMFxAEemawpDNrkj6eg" name="否" source="_l8ymEFw-EemawpDNrkj6eg" target="_k3ULwFw-EemawpDNrkj6eg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_U3zwMVxAEemawpDNrkj6eg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U3zwMlxAEemawpDNrkj6eg"/>
+    </edge>
+    <node xmi:type="uml:InitialNode" xmi:id="_DbptQFw-EemawpDNrkj6eg" name="InitialNode1" outgoing="_CUHoAFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_D9RzoFw-EemawpDNrkj6eg" name="接收使命任务" outgoing="_Czg5wFw_EemawpDNrkj6eg" incoming="_CUHoAFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_E9ZM0Fw-EemawpDNrkj6eg" name="隐蔽潜行" outgoing="_DXODwFw_EemawpDNrkj6eg" incoming="_Czg5wFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FZ90EFw-EemawpDNrkj6eg" name="进入作战海区" outgoing="_D-pQIFw_EemawpDNrkj6eg" incoming="_DXODwFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_F9OSIFw-EemawpDNrkj6eg" name="作战使用决策" outgoing="_ExhekFw_EemawpDNrkj6eg" incoming="_D-pQIFw_EemawpDNrkj6eg _Ikn8wFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GaO-QFw-EemawpDNrkj6eg" name="规划航行路线" outgoing="_FfWN4Fw_EemawpDNrkj6eg" incoming="_ExhekFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_G6qx0Fw-EemawpDNrkj6eg" name="设置任务载荷工作方式" outgoing="_F2j0AFw_EemawpDNrkj6eg" incoming="_FfWN4Fw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_JhlwwFw-EemawpDNrkj6eg" name="DecisionNode1" outgoing="_GxUzIFw_EemawpDNrkj6eg _Ikn8wFw_EemawpDNrkj6eg" incoming="_F2j0AFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MaEZwFw-EemawpDNrkj6eg" name="发射前检查" outgoing="_M5fEMFw_EemawpDNrkj6eg" incoming="_GxUzIFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NB8SEFw-EemawpDNrkj6eg" name="发射控制" outgoing="_NPqIgFw_EemawpDNrkj6eg" incoming="_M5fEMFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NlpcEFw-EemawpDNrkj6eg" name="信息交互" outgoing="_Nr7NwFw_EemawpDNrkj6eg" incoming="_NPqIgFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OITdMFw-EemawpDNrkj6eg" name="信息处理" outgoing="_OFXBcFw_EemawpDNrkj6eg" incoming="_Nr7NwFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OomG0Fw-EemawpDNrkj6eg" name="信息存储" outgoing="_OdnJYFw_EemawpDNrkj6eg" incoming="_OFXBcFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PdtJ4Fw-EemawpDNrkj6eg" name="信息综合显示" outgoing="_O70IUFw_EemawpDNrkj6eg" incoming="_OdnJYFw_EemawpDNrkj6eg">
+      <ownedComment xmi:id="_4oLuMFw-EemawpDNrkj6eg">
+        <body>信息综合显示</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_RD6SsFw-EemawpDNrkj6eg" name="DecisionNode2" outgoing="_SaYg8Fw_EemawpDNrkj6eg _ojcp0Fw_EemawpDNrkj6eg" incoming="_O70IUFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_R5LGwFw-EemawpDNrkj6eg" name="在线规划" outgoing="_TjSCsFw_EemawpDNrkj6eg" incoming="_SaYg8Fw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_TQW8IFw-EemawpDNrkj6eg" name="MergeNode1" outgoing="_YhgQMFw_EemawpDNrkj6eg" incoming="_TjSCsFw_EemawpDNrkj6eg _ojcp0Fw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_hB-48Fw-EemawpDNrkj6eg" name="DecisionNode3" outgoing="_zUt0AFw_EemawpDNrkj6eg _NTtFkFxAEemawpDNrkj6eg" incoming="_YhgQMFw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_iZ6VMFw-EemawpDNrkj6eg" name="回收引导" outgoing="_0uki4Fw_EemawpDNrkj6eg" incoming="_zUt0AFw_EemawpDNrkj6eg _Ee9ScFxAEemawpDNrkj6eg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_jpzPwFw-EemawpDNrkj6eg" name="DecisionNode4" outgoing="_1cPhMFw_EemawpDNrkj6eg _Ee9ScFxAEemawpDNrkj6eg" incoming="_0uki4Fw_EemawpDNrkj6eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_k3ULwFw-EemawpDNrkj6eg" name="对接控制" outgoing="_Ao4_0FxAEemawpDNrkj6eg" incoming="_1cPhMFw_EemawpDNrkj6eg _U3zwMFxAEemawpDNrkj6eg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_l8ymEFw-EemawpDNrkj6eg" name="DecisionNode5" outgoing="_LfqVEFxAEemawpDNrkj6eg _U3zwMFxAEemawpDNrkj6eg" incoming="_Ao4_0FxAEemawpDNrkj6eg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_mlHKUFw-EemawpDNrkj6eg" name="ActivityFinalNode1" incoming="_LfqVEFxAEemawpDNrkj6eg _NTtFkFxAEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

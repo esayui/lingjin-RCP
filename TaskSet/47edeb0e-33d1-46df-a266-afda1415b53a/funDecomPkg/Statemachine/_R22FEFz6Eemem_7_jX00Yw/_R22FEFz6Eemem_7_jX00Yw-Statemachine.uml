@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tA7EMF0PEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_tA7EMV0PEemPzIHwcwrhwQ" name="StateMachine0">
+    <region xmi:id="_tA7EMl0PEemPzIHwcwrhwQ" name="Region0">
+      <transition xmi:id="_hUEpQF0UEemPzIHwcwrhwQ" name="" source="_X64FQF0UEemPzIHwcwrhwQ" target="_YtnJwF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_l6pLwF0UEemPzIHwcwrhwQ" name="接收到进入作战海区指令" source="_YtnJwF0UEemPzIHwcwrhwQ" target="_cTUFIF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_nFnxIF0UEemPzIHwcwrhwQ" name="tm(3000)" source="_cTUFIF0UEemPzIHwcwrhwQ" target="_fliD0F0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_pLhGoF0UEemPzIHwcwrhwQ" name="接收到返航指令" source="_YtnJwF0UEemPzIHwcwrhwQ" target="_dm7CEF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_vg7JgF0UEemPzIHwcwrhwQ" name="" source="_fliD0F0UEemPzIHwcwrhwQ" target="_YtnJwF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_01eMUF0UEemPzIHwcwrhwQ" name="tm(3000)" source="_dm7CEF0UEemPzIHwcwrhwQ" target="_YtnJwF0UEemPzIHwcwrhwQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_X64FQF0UEemPzIHwcwrhwQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_YtnJwF0UEemPzIHwcwrhwQ" name="等待指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_cTUFIF0UEemPzIHwcwrhwQ" name="进入作战海区前航行中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dm7CEF0UEemPzIHwcwrhwQ" name="返航中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_fliD0F0UEemPzIHwcwrhwQ" name="发送抵达作战海区结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<av1:av1view xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:av1="http://org.seri.mdt/2011/av1" imagePath="b8c17e56-40a5-4820-94bb-c2ffeaf9a354" style="2#555#1464">
+  <children xsi:type="av1:UnderwaterShip" id="5ffda200-39d2-490d-a262-e3849610ba46" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:UnderwaterShip" id="2f757cd8-dd8a-4131-bcc2-e65b30e79358" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:UnderwaterShip" id="50a92f27-a525-40ba-abb8-f9106958d2c9" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+  <children xsi:type="av1:Connection" name="出航" source="//@children.0" target="//@children.1"/>
+  <children xsi:type="av1:Connection" name="返航" source="//@children.1" target="//@children.2"/>
+  <children xsi:type="av1:Mine" id="f28ff3b8-7d05-4e1e-b71b-c77694560da7" name="水雷" imagePath="images\mine.png" nameBAK="水雷1"/>
+  <children xsi:type="av1:Connection" name="布雷" source="//@children.1" target="//@children.5"/>
+</av1:av1view>

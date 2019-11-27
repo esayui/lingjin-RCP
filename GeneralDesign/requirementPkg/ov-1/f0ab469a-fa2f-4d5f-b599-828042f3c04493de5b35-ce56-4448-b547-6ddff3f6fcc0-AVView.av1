@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<av1:av1view xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:av1="http://org.seri.mdt/2011/av1" imagePath="380e0843-ee27-44ab-b344-49cf102597a0" style="2#683#1464">
+  <children xsi:type="av1:Warship" id="bce1cfc9-67d8-475d-9685-fd77632dacd0" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="ae6c3306-65db-46f1-92ea-627ae4b01336" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="d19edcc5-382a-43ff-a131-6142d3e1b76d" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="ca951d5b-3000-43e9-97e0-736c4156d2f5" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="76fe5cb7-e903-49c1-ba97-ed82ec7e8eb7" name="战舰1" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:BomerPlane" id="f45cb1a6-7376-45b8-93d3-09d82653b0cd" name="预警机" imagePath="images\BomerPlaneImage.png" nameBAK="战斗机1"/>
+  <children xsi:type="av1:Warship" id="81ecce75-65dc-4d5c-ab95-9689b23ab906" name="敌方舰2" angle="270" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="3c7ad114-7015-46db-a90e-20372efad25e" name="敌方舰3" angle="270" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Warship" id="06a36825-7bab-44f8-89dc-be56548cca77" name="敌方舰1" angle="270" imagePath="images\warship.png" nameBAK="战舰1"/>
+  <children xsi:type="av1:Torpedo" id="c83dd947-9d1e-4100-8858-2a5ba97d9a0c" name="鱼雷1" imagePath="images\torpedo.png" nameBAK="鱼雷1"/>
+  <children xsi:type="av1:Torpedo" id="dc10faf6-5807-41ec-b534-3153082dc1a0" name="鱼雷1" imagePath="images\torpedo.png" nameBAK="鱼雷1"/>
+  <children xsi:type="av1:Radar" id="ef8e23b5-b6ea-4f77-9730-97c74b07f5fe" name="岸基指挥所" imagePath="images\radar.png" nameBAK="雷达1"/>
+  <children xsi:type="av1:Connection" name="敌方信息" source="//@children.0" target="//@children.11"/>
+  <children xsi:type="av1:UnderwaterShip" id="10fd9461-d72b-499f-a5da-215e6433aa0a" name="我方潜艇" imagePath="images\underWaterShipIcon.png" nameBAK="潜艇1"/>
+</av1:av1view>

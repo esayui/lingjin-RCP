@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JGxFoFzxEemz1JY8VfERPA" name="model">
+  <packagedElement xmi:type="uml:Node" xmi:id="_X-XskF5xEemrVr9LAt4y0A" name="节点&amp;通信-反潜">
+    <ownedAttribute xmi:id="_X-XskV5xEemrVr9LAt4y0A" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_X-Xskl5xEemrVr9LAt4y0A" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_X-Xsk15xEemrVr9LAt4y0A" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_X-XslF5xEemrVr9LAt4y0A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_X-XslV5xEemrVr9LAt4y0A" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_cqQM4F5xEemrVr9LAt4y0A" value="_PNiggFz6Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cqQM4V5xEemrVr9LAt4y0A" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_cqQM4l5xEemrVr9LAt4y0A" value="#281267bb-670f-4794-b9fc-9e5a02721889#D:\han\Han\EngeProject\FullExample\TaskSet/_PNiggFz6Eemem_7_jX00YwCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cqQM415xEemrVr9LAt4y0A" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_cqQM5F5xEemrVr9LAt4y0A" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_dYvqkF5xEemrVr9LAt4y0A" name="节点&amp;导航-反潜">
+    <ownedAttribute xmi:id="_dYvqkV5xEemrVr9LAt4y0A" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dYvqkl5xEemrVr9LAt4y0A" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dYvqk15xEemrVr9LAt4y0A" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dYvqlF5xEemrVr9LAt4y0A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dYvqlV5xEemrVr9LAt4y0A" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_fYetsF5xEemrVr9LAt4y0A" value="_R22FEFz6Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fYetsV5xEemrVr9LAt4y0A" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_fYetsl5xEemrVr9LAt4y0A" value="#0ae0b47a-6511-42b7-b574-281760456b94#D:\han\Han\EngeProject\FullExample\TaskSet/_R22FEFz6Eemem_7_jX00YwCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fYets15xEemrVr9LAt4y0A" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_fYettF5xEemrVr9LAt4y0A" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_f-VMwF5xEemrVr9LAt4y0A" name="节点&amp;水声探测-反潜&amp;情报处理-反潜">
+    <ownedAttribute xmi:id="_f-VMwV5xEemrVr9LAt4y0A" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_f-VMwl5xEemrVr9LAt4y0A" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_f-VMw15xEemrVr9LAt4y0A" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_f-VMxF5xEemrVr9LAt4y0A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_f-VMxV5xEemrVr9LAt4y0A" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hoqAkF5xEemrVr9LAt4y0A" value="_TaEyYFz6Eemem_7_jX00Yw#_U_FoYFz6Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_hozxkF5xEemrVr9LAt4y0A" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hozxkV5xEemrVr9LAt4y0A" value="#9ec21bba-59d6-4d06-8fbf-a062e3f3b35f;46046483-cbf2-4b0f-852c-ce502b9b7f45#D:\han\Han\EngeProject\FullExample\TaskSet/_U_FoYFz6Eemem_7_jX00YwCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_hozxkl5xEemrVr9LAt4y0A" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hozxk15xEemrVr9LAt4y0A" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_iJSocF5xEemrVr9LAt4y0A" name="节点&amp;指挥决策-反潜">
+    <ownedAttribute xmi:id="_iJSocV5xEemrVr9LAt4y0A" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_iJSocl5xEemrVr9LAt4y0A" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iJSoc15xEemrVr9LAt4y0A" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_iJSodF5xEemrVr9LAt4y0A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iJSodV5xEemrVr9LAt4y0A" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jReYgF5xEemrVr9LAt4y0A" value="_YXjZAFz6Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jReYgV5xEemrVr9LAt4y0A" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jReYgl5xEemrVr9LAt4y0A" value="#f8bb932b-5562-47ee-8741-f5e99ed52d3e;ef58725a-a5a8-4720-bfb3-b1cae7a7d2a2;6171f8f2-603c-4097-953b-8d6d2e57e454#C:\Users\Han\Desktop\FullExample\TaskSet/_YXjZAFz6Eemem_7_jX00YwCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jReYg15xEemrVr9LAt4y0A" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_jReYhF5xEemrVr9LAt4y0A" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_juY-AF5xEemrVr9LAt4y0A" name="节点&amp;鱼雷武控-反潜&amp;雷弹发射-反潜">
+    <ownedAttribute xmi:id="_juY-AV5xEemrVr9LAt4y0A" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_juY-Al5xEemrVr9LAt4y0A" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_juY-A15xEemrVr9LAt4y0A" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_juY-BF5xEemrVr9LAt4y0A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_juY-BV5xEemrVr9LAt4y0A" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_uKS8MV5xEemJiqK1ZUr1_g" value="_dzrqgFz6Eemem_7_jX00Yw#_j-FXQFz6Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_uKctMF5xEemJiqK1ZUr1_g" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_uKctMV5xEemJiqK1ZUr1_g" value="#78f85ff9-9eb0-469e-80ed-d243b40fff2c#D:\han\Han\EngeProject\FullExample\TaskSet/_j-FXQFz6Eemem_7_jX00YwCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_uKmeMF5xEemJiqK1ZUr1_g" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_uKmeMV5xEemJiqK1ZUr1_g" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

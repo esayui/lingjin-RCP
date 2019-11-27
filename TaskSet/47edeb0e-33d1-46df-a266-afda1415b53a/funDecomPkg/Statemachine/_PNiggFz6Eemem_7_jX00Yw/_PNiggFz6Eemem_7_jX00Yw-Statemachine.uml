@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_2rbQEF0OEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_2rbQEV0OEemPzIHwcwrhwQ" name="StateMachine0">
+    <region xmi:id="_2rlBEF0OEemPzIHwcwrhwQ" name="Region0">
+      <transition xmi:id="_M4NCAF0UEemPzIHwcwrhwQ" name="" source="_Gw7hwF0UEemPzIHwcwrhwQ" target="_IgD9EF0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_QqGmUF0UEemPzIHwcwrhwQ" name="接收到岸基指挥中心发送使命任务信息/接收任务" source="_IgD9EF0UEemPzIHwcwrhwQ" target="_J0kR4F0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_SuqfEF0UEemPzIHwcwrhwQ" name="接收到编队指挥中心发送使命任务信息/接收任务" source="_IgD9EF0UEemPzIHwcwrhwQ" target="_J0kR4F0UEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_Tq6r8F0UEemPzIHwcwrhwQ" name="" source="_J0kR4F0UEemPzIHwcwrhwQ" target="_IgD9EF0UEemPzIHwcwrhwQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Gw7hwF0UEemPzIHwcwrhwQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_IgD9EF0UEemPzIHwcwrhwQ" name="等待接收信息中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_J0kR4F0UEemPzIHwcwrhwQ" name="发送使命任务信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>

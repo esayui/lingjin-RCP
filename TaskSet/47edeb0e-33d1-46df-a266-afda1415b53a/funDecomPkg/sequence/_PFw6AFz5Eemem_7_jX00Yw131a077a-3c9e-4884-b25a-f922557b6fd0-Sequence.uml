@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_0HqMcF0GEemHZIzWnsr2RQ" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_0HqMcV0GEemHZIzWnsr2RQ" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1aJD0V0NEemHZIzWnsr2RQ" name="MessageSend" covered="_uLdPkF0NEemHZIzWnsr2RQ" message="_1aJD0F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1aJD0l0NEemHZIzWnsr2RQ" name="MessageRecv" covered="_xJS5sF0NEemHZIzWnsr2RQ" message="_1aJD0F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_36Xk4V0NEemHZIzWnsr2RQ" name="MessageSend2" covered="_xJS5sF0NEemHZIzWnsr2RQ" message="_36Xk4F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_36Xk4l0NEemHZIzWnsr2RQ" name="MessageRecv2" covered="_xJS5sF0NEemHZIzWnsr2RQ" message="_36Xk4F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5HSD8V0NEemHZIzWnsr2RQ" name="MessageSend3" covered="_xJS5sF0NEemHZIzWnsr2RQ" message="_5HSD8F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5HSD8l0NEemHZIzWnsr2RQ" name="MessageRecv3" covered="_uLdPkF0NEemHZIzWnsr2RQ" message="_5HSD8F0NEemHZIzWnsr2RQ"/>
+    <fragment xmi:type="uml:StateInvariant" xmi:id="_66SSoF0NEemHZIzWnsr2RQ" name="!Attack_again" covered="_uLdPkF0NEemHZIzWnsr2RQ">
+      <invariant xmi:id="_66SSoV0NEemHZIzWnsr2RQ" name=""/>
+    </fragment>
+    <lifeline xmi:id="_uLdPkF0NEemHZIzWnsr2RQ" name="指挥决策&amp;指挥决策-反潜" coveredBy="_1aJD0V0NEemHZIzWnsr2RQ _5HSD8l0NEemHZIzWnsr2RQ _66SSoF0NEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_9geRwF0NEemHZIzWnsr2RQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_9geRwV0NEemHZIzWnsr2RQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_YXjZAFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_xJS5sF0NEemHZIzWnsr2RQ" name="鱼雷武控&amp;鱼雷武控-反潜" coveredBy="_1aJD0l0NEemHZIzWnsr2RQ _36Xk4V0NEemHZIzWnsr2RQ _36Xk4l0NEemHZIzWnsr2RQ _5HSD8V0NEemHZIzWnsr2RQ">
+      <eAnnotations xmi:id="_-Q96kF0NEemHZIzWnsr2RQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_-Q96kV0NEemHZIzWnsr2RQ" key="\TaskSet\47edeb0e-33d1-46df-a266-afda1415b53a\funDecomPkg\TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/47edeb0e-33d1-46df-a266-afda1415b53a-Composite.uml#_dzrqgFz6Eemem_7_jX00Yw"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_1aJD0F0NEemHZIzWnsr2RQ" name="发送武器导引指令[WeponMessage]" messageSort="asynchCall" receiveEvent="_1aJD0l0NEemHZIzWnsr2RQ" sendEvent="_1aJD0V0NEemHZIzWnsr2RQ"/>
+    <message xmi:id="_36Xk4F0NEemHZIzWnsr2RQ" name="武器导引[WeponMessage]" messageSort="asynchCall" receiveEvent="_36Xk4l0NEemHZIzWnsr2RQ" sendEvent="_36Xk4V0NEemHZIzWnsr2RQ"/>
+    <message xmi:id="_5HSD8F0NEemHZIzWnsr2RQ" name="发送武器导引结果[WeponMessage]" messageSort="asynchCall" receiveEvent="_5HSD8l0NEemHZIzWnsr2RQ" sendEvent="_5HSD8V0NEemHZIzWnsr2RQ"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_dRFfgF0VEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_dRFfgV0VEemPzIHwcwrhwQ" name="StateMachine0">
+    <region xmi:id="_dRFfgl0VEemPzIHwcwrhwQ" name="Region0">
+      <transition xmi:id="_q8eRcF0VEemPzIHwcwrhwQ" name="" source="_jNWpoF0VEemPzIHwcwrhwQ" target="_lG5lMF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_sUGLsF0VEemPzIHwcwrhwQ" name="接收到态势生成指令/态势生成" source="_lG5lMF0VEemPzIHwcwrhwQ" target="_nBfCkF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_tm9hwF0VEemPzIHwcwrhwQ" name="" source="_nBfCkF0VEemPzIHwcwrhwQ" target="_lG5lMF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_uwmqYF0VEemPzIHwcwrhwQ" name="接收到目标运动要素分析指令/目标运动要素分析" source="_lG5lMF0VEemPzIHwcwrhwQ" target="_oUp6oF0VEemPzIHwcwrhwQ"/>
+      <transition xmi:id="_vcya8F0VEemPzIHwcwrhwQ" name="" source="_oUp6oF0VEemPzIHwcwrhwQ" target="_lG5lMF0VEemPzIHwcwrhwQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_jNWpoF0VEemPzIHwcwrhwQ" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_lG5lMF0VEemPzIHwcwrhwQ" name="等待处理信息中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nBfCkF0VEemPzIHwcwrhwQ" name="发送态势生成结果"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oUp6oF0VEemPzIHwcwrhwQ" name="发送目标运动要素分析结果"/>
+    </region>
+  </packagedElement>
+</uml:Model>

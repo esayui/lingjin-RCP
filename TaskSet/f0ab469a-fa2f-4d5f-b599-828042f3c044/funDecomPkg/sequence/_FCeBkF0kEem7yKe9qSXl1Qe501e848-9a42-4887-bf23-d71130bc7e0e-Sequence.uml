@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xYhLwF2tEemzt5YgROmCEw" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_xYhLwV2tEemzt5YgROmCEw" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Dm9SIV2uEemzt5YgROmCEw" name="MessageSend" covered="_2ol-QF2tEemzt5YgROmCEw" message="_Dm9SIF2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Dm9SIl2uEemzt5YgROmCEw" name="MessageRecv" covered="_y5mkAF2tEemzt5YgROmCEw" message="_Dm9SIF2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FOhs4V2uEemzt5YgROmCEw" name="MessageSend2" covered="_2ol-QF2tEemzt5YgROmCEw" message="_FOhs4F2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HFi44V2uEemzt5YgROmCEw" name="MessageSend3" covered="_y5mkAF2tEemzt5YgROmCEw" message="_HFi44F2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FOhs4l2uEemzt5YgROmCEw" name="MessageRecv2" covered="_5x0ZAF2tEemzt5YgROmCEw" message="_FOhs4F2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HFo_gF2uEemzt5YgROmCEw" name="MessageRecv3" covered="_y5mkAF2tEemzt5YgROmCEw" message="_HFi44F2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IT7-oV2uEemzt5YgROmCEw" name="MessageSend4" covered="_y5mkAF2tEemzt5YgROmCEw" message="_IT7-oF2uEemzt5YgROmCEw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IT7-ol2uEemzt5YgROmCEw" name="MessageRecv4" covered="_y5mkAF2tEemzt5YgROmCEw" message="_IT7-oF2uEemzt5YgROmCEw"/>
+    <lifeline xmi:id="_y5mkAF2tEemzt5YgROmCEw" name="导航&amp;导航" coveredBy="_Dm9SIl2uEemzt5YgROmCEw _HFi44V2uEemzt5YgROmCEw _HFo_gF2uEemzt5YgROmCEw _IT7-oV2uEemzt5YgROmCEw _IT7-ol2uEemzt5YgROmCEw">
+      <eAnnotations xmi:id="_0Oky4F2tEemzt5YgROmCEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_0Oky4V2tEemzt5YgROmCEw" key="\TaskSet\f0ab469a-fa2f-4d5f-b599-828042f3c044\funDecomPkg\TaskSet/f0ab469a-fa2f-4d5f-b599-828042f3c044/funDecomPkg/f0ab469a-fa2f-4d5f-b599-828042f3c044-Composite.uml#_hKKFAF0kEem7yKe9qSXl1Q"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_2ol-QF2tEemzt5YgROmCEw" name="指挥决策&amp;指挥决策" coveredBy="_Dm9SIV2uEemzt5YgROmCEw _FOhs4V2uEemzt5YgROmCEw">
+      <eAnnotations xmi:id="_9PEjAF2tEemzt5YgROmCEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_9PEjAV2tEemzt5YgROmCEw" key="\TaskSet\f0ab469a-fa2f-4d5f-b599-828042f3c044\funDecomPkg\TaskSet/f0ab469a-fa2f-4d5f-b599-828042f3c044/funDecomPkg/f0ab469a-fa2f-4d5f-b599-828042f3c044-Composite.uml#_m8wVwF0kEem7yKe9qSXl1Q"/>
+      </eAnnotations>
+    </lifeline>
+    <lifeline xmi:id="_5x0ZAF2tEemzt5YgROmCEw" name="水声探测&amp;水声探测" coveredBy="_FOhs4l2uEemzt5YgROmCEw">
+      <eAnnotations xmi:id="_-PooIF2tEemzt5YgROmCEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_-PooIV2tEemzt5YgROmCEw" key="\TaskSet\f0ab469a-fa2f-4d5f-b599-828042f3c044\funDecomPkg\TaskSet/f0ab469a-fa2f-4d5f-b599-828042f3c044/funDecomPkg/f0ab469a-fa2f-4d5f-b599-828042f3c044-Composite.uml#_jBRXoF0kEem7yKe9qSXl1Q"/>
+      </eAnnotations>
+    </lifeline>
+    <message xmi:id="_Dm9SIF2uEemzt5YgROmCEw" name="发送撤离战斗海区指令" messageSort="asynchCall" receiveEvent="_Dm9SIl2uEemzt5YgROmCEw" sendEvent="_Dm9SIV2uEemzt5YgROmCEw"/>
+    <message xmi:id="_FOhs4F2uEemzt5YgROmCEw" name="发送警戒探测指令" messageSort="asynchCall" receiveEvent="_FOhs4l2uEemzt5YgROmCEw" sendEvent="_FOhs4V2uEemzt5YgROmCEw"/>
+    <message xmi:id="_HFi44F2uEemzt5YgROmCEw" name="撤离战斗海区" messageSort="asynchCall" receiveEvent="_HFo_gF2uEemzt5YgROmCEw" sendEvent="_HFi44V2uEemzt5YgROmCEw"/>
+    <message xmi:id="_IT7-oF2uEemzt5YgROmCEw" name="返航" messageSort="asynchCall" receiveEvent="_IT7-ol2uEemzt5YgROmCEw" sendEvent="_IT7-oV2uEemzt5YgROmCEw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JGBewFzxEemz1JY8VfERPA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PNiggFz6Eemem_7_jX00Yw" name="通信-反潜">
+    <ownedAttribute xmi:id="_PNiggVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PNigglz6Eemem_7_jX00Yw" value="281267bb-670f-4794-b9fc-9e5a02721889"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PNigg1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PNighFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_PNighVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PNighlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R22FEFz6Eemem_7_jX00Yw" name="导航-反潜">
+    <ownedAttribute xmi:id="_R22FEVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_R22FElz6Eemem_7_jX00Yw" value="0ae0b47a-6511-42b7-b574-281760456b94"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_R22FE1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_R22FFFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_R22FFVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_R22FFlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TaEyYFz6Eemem_7_jX00Yw" name="水声探测-反潜">
+    <ownedAttribute xmi:id="_TaEyYVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_TaEyYlz6Eemem_7_jX00Yw" value="234d8d51-7b14-4a5f-bc71-7580276221f3;2fa9180d-36b9-4500-ac38-adf3cd1503ea;8668600e-8f09-4f6e-8196-41947c34742c"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TaEyY1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_TaEyZFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_TaEyZVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_TaEyZlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_U_FoYFz6Eemem_7_jX00Yw" name="情报处理-反潜">
+    <ownedAttribute xmi:id="_U_FoYVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_U_FoYlz6Eemem_7_jX00Yw" value="9ec21bba-59d6-4d06-8fbf-a062e3f3b35f;46046483-cbf2-4b0f-852c-ce502b9b7f45"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_U_FoY1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_U_FoZFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_U_FoZVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_U_FoZlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YXjZAFz6Eemem_7_jX00Yw" name="指挥决策-反潜">
+    <ownedAttribute xmi:id="_YXjZAVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_YXjZAlz6Eemem_7_jX00Yw" value="f8bb932b-5562-47ee-8741-f5e99ed52d3e;ef58725a-a5a8-4720-bfb3-b1cae7a7d2a2;6171f8f2-603c-4097-953b-8d6d2e57e454"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YXjZA1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_YXjZBFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YXjZBVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_YXjZBlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dzrqgFz6Eemem_7_jX00Yw" name="鱼雷武控-反潜">
+    <ownedAttribute xmi:id="_dzrqgVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dzrqglz6Eemem_7_jX00Yw" value="dd520f38-d3a3-4bfb-a608-855878d49fac;6c4e1146-2d7a-4ad8-8b84-a8735350e22b;1bd5b1c4-97e0-402f-b730-f697575f2a56"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dzrqg1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dzrqhFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dzrqhVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_dzrqhlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_j-FXQFz6Eemem_7_jX00Yw" name="雷弹发射-反潜">
+    <ownedAttribute xmi:id="_j-FXQVz6Eemem_7_jX00Yw" name="DealInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-FXQlz6Eemem_7_jX00Yw" value="78f85ff9-9eb0-469e-80ed-d243b40fff2c"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_j-FXQ1z6Eemem_7_jX00Yw" name="OprtInfo">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-FXRFz6Eemem_7_jX00Yw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_j-FXRVz6Eemem_7_jX00Yw" name="RelateActor">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_j-FXRlz6Eemem_7_jX00Yw" value="_Hl09sVz5Eemem_7_jX00Yw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_AYEJoF5xEemrVr9LAt4y0A" name="接收使命任务" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_AYNTkF5xEemrVr9LAt4y0A" name="接收使命任务_createflow&amp;接收使命任务_createflow" conveyed="_AYEJoF5xEemrVr9LAt4y0A" informationSource="_PNiggFz6Eemem_7_jX00Yw" informationTarget="_PNiggFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_AYNTmF5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_AYNTmV5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_KkQdsFz5Eemem_7_jX00Yw7ffd0441-6512-4e18-827f-aeee38889ebf-Sequence.uml#_azHtcF0DEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_AomgAF5xEemrVr9LAt4y0A" name="发送使命任务结果" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Aovp8F5xEemrVr9LAt4y0A" name="发送使命任务结果_createflow&amp;发送使命任务结果_createflow" conveyed="_AomgAF5xEemrVr9LAt4y0A" informationSource="_PNiggFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_Aovp-F5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Aovp-V5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_KkQdsFz5Eemem_7_jX00Yw7ffd0441-6512-4e18-827f-aeee38889ebf-Sequence.uml#_cf4KMF0DEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_CahJkF5xEemrVr9LAt4y0A" name="发送进入作战海区指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CahJkV5xEemrVr9LAt4y0A" name="发送进入作战海区指令_createflow&amp;发送进入作战海区指令_createflow" conveyed="_CahJkF5xEemrVr9LAt4y0A" informationSource="_R22FEFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_CaqThF5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_CaqThV5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_KkQdsFz5Eemem_7_jX00Yw7ffd0441-6512-4e18-827f-aeee38889ebf-Sequence.uml#_dmGLYF0DEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_CqwlAF5xEemrVr9LAt4y0A" name="进入作战海区" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CqwlAV5xEemrVr9LAt4y0A" name="进入作战海区_createflow&amp;进入作战海区_createflow" conveyed="_CqwlAF5xEemrVr9LAt4y0A" informationSource="_R22FEFz6Eemem_7_jX00Yw" informationTarget="_R22FEFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_Cq5u9F5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Cq5u9V5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_KkQdsFz5Eemem_7_jX00Yw7ffd0441-6512-4e18-827f-aeee38889ebf-Sequence.uml#_e3eTsF0DEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_C4dp0F5xEemrVr9LAt4y0A" name="发送抵达作战海区结果" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_C4dp0V5xEemrVr9LAt4y0A" name="发送抵达作战海区结果_createflow&amp;发送抵达作战海区结果_createflow" conveyed="_C4dp0F5xEemrVr9LAt4y0A" informationSource="_R22FEFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_C4dp2V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_C4dp2l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_KkQdsFz5Eemem_7_jX00Yw7ffd0441-6512-4e18-827f-aeee38889ebf-Sequence.uml#_AffMIF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_DGnakF5xEemrVr9LAt4y0A" name="发送返航指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_DGnakV5xEemrVr9LAt4y0A" name="发送返航指令_createflow&amp;发送返航指令_createflow" conveyed="_DGnakF5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_R22FEFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_DGnamV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_DGwkgF5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_S0G0AFz5Eemem_7_jX00Yw6eb21812-d523-4100-9121-58d05f364412-Sequence.uml#_eNuyIF0OEemPzIHwcwrhwQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_DhR9UF5xEemrVr9LAt4y0A" name="返航" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_DhR9UV5xEemrVr9LAt4y0A" name="返航_createflow&amp;返航_createflow" conveyed="_DhR9UF5xEemrVr9LAt4y0A" informationSource="_R22FEFz6Eemem_7_jX00Yw" informationTarget="_R22FEFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_DhR9WV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_DhR9Wl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_S0G0AFz5Eemem_7_jX00Yw6eb21812-d523-4100-9121-58d05f364412-Sequence.uml#_fs8iIF0OEemPzIHwcwrhwQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_F2Ji8F5xEemrVr9LAt4y0A" name="发送进行水声探测指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_F2Ji8V5xEemrVr9LAt4y0A" name="发送进行水声探测指令_createflow&amp;发送进行水声探测指令_createflow" conveyed="_F2Ji8F5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_TaEyYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_F2Ji-V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_F2Ji-l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_oj45MF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_GJOP8F5xEemrVr9LAt4y0A" name="进行水声探测" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_GJXZ4F5xEemrVr9LAt4y0A" name="进行水声探测_createflow&amp;进行水声探测_createflow" conveyed="_GJOP8F5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_TaEyYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_GJXZ6F5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_GJXZ6V5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_ppz_cF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_G2XCwF5xEemrVr9LAt4y0A" name="识别目标" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_G2XCwV5xEemrVr9LAt4y0A" name="识别目标_createflow&amp;识别目标_createflow" conveyed="_G2XCwF5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_TaEyYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_G2XCyV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_G2XCyl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_xwSXUF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_HE9fcF5xEemrVr9LAt4y0A" name="目标定位" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HE9fcV5xEemrVr9LAt4y0A" name="目标定位_createflow&amp;目标定位_createflow" conveyed="_HE9fcF5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_TaEyYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_HE9feV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_HE9fel5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_z4kScF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_HSNRQF5xEemrVr9LAt4y0A" name="发送目标定位结果" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HSNRQV5xEemrVr9LAt4y0A" name="发送目标定位结果_createflow&amp;发送目标定位结果_createflow" conveyed="_HSNRQF5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_HSNRSV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_HSNRSl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_1zTg0F0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_Hh220F5xEemrVr9LAt4y0A" name="发送态势生成指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Hh220V5xEemrVr9LAt4y0A" name="发送态势生成指令_createflow&amp;发送态势生成指令_createflow" conveyed="_Hh220F5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_U_FoYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_Hh222V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Hh222l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_4eGTIF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_H0VG4F5xEemrVr9LAt4y0A" name="发送重新规划指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_H0VG4V5xEemrVr9LAt4y0A" name="发送重新规划指令_createflow&amp;发送重新规划指令_createflow" conveyed="_H0VG4F5xEemrVr9LAt4y0A" informationSource="_TaEyYFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_H0VG6V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_H0VG6l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_S0G0AFz5Eemem_7_jX00Yw6eb21812-d523-4100-9121-58d05f364412-Sequence.uml#_kTOJsF0OEemPzIHwcwrhwQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_IBSk0F5xEemrVr9LAt4y0A" name="返回等待状态" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_IBSk0V5xEemrVr9LAt4y0A" name="返回等待状态_createflow&amp;返回等待状态_createflow" conveyed="_IBSk0F5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_TaEyYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_IBSk2V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_IBSk2l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_S0G0AFz5Eemem_7_jX00Yw6eb21812-d523-4100-9121-58d05f364412-Sequence.uml#_tJ52gF0OEemPzIHwcwrhwQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_KX6d8F5xEemrVr9LAt4y0A" name="态势生成" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KX6d8V5xEemrVr9LAt4y0A" name="态势生成_createflow&amp;态势生成_createflow" conveyed="_KX6d8F5xEemrVr9LAt4y0A" informationSource="_U_FoYFz6Eemem_7_jX00Yw" informationTarget="_U_FoYFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_KX6d-V5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_KX6d-l5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_792XgF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_KoTqYF5xEemrVr9LAt4y0A" name="发送态势生成结果" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KoTqYV5xEemrVr9LAt4y0A" name="发送态势生成结果_createflow&amp;发送态势生成结果_createflow" conveyed="_KoTqYF5xEemrVr9LAt4y0A" informationSource="_U_FoYFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_KoTqaV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_KoTqal5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_-8lZgF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_NtUTgF5xEemrVr9LAt4y0A" name="战术水声决策" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_NtUTgV5xEemrVr9LAt4y0A" name="战术水声决策_createflow&amp;战术水声决策_createflow" conveyed="_NtUTgF5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_NtUTiV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_NtUTil5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_mO0fQF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_N7erUF5xEemrVr9LAt4y0A" name="搜索指挥" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_N7erUV5xEemrVr9LAt4y0A" name="搜索指挥_createflow&amp;搜索指挥_createflow" conveyed="_N7erUF5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_N7erWV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_N7erWl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_L8VD4Fz5Eemem_7_jX00Yw5c18112d-f457-4546-b908-2c727191825a-Sequence.uml#_nOyugF0EEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_PAmgUF5xEemrVr9LAt4y0A" name="发送武器导引指令" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PAmgUV5xEemrVr9LAt4y0A" name="发送武器导引指令_createflow&amp;发送武器导引指令_createflow" conveyed="_PAmgUF5xEemrVr9LAt4y0A" informationSource="_YXjZAFz6Eemem_7_jX00Yw" informationTarget="_dzrqgFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_PAmgWV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_PAmgWl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_PFw6AFz5Eemem_7_jX00Yw131a077a-3c9e-4884-b25a-f922557b6fd0-Sequence.uml#_1aJD0F0NEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_PTXrUF5xEemrVr9LAt4y0A" name="发送武器导引结果" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PTXrUV5xEemrVr9LAt4y0A" name="发送武器导引结果_createflow&amp;发送武器导引结果_createflow" conveyed="_PTXrUF5xEemrVr9LAt4y0A" informationSource="_dzrqgFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_PTXrWV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_PTXrWl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_PFw6AFz5Eemem_7_jX00Yw131a077a-3c9e-4884-b25a-f922557b6fd0-Sequence.uml#_5HSD8F0NEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_QHhFEF5xEemrVr9LAt4y0A" name="发送不具备发射条件信息" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_QHhFEV5xEemrVr9LAt4y0A" name="发送不具备发射条件信息_createflow&amp;发送不具备发射条件信息_createflow" conveyed="_QHhFEF5xEemrVr9LAt4y0A" informationSource="_dzrqgFz6Eemem_7_jX00Yw" informationTarget="_YXjZAFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_QHqPB15xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_QHqPCF5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_S0G0AFz5Eemem_7_jX00Yw6eb21812-d523-4100-9121-58d05f364412-Sequence.uml#_rj_ooF0OEemPzIHwcwrhwQ"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationItem" xmi:id="_S-M-UF5xEemrVr9LAt4y0A" name="武器导引" isAbstract="true"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_S-M-UV5xEemrVr9LAt4y0A" name="武器导引_createflow&amp;武器导引_createflow" conveyed="_S-M-UF5xEemrVr9LAt4y0A" informationSource="_dzrqgFz6Eemem_7_jX00Yw" informationTarget="_dzrqgFz6Eemem_7_jX00Yw">
+    <eAnnotations xmi:id="_S-M-WV5xEemrVr9LAt4y0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_S-M-Wl5xEemrVr9LAt4y0A" key="TaskSet/47edeb0e-33d1-46df-a266-afda1415b53a/funDecomPkg/sequence/_PFw6AFz5Eemem_7_jX00Yw131a077a-3c9e-4884-b25a-f922557b6fd0-Sequence.uml#_36Xk4F0NEemHZIzWnsr2RQ"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_IkaiQF28Eem9TInVy14vbA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_IkaiQV28Eem9TInVy14vbA" name="StateMachine0">
+    <region xmi:id="_IkaiQl28Eem9TInVy14vbA" name="Region0">
+      <transition xmi:id="_WofhAF28Eem9TInVy14vbA" name="" source="_KBPsoF28Eem9TInVy14vbA" target="_LyUBoF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_XuanQF28Eem9TInVy14vbA" name="接收到岸基指挥中心发送来的任务信息" source="_LyUBoF28Eem9TInVy14vbA" target="_NITkMF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_Z8yjUF28Eem9TInVy14vbA" name="" source="_NITkMF28Eem9TInVy14vbA" target="_LyUBoF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_bDwLYF28Eem9TInVy14vbA" name="接收到编队指挥中心发送来的任务信息" source="_LyUBoF28Eem9TInVy14vbA" target="_PU5XkF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_cFNoYF28Eem9TInVy14vbA" name="" source="_PU5XkF28Eem9TInVy14vbA" target="_LyUBoF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_dW5SsF28Eem9TInVy14vbA" name="接收到岸基指挥中心信息" source="_LyUBoF28Eem9TInVy14vbA" target="_QsYH4F28Eem9TInVy14vbA"/>
+      <transition xmi:id="_enYDIF28Eem9TInVy14vbA" name="" source="_QsYH4F28Eem9TInVy14vbA" target="_LyUBoF28Eem9TInVy14vbA"/>
+      <transition xmi:id="_fz2dUF28Eem9TInVy14vbA" name="接收到编队指挥中心信息" source="_LyUBoF28Eem9TInVy14vbA" target="_Uaaf4F28Eem9TInVy14vbA"/>
+      <transition xmi:id="_goN5gF28Eem9TInVy14vbA" name="" source="_Uaaf4F28Eem9TInVy14vbA" target="_LyUBoF28Eem9TInVy14vbA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_KBPsoF28Eem9TInVy14vbA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_LyUBoF28Eem9TInVy14vbA" name="等待接收信息中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_NITkMF28Eem9TInVy14vbA" name="将接收到的编队任务信息发送给情报处理"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PU5XkF28Eem9TInVy14vbA" name="将接收到的岸基任务信息发送给情报处理"/>
+      <subvertex xmi:type="uml:State" xmi:id="_QsYH4F28Eem9TInVy14vbA" name="将接收到的岸基信息发送给情报处理"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Uaaf4F28Eem9TInVy14vbA" name="将接收到的编队信息发送给情报处理"/>
+    </region>
+  </packagedElement>
+</uml:Model>

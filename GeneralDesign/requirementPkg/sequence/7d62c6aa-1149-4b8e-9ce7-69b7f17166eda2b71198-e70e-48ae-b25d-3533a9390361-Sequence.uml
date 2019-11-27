@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_p7ncAFxSEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_p7ncAVxSEemawpDNrkj6eg" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_slqncVxSEemawpDNrkj6eg" name="MessageSend" covered="_qUw70FxSEemawpDNrkj6eg" message="_slqncFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_slqnclxSEemawpDNrkj6eg" name="MessageRecv" covered="_qUw70FxSEemawpDNrkj6eg" message="_slqncFxSEemawpDNrkj6eg"/>
+    <fragment xmi:type="uml:InteractionUse" xmi:id="_tOI8sFxSEemawpDNrkj6eg" name="InteractionUse"/>
+    <lifeline xmi:id="_qUw70FxSEemawpDNrkj6eg" name="航渡值更" coveredBy="_slqncVxSEemawpDNrkj6eg _slqnclxSEemawpDNrkj6eg">
+      <ownedComment xmi:id="_sde70FxSEemawpDNrkj6eg">
+        <body>执行作战训练任务</body>
+      </ownedComment>
+    </lifeline>
+    <message xmi:id="_slqncFxSEemawpDNrkj6eg" name="执行作战训练任务" messageSort="asynchCall" receiveEvent="_slqnclxSEemawpDNrkj6eg" sendEvent="_slqncVxSEemawpDNrkj6eg"/>
+  </packagedElement>
+</uml:Model>

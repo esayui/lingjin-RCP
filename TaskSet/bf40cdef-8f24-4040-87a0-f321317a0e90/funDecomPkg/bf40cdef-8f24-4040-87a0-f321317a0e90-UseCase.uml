@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_21Wl0VwWEemawpDNrkj6eg" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_24n8QFwWEemawpDNrkj6eg" name="综合防御">
+    <ownedComment xmi:id="_24n8QVwWEemawpDNrkj6eg">
+      <body></body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_6PApQFwWEemawpDNrkj6eg" name="综合防御"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6lNtUFwXEemawpDNrkj6eg" name="目标探测"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7od6EFwXEemawpDNrkj6eg" name="防御动作"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9BbREFwXEemawpDNrkj6eg" name="效果评估"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_92i7MFwXEemawpDNrkj6eg" name="多任务"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="__UtiUFwXEemawpDNrkj6eg" name="A_综合防御_目标探测" memberEnd="__UtiUVwXEemawpDNrkj6eg __UtiVFwXEemawpDNrkj6eg">
+      <ownedEnd xmi:id="__UtiUVwXEemawpDNrkj6eg" name="综合防御" type="_6PApQFwWEemawpDNrkj6eg" association="__UtiUFwXEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UtiUlwXEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UtiU1wXEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__UtiVFwXEemawpDNrkj6eg" name="目标探测" type="_6lNtUFwXEemawpDNrkj6eg" association="__UtiUFwXEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UtiVVwXEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UtiVlwXEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="__pii0FwXEemawpDNrkj6eg" name="A_综合防御_防御动作" memberEnd="__pii0VwXEemawpDNrkj6eg __pii1FwXEemawpDNrkj6eg">
+      <ownedEnd xmi:id="__pii0VwXEemawpDNrkj6eg" name="综合防御" type="_6PApQFwWEemawpDNrkj6eg" association="__pii0FwXEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__pii0lwXEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__pii01wXEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__pii1FwXEemawpDNrkj6eg" name="防御动作" type="_7od6EFwXEemawpDNrkj6eg" association="__pii0FwXEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__pii1VwXEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__pii1lwXEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ATpPwFwYEemawpDNrkj6eg" name="A_综合防御_效果评估" memberEnd="_ATpPwVwYEemawpDNrkj6eg _ATpPxFwYEemawpDNrkj6eg">
+      <ownedEnd xmi:id="_ATpPwVwYEemawpDNrkj6eg" name="综合防御" type="_6PApQFwWEemawpDNrkj6eg" association="_ATpPwFwYEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ATpPwlwYEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ATpPw1wYEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ATpPxFwYEemawpDNrkj6eg" name="效果评估" type="_9BbREFwXEemawpDNrkj6eg" association="_ATpPwFwYEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ATpPxVwYEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ATpPxlwYEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_A0O0UFwYEemawpDNrkj6eg" name="A_综合防御_多任务" memberEnd="_A0O0UVwYEemawpDNrkj6eg _A0O0VFwYEemawpDNrkj6eg">
+      <ownedEnd xmi:id="_A0O0UVwYEemawpDNrkj6eg" name="综合防御" type="_6PApQFwWEemawpDNrkj6eg" association="_A0O0UFwYEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A0O0UlwYEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A0O0U1wYEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_A0O0VFwYEemawpDNrkj6eg" name="多任务" type="_92i7MFwXEemawpDNrkj6eg" association="_A0O0UFwYEemawpDNrkj6eg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A0O0VVwYEemawpDNrkj6eg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A0O0VlwYEemawpDNrkj6eg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

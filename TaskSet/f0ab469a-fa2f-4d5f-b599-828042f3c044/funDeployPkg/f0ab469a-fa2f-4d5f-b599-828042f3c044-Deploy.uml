@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_JLULcF0SEemPzIHwcwrhwQ" name="model">
+  <packagedElement xmi:type="uml:Node" xmi:id="_EytoEWfJEemkssg_OM2uiw" name="Node1&amp;指挥决策-远程反舰&amp;导弹武控-远程反舰">
+    <ownedAttribute xmi:id="_EytoEmfJEemkssg_OM2uiw" name="NodeTypeProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EytoE2fJEemkssg_OM2uiw" value="Special"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EytoFGfJEemkssg_OM2uiw" name="FrameProperty">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EytoFWfJEemkssg_OM2uiw" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EytoFmfJEemkssg_OM2uiw" name="funcModule">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_FngiEGfJEemkssg_OM2uiw" value="_m8wVwF0kEem7yKe9qSXl1Q#_p6ocIF0kEem7yKe9qSXl1Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_FngiEWfJEemkssg_OM2uiw" name="OperationandDeallistandCapacity">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_FngiEmfJEemkssg_OM2uiw" value="#958e12d1-e1eb-4333-953b-73267aec051c;7acaf343-7552-4430-ab91-cae8a6feff1a;c34c144e-7746-4d05-933e-c76130334fcd;d5e28e3f-85ab-472b-8896-5fbc318dd91a#C:\Users\Han\Desktop\FullExample\TaskSet/_p6ocIF0kEem7yKe9qSXl1QCapacity.xml"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_FngiE2fJEemkssg_OM2uiw" name="isVisible">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_FngiFGfJEemkssg_OM2uiw" value="true"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

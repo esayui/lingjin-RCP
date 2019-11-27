@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_dahdYF3bEemdMc92IRn1oA" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_dahdYV3bEemdMc92IRn1oA" name="StateMachine0">
+    <region xmi:id="_dahdYl3bEemdMc92IRn1oA" name="Region0">
+      <transition xmi:id="_jk7KIF3bEemdMc92IRn1oA" name="" source="_e_i6cF3bEemdMc92IRn1oA" target="_gAjrgF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_kgSmMF3bEemdMc92IRn1oA" name="接收到水声对抗规避指令" source="_gAjrgF3bEemdMc92IRn1oA" target="_hxxxgF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_lQVjEF3bEemdMc92IRn1oA" name="tm(2000)" source="_hxxxgF3bEemdMc92IRn1oA" target="_ivXbIF3bEemdMc92IRn1oA"/>
+      <transition xmi:id="_l-KSYF3bEemdMc92IRn1oA" name="" source="_ivXbIF3bEemdMc92IRn1oA" target="_gAjrgF3bEemdMc92IRn1oA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_e_i6cF3bEemdMc92IRn1oA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_gAjrgF3bEemdMc92IRn1oA" name="等待指令中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_hxxxgF3bEemdMc92IRn1oA" name="实施水声对抗规避中"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ivXbIF3bEemdMc92IRn1oA" name="发送水声对抗规避信息"/>
+    </region>
+  </packagedElement>
+</uml:Model>
